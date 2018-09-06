@@ -1,0 +1,36 @@
+# Build settings
+
+source: .
+destination: ./_site
+markdown: kramdown
+# don't change the following; coderay will break the embedded
+# annotations.
+kramdown:
+  enable_coderay: false
+permalinks: pretty
+# safe: true
+markdown_ext: md
+
+##############################################################################
+
+# Site settings
+
+name: "molecular biology corpus guidelines"
+baseurl: "/molbiol_lung_corpus-guidelines"
+homeurl: "https://ezcatdb.github.io/molbiol_lung_corpus-guidelines/"
+editurl: "https://github.com/ezcatdb/molbiol_lung_corpus-guidelines/edit/master"
+issueurl: "https://github.com/ezcatdb/molbiol_lung_corpus-guidelines/issues"
+
+##############################################################################
+
+# Collection settings
+
+collections:
+  entity:
+    output: true
+  event:
+    output: true
+  relation:
+    output: true
+  attribute:
+    output: true
