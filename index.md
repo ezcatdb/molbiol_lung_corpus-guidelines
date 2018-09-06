@@ -39,6 +39,7 @@ title: Annotation guidelines for molecuar biology corpus for lung diseases
   - [Pharmacological_substance](): {% assign i = site.entity | where_exp:"i", "i.title == 'Pharmacological_substance'" | first %}{{ i.shortdef }}
 --->
 
+
 - [Protein_family_or_group](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_family_or_group'" | first %}{{ i.shortdef }}
   - [Protein_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_molecule'" | first %}{{ i.shortdef }}
     - [Amino_acid_monomer](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino_acid_monomer'" | first %}{{ i.shortdef }}
