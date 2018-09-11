@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Amino_acid_monomer"
-shortdef: "Amino acid residues in proteins"
+shortdef: "Amino acid residues in proteins (GENIA)"
 order: 32
 ---
 
