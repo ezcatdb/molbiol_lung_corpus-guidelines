@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: Annotation guidelines for molecuar biology corpus for lung diseases
+title: Annotation guidelines for molecuar biology corpus (lung diseases)
 ---
 
 ## Entities
@@ -34,11 +34,7 @@ title: Annotation guidelines for molecuar biology corpus for lung diseases
   
 - [Inorganic_compound](): {% assign i = site.entity | where_exp:"i", "i.title == 'Inorganic_compound'" | first %}{{ i.shortdef }}
 - [Organic_compound_other](): {% assign i = site.entity | where_exp:"i", "i.title == 'Organic_compound_other'" | first %}{{ i.shortdef }}
-
-<!---
   - [Pharmacological_substance](): {% assign i = site.entity | where_exp:"i", "i.title == 'Pharmacological_substance'" | first %}{{ i.shortdef }}
---->
-
 
 - [Protein_family_or_group](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_family_or_group'" | first %}{{ i.shortdef }}
   - [Protein_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_molecule'" | first %}{{ i.shortdef }}
