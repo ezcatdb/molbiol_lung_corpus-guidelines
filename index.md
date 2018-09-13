@@ -76,6 +76,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
+
 <!---
   - [Physiological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Physiological_process'" | first %}{{ i.shortdef }} 
 --->
@@ -98,6 +99,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 <!---
     - [Protein_processing](): {% assign i = site.event | where_exp:"i", "i.title == 'Protein_processing'" | first %}{{ i.shortdef }}
 --->
+
   - [Regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Regulation'" | first %}{{ i.shortdef }}
     - [Negative_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Negative_regulation'" | first %}{{ i.shortdef }}
     - [Positive_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Positive_regulation'" | first %}{{ i.shortdef }}
