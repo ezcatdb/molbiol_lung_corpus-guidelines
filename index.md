@@ -66,23 +66,9 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 --->
 
 ## Events
-<!---
-- [Diagnosis](): {% assign i = site.event | where_exp:"i", "i.title == 'Diagnosis'" | first %}{{ i.shortdef }}
-- [Medical treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Medical treatment'" | first %}{{ i.shortdef }}
-  - [Medication](): {% assign i = site.event | where_exp:"i", "i.title == 'Medication'" | first %}{{ i.shortdef }}
-  - [Surgery](): {% assign i = site.event | where_exp:"i", "i.title == 'Surgery'" | first %}{{ i.shortdef }}
-- [Effect by treatment](): {% assign i = site.event | where_exp:"i", "i.title == 'Effect by treatment'" | first %}{{ i.shortdef }}
-  - [Potential_therapeutic_effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Potential_therapeutic_effect'" | first %}{{ i.shortdef }}
-  - [Adverse Effect](): {% assign i = site.event | where_exp:"i", "i.title == 'Adverse effect'" | first %}{{ i.shortdef }}
---->
 
 - [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
-
-<!---
-  - [Physiological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Physiological_process'" | first %}{{ i.shortdef }} 
---->
-
   - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
   - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
  
@@ -104,9 +90,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
       - [Transcription](): {% assign i = site.event | where_exp:"i", "i.title == 'Transcription'" | first %}{{ i.shortdef }}
       - [Translation](): {% assign i = site.event | where_exp:"i", "i.title == 'Translation'" | first %}{{ i.shortdef }}
 
-<!---
-    - [Protein_processing](): {% assign i = site.event | where_exp:"i", "i.title == 'Protein_processing'" | first %}{{ i.shortdef }}
---->
 
 
 <!---
