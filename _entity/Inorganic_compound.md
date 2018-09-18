@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Inorganic_compound"
-shortdef: "Inorganic compound, including ions (GENIA)
+shortdef: "Inorganic compound, including metal ions (GENIA)"
 order: 19
 ---
 
