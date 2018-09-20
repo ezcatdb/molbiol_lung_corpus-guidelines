@@ -10,5 +10,7 @@ This event is for 'Artificial process'.
 
 The following words/phrases can be triggers for this event:
 - incubation
+  - preincubation
+- addition
 
 <!--details-->
