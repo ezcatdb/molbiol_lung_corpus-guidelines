@@ -71,7 +71,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 ## Events
 
-- [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial process'" | first %}{{ i.shortdef }}
+- [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
   - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
   - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
