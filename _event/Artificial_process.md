@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Artificial process"
-category: 
+category: "Artificial process"
 shortdef: "Artificial process"
 order: 0
 ---
