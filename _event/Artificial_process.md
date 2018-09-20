@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: 'Artificial process'
+title: 'Artificial_process'
 category: "Artificial process"
 shortdef: "Artificial process"
 order: 0
