@@ -6,7 +6,7 @@ order: 2
 ---
 
 The definition of 'Disease' is based on either 
-<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> or <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a>, published by WHO.
+<a href="http://apps.who.int/classifications/icd10/browse/2016/en">ICD-10 version:2016</a> published by WHO, although the coverage of <a href="https://icd.who.int/browse11/l-m/en">ICD-11</a> has been wider than ICD-10.
 
 Disease, which can be a group in phenotype, will be annotated in this category. 
 
@@ -21,9 +21,12 @@ R1 is_equivalent Arg1:T2 Arg2:T1
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
 T2 Surgery 32 53 right upper lobectomy
-T3 Disease 58 70 lung cancer
+T3 Disease 58 69 lung cancer
+T4 Age_sbjct 2 13 40-year-old
 E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
+R2 Subject_Attribute Arg1:T1 Arg2:T4
+A1 Gender_sbjct T1 Male
 ~~~
 
 The following words/phrases should be annotated as 'Disease'.
@@ -44,12 +47,30 @@ The following words/phrases should be annotated as 'Disease'.
 | pulmonary hypertension | I27.0, I27.2 | Primary pulmonary hypertension, Other secondary pulmonary hypertension | BB01 | Pulmonary hypertension |
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
-| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
-| pleural effusion | - | - | CB27 | Pleural effusion |
 
+| pleural effusion | - | - | CB27 | Pleural effusion |
 
 
 </div>
 
+The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs start with M, may be annotated as [Symptom](). 
+<div style="margin:1em" markdown="1">
+
+| Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
+|--------------------------------------|-------------|------------------------------------------|-------------|------------------------------------------|
+| lung lesions | R91 | Abnormal findings on diagnostic imaging of lung | MD41 | Clinical findings on diagnostic imaging of lung |
+
+</div>
+
+The following words, which indicate the ambiguous degree/state of disease, will be excluded from this entity.
+- advanced
+- severe
+
+Currently, the following words/phrases for stage of disease are tentatively annotated as [Entity Property]().
+- stage I
+- stage II
+- stage IIIB
+- stage IV
+- stage IIIB/IV
 
 <!-- details -->
