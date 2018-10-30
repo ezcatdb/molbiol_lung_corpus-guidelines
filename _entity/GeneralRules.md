@@ -7,13 +7,10 @@ order: 0
 
 The top ranking of the priority for entities are as follows:
 - Disease
-- Symptom
-- Subject
+- Protein molecule
+- Cell
 - Pharmacological substance
 - Anatomical entity
-- Cell
-- Protein molecule (as biomarker)
-
 
 
 There are general rules for entities, as follows:
