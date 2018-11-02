@@ -12,7 +12,6 @@ The top ranking of the priority for entities are as follows:
 - Pharmacological substance
 - Anatomical entity
 
-
 There are general rules for entities, as follows:
 
  - Articles, such as "a", "an" and "the", are not included in the entities.
@@ -41,6 +40,5 @@ T5 Subject 51 63 two patients
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
 
- 
  
  <!-- details -->
