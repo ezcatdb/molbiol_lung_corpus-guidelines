@@ -13,7 +13,11 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
   - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
 
 <!---
+--->
+
 - [Subject](): {% assign i = site.entity | where_exp:"i", "i.title == 'Subject'" | first %}{{ i.shortdef }}
+
+<!---
   - [N_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'N_sbjct'" | first %}{{ i.shortdef }}
   - [Age_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'Age_sbjct'" | first %}{{ i.shortdef }}
   - [Ethnic_sbjct](): {% assign i = site.entity | where_exp:"i", "i.title == 'Ethnic_sbjct'" | first %}{{ i.shortdef }}
@@ -95,7 +99,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
       - [Translation](): {% assign i = site.event | where_exp:"i", "i.title == 'Translation'" | first %}{{ i.shortdef }}
 
 
-
 <!---
 {% assign sorted = site.event | sort: 'order' %}
 {% for i in sorted %}
@@ -115,6 +118,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 - [Negated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negated'" | first %}{{ i.shortdef }}
 - [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculated'" | first %}{{ i.shortdef }}
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
+- [MutantAttribute](): {% assign i = site.attribute | where_exp:"i", "i.title == 'MutantAttribute'" | first %}{{ i.shortdef }}
 
 <!---
 - [Gender_sbjct](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Gender_sbjct'" | first %}{{ i.shortdef }}
