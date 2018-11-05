@@ -22,6 +22,7 @@ T3 Anatomical_entity 23 27 lung
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
+T2 Anatomical_entity 58 62 lung
 T3 Disease 58 69 lung cancer
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
