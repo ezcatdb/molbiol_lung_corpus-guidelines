@@ -30,9 +30,11 @@ T1 Localization 0 12 Accumulation
 T2 Negative_regulation 16 23 damaged
 T3 Cell_component 24 36 mitochondria
 T4 Cell 40 61 lung epithelial cells
+T5 Anatomical_entity 40 44 lung
 E1 Localization:T1 Theme:E2 AtLoc:T4
 E2 Negative_regulation:T2 Theme:T3
 R1 part_of Arg1:T3 Arg2:T4
+R2 part_of Arg1:T4 Arg2:T5
 ~~~
 
 
