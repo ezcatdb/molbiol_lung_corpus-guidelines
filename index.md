@@ -59,6 +59,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Entity Property](): {% assign i = site.entity | where_exp:"i", "i.title == 'Entity Property'" | first %}{{ i.shortdef }}
 
+- [MENTION](): {% assign i = site.entity | where_exp:"i", "i.title == 'MENTION'" | first %}{{ i.shortdef }}
 
 ## cues
 - [Negation Cue](): {% assign i = site.entity | where_exp:"i", "i.title == 'Negation Cue'" | first %}{{ i.shortdef }}
@@ -97,7 +98,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
     - [Gene_expression](): {% assign i = site.event | where_exp:"i", "i.title == 'Gene_expression'" | first %}{{ i.shortdef }}
       - [Transcription](): {% assign i = site.event | where_exp:"i", "i.title == 'Transcription'" | first %}{{ i.shortdef }}
       - [Translation](): {% assign i = site.event | where_exp:"i", "i.title == 'Translation'" | first %}{{ i.shortdef }}
-
 
 <!---
 {% assign sorted = site.event | sort: 'order' %}
