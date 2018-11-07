@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Migration"
-category: "Biological_process"
+category: "Biological process"
 shortdef: "Migration/movement of entity"
 order: 14
 ---
