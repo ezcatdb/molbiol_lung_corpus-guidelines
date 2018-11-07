@@ -1,11 +1,12 @@
 ---
 layout: entry
 title: "Migration"
-category: "Biological process"
+category: "Biological_process"
 shortdef: "Migration/movement of entity"
 order: 14
 ---
 
+This event indicates movement of entity, such as [Cell]() and [Protein_molecule]().
 
 The following words/phrases can be triggers of this event:
 
@@ -35,7 +36,7 @@ Arguments:
 
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
-Another argument, *Theme*, for this event can be any entities or events.
+Another argument, *Theme*, for this event can be any entities, such as [Cell]() and molecule entities.
 
 <!--details-->
 
