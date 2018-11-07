@@ -6,7 +6,6 @@ shortdef: "Migration/movement of entity"
 order: 14
 ---
 
-This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
 The following words/phrases can be triggers of this event:
 
