@@ -6,11 +6,11 @@ order: 0
 ---
 
 The top ranking of the priority for entities are as follows:
-- Disease
-- Protein molecule
-- Cell
-- Pharmacological substance
-- Anatomical entity
+- [Disease]()
+- [Protein_molecule]()
+- [Cell]()
+- [Pharmacological_substance]()
+- [Anatomical_entity}()
 
 There are general rules for entities, as follows:
 
