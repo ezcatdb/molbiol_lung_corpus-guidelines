@@ -20,13 +20,8 @@ R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T2 Surgery 32 53 right upper lobectomy
 T3 Disease 58 69 lung cancer
-T4 Age_sbjct 2 13 40-year-old
-E1 Surgery:T2 has_subject:T1 disorder:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
-R2 Subject_Attribute Arg1:T1 Arg2:T4
-A1 Gender_sbjct T1 Male
 ~~~
 
 The following words/phrases should be annotated as 'Disease'.
@@ -43,6 +38,7 @@ The following words/phrases should be annotated as 'Disease'.
 | chronic obstructive pulmonary disease | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
 | COPD | J44 | Other chronic obstructive pulmonary disease | CA22 | Chronic obstructive pulmonary disease |
 | acute exacerbation of chronic obstructive pulmonary disease | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
+| AECOPD | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 | bronchiolitis obliterans (syndrome) | J44.8 | Other specified chronic obstructive pulmonary disease  | CA26.Z | Chronic bronchiolitis, unspecified |
 | idiopathic pulmonary fibrosis | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
 | IPF | J84.1 | Other interstitial pulmonary diseases with fibrosis | CB03.4 | Idiopathic pulmonary fibrosis |
@@ -52,13 +48,12 @@ The following words/phrases should be annotated as 'Disease'.
 | Sarcoidosis | D86 | Sarcoidosis | 4B20 | Sarcoidosis |
 | pulmonary sarcoidosis | D86.0 | Sarcoidosis of lung | 4B20.0 | Sarcoidosis of lung |
 | pleural effusion | - | - | CB27 | Pleural effusion |
-| AECOPD | J44.1 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified | CA22.0 | Chronic obstructive pulmonary disease with acute exacerbation, unspecified  |
 
 
 </div>
 
 <div style="background-color: yellow" markdown="1">
-Some disease names start with 'AE (acute exacerbation)'. Although the following words/phrases are neither in ICD-10 nor in ICD-11, they can also be disease entities as they are widely used as disease names:
+Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, [Disease]() and [Symptom](), they are annotated as event:
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
@@ -66,12 +61,14 @@ Some disease names start with 'AE (acute exacerbation)'. Although the following 
 
 ~~~ ann
 The pathogenesis of acute exacerbations of idiopathic pulmonary fibrosis (AE-IPF)
-T1 Disease 20 72 acute exacerbations of idiopathic pulmonary fibrosis
+T1 Biological_process 20 39 acute exacerbations
 T2 Disease 43 72 idiopathic pulmonary fibrosis
-T3 Disease 74 80 AE-IPF
+T3 Biological_process 74 76 AE
 T4 Disease 77 80 IPF
-R1 is_equivalent arg1:T3 arg2:T1
-R2 is_equivalent arg1:T4 arg2:T2
+E1 Biological_process:T1 disorder:T2
+E2 Biological_process:T3 disorder:T4
+R1 is_equivalent arg1:T4 arg2:T2
+R2 is_equivalent arg1:T3 arg2:T1
 ~~~
 
 
@@ -85,9 +82,16 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 
 </div>
 
-The following words, which indicate the ambiguous degree/state of disease, are currently excluded from this entity, although they should be considered.
+The following words, which indicate the ambiguous degree/state of disease, are also included in this entity.
 - advanced
 - severe
+
+~~~ ann
+Patients with advanced IPF
+T1 Subject 0 8 Patients
+T2 Disease 14 26 advanced IPF
+R1 Subject_Disorder arg1:T1 arg2:T2
+~~~
 
 Currently, the following words/phrases for stage of disease are tentatively annotated as [Entity Property]().
 - stage I
