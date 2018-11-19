@@ -7,11 +7,14 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 - [General rules for entities](): {% assign i = site.entity | where_exp:"i", "i.title == 'General rules for entities'" | first %}{{ i.shortdef }}
 
 ## entities
+<!--
 - [Phenotype](): {% assign i = site.entity | where_exp:"i", "i.title == 'Phenotype'" | first %}{{ i.shortdef }}
+-->
+
   - [Disease](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disease'" | first %}{{ i.shortdef }}
-  - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
 
 <!--
+  - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
   - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
 -->
 
@@ -39,13 +42,13 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
   - [Cell_component](): {% assign i = site.entity | where_exp:"i", "i.title == 'Cell_component'" | first %}{{ i.shortdef }}
 
 - Molecular entities
+  - [Pharmacological_substance](): {% assign i = site.entity | where_exp:"i", "i.title == 'Pharmacological_substance'" | first %}{{ i.shortdef }}
+  - [Protein_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_molecule'" | first %}{{ i.shortdef }}
 
 <!--  
 - [Inorganic_compound](): {% assign i = site.entity | where_exp:"i", "i.title == 'Inorganic_compound'" | first %}{{ i.shortdef }}
 - [Organic_compound_other](): {% assign i = site.entity | where_exp:"i", "i.title == 'Organic_compound_other'" | first %}{{ i.shortdef }}
 -->
-
-  - [Pharmacological_substance](): {% assign i = site.entity | where_exp:"i", "i.title == 'Pharmacological_substance'" | first %}{{ i.shortdef }}
 
 <!--  
 - [DNA_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'DNA_molecule'" | first %}{{ i.shortdef }}
@@ -53,8 +56,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Protein_family_or_group](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_family_or_group'" | first %}{{ i.shortdef }}
 -->
-
-  - [Protein_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_molecule'" | first %}{{ i.shortdef }}
 
 <!--  
     - [Amino_acid_monomer](): {% assign i = site.entity | where_exp:"i", "i.title == 'Amino_acid_monomer'" | first %}{{ i.shortdef }}
@@ -91,25 +92,20 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
+  - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }}
+  - [Regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Regulation'" | first %}{{ i.shortdef }}
+    - [Negative_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Negative_regulation'" | first %}{{ i.shortdef }}
+    - [Positive_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Positive_regulation'" | first %}{{ i.shortdef }}
+  - [Cellular_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Cellular_process'" | first %}{{ i.shortdef }}
+  - [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
+    - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
 
 <!--
   - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
   - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
---> 
-
-  - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }}
-
-<!--
   - [Localization](): {% assign i = site.event | where_exp:"i", "i.title == 'Localization'" | first %}{{ i.shortdef }}
 --> 
 
-  - [Regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Regulation'" | first %}{{ i.shortdef }}
-    - [Negative_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Negative_regulation'" | first %}{{ i.shortdef }}
-    - [Positive_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Positive_regulation'" | first %}{{ i.shortdef }}
-
-  - [Cellular_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Cellular_process'" | first %}{{ i.shortdef }}
-  - [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
-    - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
 
 <!-- 
      - [Metabolism](): {% assign i = site.event | where_exp:"i", "i.title == 'Metabolism'" | first %}{{ i.shortdef }}
