@@ -10,7 +10,10 @@ The top ranking of the priority for entities are as follows:
 - [Protein_molecule]()
 - [Cell]()
 - [Pharmacological_substance]()
+
+<!--
 - [Anatomical_entity]()
+-->
 
 There are general rules for entities, as follows:
 
