@@ -113,10 +113,6 @@ T1 Disorder 14 17 IPF
 T2 Disorder 26 51 sleep breathing disorders
 T3 Disorder 53 57 SBDs
 R1 is_equivalent Arg1:T3 Arg2:T2
-<<<<<<< HEAD
-=======
-N1	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
->>>>>>> disorder
 ~~~
 ~~~ ann
 The common adverse effects of Icotinib were rash and diarrhea.
