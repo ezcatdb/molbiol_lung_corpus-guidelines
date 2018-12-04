@@ -98,8 +98,6 @@ The following words/phrases, whose ICD-10 IDs start with R, or whose ICD-11 IDs 
 </div>
 -->
 
-
-
 Symptoms, which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Disorder'.
 
@@ -115,6 +113,7 @@ T1 Disorder 14 17 IPF
 T2 Disorder 26 51 sleep breathing disorders
 T3 Disorder 53 57 SBDs
 R1 is_equivalent Arg1:T3 Arg2:T2
+N1	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
 ~~~ ann
 The common adverse effects of Icotinib were rash and diarrhea.
