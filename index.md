@@ -49,7 +49,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
   - [DNA_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'DNA_molecule'" | first %}{{ i.shortdef }}
   - [RNA_molecule](): {% assign i = site.entity | where_exp:"i", "i.title == 'RNA_molecule'" | first %}{{ i.shortdef }}
 
-
 <!--  
 - [Protein_family_or_group](): {% assign i = site.entity | where_exp:"i", "i.title == 'Protein_family_or_group'" | first %}{{ i.shortdef }}
 -->
