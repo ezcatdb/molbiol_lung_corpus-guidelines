@@ -6,7 +6,7 @@ order: 0
 ---
 
 The top ranking of the priority for entities are as follows:
-- [Disease]()
+- [Disorder]()
 - [Protein_molecule]()
 - [Cell]()
 - [Pharmacological_substance]()
@@ -22,7 +22,7 @@ There are general rules for entities, as follows:
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T3 Disease 58 70 lung cancer
+T3 Disorder 58 70 lung cancer
 T4 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
@@ -38,7 +38,7 @@ T3 Anatomical_entity 28 32 lung
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Anatomical_entity 27 32 liver
-T4 Disease 27 43 liver metastases
+T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
