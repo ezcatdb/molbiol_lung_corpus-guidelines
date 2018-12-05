@@ -7,8 +7,19 @@ order: 31
 
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
+<!--
 This entity is based on 
 <a href="https://www.uniprot.org/">UniProt</a> database and <a href="https://pir.georgetown.edu/pro/"> PIR ontology</a>.
+-->
+
+The definition of 'Anatomical_entity' is based on the Semantic types of 
+- 'aapp' (Amino Acid, Peptide, or Protein), 
+- 'enzy' (Enzyme),
+- 'rcpt' (Receptor), 
+- 'horm' (Hormone)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+However, some data of UMLS 'horm' might be for [Organic_compound_other]().
 
 Protein molecules, gene products, are categorized into this entity group.
 
