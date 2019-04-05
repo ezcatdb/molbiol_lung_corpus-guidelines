@@ -45,5 +45,7 @@ R3 is_equivalent Arg1:T6 Arg2:T5
 VEGFR-TKI
 T1 GGPs 0 5 VEGFR
 T2 Pharmacological_substance 6 9 TKI
+T3 Pharmacological_substance 0 9 VEGFR-TKI
+R1 member_of Arg1:T3 Arg2:T1
 ~~~
 <!-- details -->
