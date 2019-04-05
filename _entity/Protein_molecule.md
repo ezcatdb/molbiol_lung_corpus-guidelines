@@ -41,5 +41,9 @@ R1 is_equivalent Arg1:T2 Arg2:T1
 R2 is_equivalent Arg1:T4 Arg2:T3
 R3 is_equivalent Arg1:T6 Arg2:T5
 ~~~
-
+~~~ ann
+VEGFR-TKI
+T1 GGPs 0 5 VEGFR
+T2 Pharmacological_substance 6 9 TKI
+~~~
 <!-- details -->
