@@ -59,7 +59,7 @@ An example is indicated as follows:
 <div style="margin:1em" markdown="1">
 
 | Protein name | UMLS ID | PRO ID | UniProt ID |
-|--------------------------------------------|----------|--------------|--------|
+|--------------|----------|--------------|--------|
 | Vascular endothelial growth factor A | C1823619 | PR:000017284 | - |
 | VEGFA | C1823619 | PR:000017284 | - |
 | human Vascular endothelial growth factor A | - | PR:P15692 | P15692 |
