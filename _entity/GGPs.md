@@ -23,6 +23,7 @@ The definition of 'GGPs' (Gene or Gene products) is based on the Semantic types 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 However, some data of UMLS 'horm' might be for [Organic_compound_other]().
 
+
 Protein molecules, gene products, and genes are categorized into this entity group.
 
 ~~~ ann
@@ -50,4 +51,21 @@ T2 Pharmacological_substance 6 9 TKI
 T3 Pharmacological_substance 0 9 VEGFR-TKI
 R1 member_of Arg1:T3 Arg2:T2
 ~~~
+
+For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> will be used for normalization, in addition to the UMLS database.
+On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use.
+An example is indicated as follows:
+
+<div style="margin:1em" markdown="1">
+
+| Protein name | UMLS ID | PRO ID | UniProt ID |
+|--------------------------------------------|----------|--------------|--------|
+| Vascular endothelial growth factor A | C1823619 | PR:000017284 | - |
+| VEGFA | C1823619 | PR:000017284 | - |
+| human Vascular endothelial growth factor A | - | PR:P15692 | P15692 |
+| hVEGFA | - | PR:P15692 | P15692 |
+
+</div>
+
+
 <!-- details -->
