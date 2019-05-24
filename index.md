@@ -126,6 +126,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 ## Relations
 
 - [member_of](): {% assign i = site.relation | where_exp:"i", "i.title == 'member_of'" | first %}{{ i.shortdef }}
+- [part_of](): {% assign i = site.relation | where_exp:"i", "i.title == 'part_of'" | first %}{{ i.shortdef }}
 
 <!---
 {% assign sorted = site.relation | sort: 'order' %}
