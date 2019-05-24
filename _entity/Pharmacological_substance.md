@@ -24,8 +24,8 @@ T1 Pharmacological_substance 0 11 Pirfenidone
 The common adverse effects of Icotinib were rash and diarrhea.
 T1 Regulation 4 26 common adverse effects
 T2 Pharmacological_substance 30 38 Icotinib
-T3 Symptom 44 48 rash
-T4 Symptom 53 61 diarrhea
+T3 Disorder 44 48 rash
+T4 Disorder 53 61 diarrhea
 E1 Regulation:T1 Cause:T2 Theme:T3 Theme2:T4
 ~~~
 
