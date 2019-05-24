@@ -12,7 +12,7 @@ Typical examples are relationships between [Cell]() and its [Anatomical_entity](
 ~~~ ann
 Mitochondria in lung epithelial cells.
 T1 Cell_component 0 12 Mitochondria
-T2 Cell 23 38 epithelial cells
+T2 Cell 21 37 epithelial cells
 T3 Anatomical_entity 16 20 lung
 R1 part_of Arg1:T1 Arg2:T2
 R2 part_of Arg1:T2 Arg2:T3
