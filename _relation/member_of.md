@@ -31,7 +31,7 @@ EGFR, HER2/neu and HER3 of the ErbB family.
 T1 GGPs 0 4 EGFR
 T2 GGPs 6 14 HER2/neu
 T3 GGPs 19 23 HER3
-T4 GGPs 31 41 ErbB family
+T4 GGPs 31 42 ErbB family
 R1 member_of Arg1:T1 Arg2:T4
 R2 member_of Arg1:T2 Arg2:T4
 R3 member_of Arg1:T3 Arg2:T4
