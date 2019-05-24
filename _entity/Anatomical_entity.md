@@ -28,17 +28,17 @@ Regarding the organ, such as lung, the following words/phrases can also be annot
 
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
-T1 Disease 0 23 Squamous cell carcinoma
-T2 Cell 0 13 Squamous cell
+T1 Disorder 0 23 Squamous cell carcinoma
+T2 Cell 0 23 Squamous cell carcinoma
 T3 Anatomical_entity 31 35 lung
 T4 Anatomical_entity 48 67 right main bronchus
 T5 Migration 36 43 invaded
-E1 Migration:T5 Theme:T1 fromLoc:T3 toLoc:T4
+E1 Migration:T5 Theme:T2 fromLoc:T3 toLoc:T4
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T3 Disease 58 69 lung cancer
+T3 Disorder 58 69 lung cancer
 T5 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
@@ -51,7 +51,7 @@ T4 Anatomical_entity 28 32 lung
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T2 Anatomical_entity 27 32 liver
-T4 Disease 27 43 liver metastases
+T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 T7 Migration 33 43 metastases
 E2 Migration:T7 toLoc:T2
