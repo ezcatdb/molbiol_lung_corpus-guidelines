@@ -2,7 +2,7 @@
 layout: entry
 title: "Cellular_process"
 category: "Cellular process"
-shortdef: "Processes in cellular levels"
+shortdef: "Processes on cellular levels"
 order: 50
 ---
 
