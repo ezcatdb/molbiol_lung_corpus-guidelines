@@ -23,7 +23,7 @@ T3 Anatomical_entity 23 27 lung
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
 T2 Anatomical_entity 58 62 lung
-T3 Disease 58 69 lung cancer
+T3 Disorder 58 69 lung cancer
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
 ~~~ ann
@@ -38,7 +38,7 @@ R2 member_of Arg1:T3 Arg2:T1
 Bleomycin-induced pulmonary fibrosis in mice.
 T1 Pharmacological_substance 0 9 Bleomycin
 T2 Regulation 10 17 induced
-T3 Symptom 18 36 pulmonary fibrosis
+T3 Disorder 18 36 pulmonary fibrosis
 T4 Subject 40 44 mice
 E1 Regulation:T2 Agent:T1 atLoc:T4 Theme:T3
 R1 Subject_Disorder Arg1:T4 Arg2:T3
@@ -54,7 +54,7 @@ T6 Pharmacological_substance 59 66 placebo
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Anatomical_entity 27 32 liver
-T4 Disease 27 43 liver metastases
+T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
