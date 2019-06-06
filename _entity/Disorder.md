@@ -91,7 +91,7 @@ The following words/phrases should be annotated as 'Disorder'.
 -->
 
 <div style="background-color: yellow" markdown="1">
-Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, 'Disorder', they are annotated as event entity:
+Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, 'Disorder', they may be annotated as event entity, [Biological_process]():
 - acute exacerbation of idiopathic pulmonary fibrosis
 - AE-IPF
 
