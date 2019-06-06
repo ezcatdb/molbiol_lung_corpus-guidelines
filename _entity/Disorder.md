@@ -36,9 +36,31 @@ T5 Anatomical_entity 58 62 lung
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
 
-
 The following words/phrases should be annotated as 'Disorder'.
 
+- lung cancer 
+- lung adenocarcinoma 
+- non-small cell lung cancer 
+- multiple myeloma 
+- plasma cell myeloma 
+- chronic obstructive pulmonary disease 
+- COPD 
+- acute exacerbation of chronic obstructive pulmonary disease 
+- AECOPD 
+- bronchiolitis obliterans (syndrome) 
+- idiopathic pulmonary fibrosis 
+- IPF 
+- idiopathic interstitial pneumonia 
+- interstitial lung disease 
+- pulmonary hypertension 
+- Sarcoidosis 
+- pulmonary sarcoidosis 
+- pleural effusion 
+- lung lesions 
+- allodynia 
+
+
+<!--
 <div style="margin:1em" markdown="1">
 
 | Disease name | ICD-10 code | ICD-10 description | ICD-11 code | ICD-11 description |
@@ -66,6 +88,7 @@ The following words/phrases should be annotated as 'Disorder'.
 
 
 </div>
+-->
 
 <div style="background-color: yellow" markdown="1">
 Some disease names start with 'AE (acute exacerbation)'. As these words suggest the change in disorder entities, 'Disorder', they are annotated as event entity:
@@ -80,8 +103,6 @@ T1 Biological_process 20 39 acute exacerbations
 T2 Disorder 43 72 idiopathic pulmonary fibrosis
 T3 Biological_process 74 76 AE
 T4 Disorder 77 80 IPF
-R1 Event_Disorder Arg1:T1 Arg2:T2
-R2 Event_Disorder Arg1:T3 Arg2:T4
 R3 is_equivalent Arg1:T4 Arg2:T2
 R4 is_equivalent Arg1:T3 Arg2:T1
 ~~~
@@ -119,8 +140,6 @@ The common adverse effects of Icotinib were rash and diarrhea.
 T2 Pharmacological_substance 30 38 Icotinib
 T3 Disorder 44 48 rash
 T4 Disorder 53 61 diarrhea
-R1 Cause_Effect Arg1:T2 Arg2:T3
-R2 Cause_Effect Arg1:T2 Arg2:T4
 ~~~
 
 - fatal condition
@@ -131,8 +150,6 @@ T1 Disorder 0 29 Idiopathic pulmonary fibrosis
 T2 Disorder 31 34 IPF
 T3 Disorder 41 56 fatal condition
 R1 is_equivalent Arg1:T2 Arg2:T1
-N1	Reference T1 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
-N2	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
 
 <div style="background-color: yellow" markdown="1">
@@ -151,7 +168,6 @@ The following phrases also can be 'Disorder':
 
 - chronic lung allograft dysfunction 
 - restrictive allograft syndrome 
-
 
 The following words, which indicate the ambiguous degree/state of disease, are also included in this entity.
 - advanced
