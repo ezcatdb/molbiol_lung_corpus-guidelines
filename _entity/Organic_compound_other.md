@@ -17,6 +17,7 @@ The following molecules can be categorized into this entity group.
 - lipid molecules
 
 The definition of 'Organic_compound_other' (Organic compounds/metabolites) is based on the Semantic types of
+- 'orch' (Organic Chemical)
 - 'carb' (Carbohydrate)
 - 'eico' (Eicosanoid)
 - 'lipd' (Lipid)
