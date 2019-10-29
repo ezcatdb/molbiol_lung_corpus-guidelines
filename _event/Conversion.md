@@ -29,6 +29,14 @@ The following words/phrases can be triggers of this event:
 - cleavage  
 - degradation  
 
+~~~ ann
+Phosphorylation of AKT2 was downregulated.
+T1 Conversion 0 15 Phosphorylation
+T2 GGPs 19 23 AKT
+T3 Negative_regulation 28 40 downregulated
+E1 Conversion:T1 Theme:T2
+E2 Negative_regulation:T3 Theme:E1
+~~~
 
 
 Arguments:
