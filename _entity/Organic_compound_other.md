@@ -25,6 +25,7 @@ The definition of 'Organic_compound_other' (Organic compounds/metabolites) is ba
 - 'horm' (Hormone) (if it is not composed of peptides/proteins)
 - 'nnon' (Nucleic Acid, Nucleoside, or Nucleotide) (if it is metabolite instead of part(s) of genes/gene prodcuts)
 - 'bacs' (Biologically Active Substance) (if it is not peptides/proteins)
+
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 ~~~ ann
