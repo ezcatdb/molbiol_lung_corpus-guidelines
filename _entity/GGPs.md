@@ -70,6 +70,6 @@ An example is indicated as follows:
 </div>
 
 
-<a href="https://en.wikipedia.org/wiki/Chemokine">Chemokines</a>, such as IL-8, and their corresponding receptors, which are composed of proteins, are categorized into this entity.
+<a href="https://en.wikipedia.org/wiki/Chemokine">Chemokines</a>, such as IL-8, and <a href="https://en.wikipedia.org/wiki/Chemokine_receptor">their corresponding receptors</a>, which are composed of proteins, are categorized into this entity.
 
 <!-- details -->
