@@ -16,13 +16,14 @@ The definition of 'GGPs' (Gene or Gene products) is based on the Semantic types 
 - 'aapp' (Amino Acid, Peptide, or Protein), 
 - 'enzy' (Enzyme),
 - 'rcpt' (Receptor), 
-- 'horm' (Hormone),
+- 'horm' (Hormone), (if it is composed of peptides/proteins)
 - 'gngm' (Gene or Genome),
-- 'nnon' (Nucleic Acid, Nucleoside, or Nucleotide)
+- 'nnon' (Nucleic Acid, Nucleoside, or Nucleotide) (if it is part(s) of genes/gene prodcuts)
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
-However, some data of UMLS 'horm' might be for [Organic_compound_other]().
 
+However, some data of UMLS 'horm' might be for [Organic_compound_other]().
+Some data of UMLS 'nnon' also may be for [Organic_compound_other](), if they are metabolites, instead of parts of genes/gene products.
 
 Protein molecules, gene products, and genes are categorized into this entity group.
 
