@@ -33,13 +33,17 @@ The following words/phrases can be triggers of this event:
 Phosphorylation of AKT2 was downregulated.
 T1 Conversion 0 15 Phosphorylation
 T2 GGPs 19 23 AKT
-T3 Negative_regulation 28 40 downregulated
+T3 Negative_regulation 28 41 downregulated
 E1 Conversion:T1 Theme:T2
 E2 Negative_regulation:T3 Theme:E1
 ~~~
 
 
 Arguments:
+
+*Theme* for this event must be molecules whose covalent bonds are converted: [GGPs]() or [Other_compound_other]().
+
+*AtLoc* indicates the section where molecules, for which conversion occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
