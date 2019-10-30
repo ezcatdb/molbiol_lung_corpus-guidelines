@@ -63,10 +63,12 @@ T5 Gene_expression 12 27 gene expression
 T6 Gene_expression 12 27 gene expression
 T7 Gene_expression 32 46;52 61 protein levels increased
 T8 Gene_expression 32 46;52 61 protein levels increased
+T9 Positive_regulation 52 61 increased
 E1 Gene_expression:T5 Theme:T1
 E2 Gene_expression:T6 Theme:T2
 E3 Gene_expression:T7 Theme:T3
 E4 Gene_expression:T8 Theme:T4
+E5 Positive_regulation:T9 Theme:E1 Theme2:E2
 ~~~
 
 In case of modified GGPs, annotation can be performed as follows:
