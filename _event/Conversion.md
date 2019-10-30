@@ -26,6 +26,7 @@ The following words/phrases can be triggers of this event:
 - dephosphorylation
 - methylation
 - acetylation
+- carboxymethylation
 - cleavage  
 - degradation  
 
@@ -37,13 +38,21 @@ T3 Negative_regulation 28 41 downregulated
 E1 Conversion:T1 Theme:T2
 E2 Negative_regulation:T3 Theme:E1
 ~~~
-
+~~~ ann
+Phospho-S6
+T1 Conversion 0 7 Phospho
+T2 GGPs 8 10 S6
+T3 GGPs 0 10 Phospho-S6
+E1 Conversion:T1 Theme:T2 Product:T3
+~~~
 
 Arguments:
 
-*Theme* for this event must be molecules whose covalent bonds are converted: [GGPs]() or [Other_compound_other]().
+*Theme* for this event must be molecules whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance]().
 
-*AtLoc* indicates the section where molecules, for which conversion occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+*Product* (optional; zero or more) indicates the molecule(s) that could be produced by the 'Conversion' event: [GGPs]() or [Organic_compound_other](). 
+
+*AtLoc* indicates the section where the target molecules, to which the 'Conversion' occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().

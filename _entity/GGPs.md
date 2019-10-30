@@ -53,6 +53,30 @@ T2 Pharmacological_substance 6 9 TKI
 T3 Pharmacological_substance 0 9 VEGFR-TKI
 R1 member_of Arg1:T3 Arg2:T2
 ~~~
+~~~ ann
+LOXL1/LOXL2 gene expression and protein levels were increased.
+T1 GGPs 0 5;12 16 LOXL1 gene
+T2 GGPs 6 16 LOXL2 gene
+T3 GGPs 0 5;32 39 LOXL1 protein
+T4 GGPs 6 11;32 39 LOXL2 protein
+T5 Gene_expression 12 27 gene expression
+T6 Gene_expression 12 27 gene expression
+T7 Gene_expression 32 46;52 61 protein levels increased
+T8 Gene_expression 32 46;52 61 protein levels increased
+E1 Gene_expression:T5 Theme:T1
+E2 Gene_expression:T6 Theme:T2
+E3 Gene_expression:T7 Theme:T3
+E4 Gene_expression:T8 Theme:T4
+~~~
+
+In case of modified GGPs, annotation can be performed as follows:
+~~~ ann
+Phospho-S6
+T1 Conversion 0 7 Phospho
+T2 GGPs 8 10 S6
+T3 GGPs 0 10 Phospho-S6
+E1 Conversion:T1 Theme:T2 Product:T3
+~~~
 
 For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> will be used for normalization, in addition to the UMLS database.
 On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use.
