@@ -8,6 +8,8 @@ order: 22
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
+This event describes "activation/up-regulation" event (UMLS ID:C1879547).
+
 The following words/phrases can be triggers of this event:
 
 - *activate*; *activates*; *activated*; *activation*
@@ -58,7 +60,7 @@ Arguments:
 
 *Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
 
-*AtLoc* (optional; zero or one) indicates the location where `Positive regulation` event occurs: [Cell-component](), [Cell]() or [Anatomical_entity]().
+*AtLoc* (optional; zero or one) indicates the location where `Positive regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
