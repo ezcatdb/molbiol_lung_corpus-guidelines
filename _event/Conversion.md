@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Conversion"
-category: "Molecular process"
+category: "Molecular function"
 shortdef: "Changes in covalent bonds"
 order: 71
 ---

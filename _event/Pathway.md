@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Pathway"
-category: "Molecular process"
+category: "Molecular function"
 shortdef: "Molecular pathway networks (metabolism, signaling)"
 order: 72
 ---
