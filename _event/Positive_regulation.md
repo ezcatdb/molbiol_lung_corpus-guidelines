@@ -65,7 +65,7 @@ E1 Positive_regulation:T3 Cause:T1 Theme:E2
 E2 Conversion:T4 Theme:T2
 ~~~
 
-The following sample sentence indicates:
+The following sample sentence indi
 - CXCL12 => expression of CTGF
 - *SMAD3 => expression of CTGF*
 ~~~ ann
@@ -81,7 +81,7 @@ E2 Positive_regulation:T5 Cause:T2 Theme:E3
 E3 Gene_expression:T6 Theme:T3
 ~~~
 
-Considering sample sentences, 2 & 3, the conclusion is:
+Considering the sample sentences, 2 & 3, the conclusion is:
 
 CXCL12 => phosphorylation of SMAD3 => expression of CTGF
 
