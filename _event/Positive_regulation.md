@@ -53,6 +53,8 @@ E6 Positive_regulation:T10 Theme:E2
 E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
+
+CXCL12 -> phosphorylation of SMAD3
 ~~~ ann
 CXCL12-mediated SMAD3 phosphorylation
 T1 GGPs 0 6 CXCL12
@@ -62,6 +64,11 @@ T4 Conversion 22 37 phosphorylation
 E1 Positive_regulation:T3 Cause:T1 Theme:E2
 E2 Conversion:T4 Theme:T2
 ~~~
+
+
+CXCL12 -> expression of CTGF
+*SMAD3 -> expression of CTGF*
+*SMAD3 -> stimulation by CXCL12*
 ~~~ ann
 SMAD3 mediates CXCL12-stimulated CTGF expression.
 T1 GGPs 0 5 SMAD3
