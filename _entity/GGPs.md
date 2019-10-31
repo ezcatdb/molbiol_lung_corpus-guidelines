@@ -86,6 +86,11 @@ T3 GGPs 0 10 Phospho-S6
 E1 Conversion:T1 Theme:T2 Product:T3
 ~~~
 
+Regarding *mutant/variant* information, it is extremely difficult to normalize them, as there are too many possible mutants for any GGPs. Thus, such *mutant/variant* information will be included in *Notes*, as follows:
+
+- mutant C125A
+
+
 For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> will be used for normalization, in addition to the UMLS database.
 On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use.
 An example is indicated as follows:
@@ -101,7 +106,7 @@ An example is indicated as follows:
 
 </div>
 
-
 <a href="https://en.wikipedia.org/wiki/Chemokine">Chemokines</a>, such as IL-8, and <a href="https://en.wikipedia.org/wiki/Chemokine_receptor">their corresponding receptors</a>, which are composed of proteins, are categorized into this entity.
+
 
 <!-- details -->

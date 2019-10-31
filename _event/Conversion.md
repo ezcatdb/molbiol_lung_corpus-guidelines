@@ -14,21 +14,26 @@ This event describes the changes in covalent bonds of molecules, including modif
 
 The following words/phrases can be triggers of this event:
 
-- autophosphorylation  
 - phosphorylated  
 - phosphorylation  
 - phosphorylations  
-- protein phosphorylation
-- tyrosine autophosphorylation 
-- tyrosine phosphorylation
-- self-phosphorylation
-- hyperphosphorylation
+  - autophosphorylation
+  - self-phosphorylation
+  - protein phosphorylation
+  - tyrosine autophosphorylation 
+  - tyrosine phosphorylation
+  - hyperphosphorylation
 - dephosphorylation
 - methylation
 - acetylation
 - carboxymethylation
 - cleavage  
 - degradation  
+
+Moreover, *enzyme activity*, which changes covalent bonds of [Organic_compound_other]() or [GGPs](), can be trigger words for this event.
+
+- [enzyme] activity
+- [enzyme] hydrolysis
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
