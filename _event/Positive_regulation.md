@@ -65,11 +65,9 @@ E1 Positive_regulation:T3 Cause:T1 Theme:E2
 E2 Conversion:T4 Theme:T2
 ~~~
 
-
-CXCL12 => expression of CTGF
-
+The following sample sentence indicates:
+- CXCL12 => expression of CTGF
 - *SMAD3 => expression of CTGF*
-- *SMAD3 => stimulation by CXCL12* (to be deleted?)
 ~~~ ann
 SMAD3 mediates CXCL12-stimulated CTGF expression.
 T1 GGPs 0 5 SMAD3
