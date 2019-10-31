@@ -76,6 +76,12 @@ E6 Positive_regulation:T10 Theme:E2
 E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
+~~~ ann
+luciferase activity
+T1 GGPs 0 10 luciferase
+T2 Conversion 0 19 luciferase activity
+E1 Conversion:T2
+~~~
 
 In case of modified GGPs, annotation can be performed as follows:
 ~~~ ann

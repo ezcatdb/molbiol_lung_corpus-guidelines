@@ -50,6 +50,12 @@ T2 GGPs 8 10 S6
 T3 GGPs 0 10 Phospho-S6
 E1 Conversion:T1 Theme:T2 Product:T3
 ~~~
+~~~ ann
+luciferase activity
+T1 GGPs 0 10 luciferase
+T2 Conversion 0 19 luciferase activity
+E1 Conversion:T2
+~~~
 
 Arguments:
 
