@@ -37,7 +37,8 @@ Regarding the trigger word, '*mediate*' is used differently from other trigger w
 Here, this sentence may indicate the two following relationships:
 - *A => B*
 - *A => C*
-('=>' indicates "positive regulation")
+
+('=>' indicates 'positive regulation')
 
 The following sample sentence indicates:
 - CXCL12 => phosphorylation of SMAD3
