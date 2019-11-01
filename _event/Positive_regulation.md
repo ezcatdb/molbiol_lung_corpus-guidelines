@@ -41,28 +41,14 @@ Here, this sentence may indicate the two following relationships:
 ('=>' indicates 'positive regulation')
 
 ~~~ ann
-The widely expressed beta-arrestin isoforms 1 and 2 bind phosphorylated G protein-coupled receptors (GPCRs) and mediate desensitization and internalization.
-T1      Gene_expression 11 20   expressed
-E1      Gene_expression:T1 Theme:T3
-T2      Protein 21 45   beta-arrestin isoforms 1
-T3      Protein 21 43;50 51     beta-arrestin isoforms 2
-T4      Binding 52 56   bind
-E2      Binding:T4 Theme:T3 Theme2:T6
-T5      Phosphorylation 57 71   phosphorylated
-E3      Phosphorylation:T5 Theme:T6
-T6      GPCR 72 99      G protein-coupled receptors
-T7      GPCR 101 106    GPCRs
-R1      Equiv T6 T7
-E4      Gene_expression:T1 Theme:T2
-E5      Binding:T4 Theme:T2 Theme2:T6
-T8      Regulation 112 119      mediate
-E6      Regulation:T8 Cause:T3 Theme:E9
+Beta-arrestin isoform 1 mediate desensitization and internalization.
+T2      Protein 0 23   Beta-arrestin isoform 1
+T8      Regulation 24 31      mediate
+T9      Negative_regulation 32 47     desensitization
+T10     Internalization 52 67  internalization
 E7      Regulation:T8 Cause:T2 Theme:E9
-T9      Negative_regulation 120 135     desensitization
 E8      Negative_regulation:T9 Theme:T6
-T10     Internalization 140 155 internalization
 E9      Internalization:T10 Theme:T6
-E10     Regulation:T8 Cause:T3 Theme:E8
 E11     Regulation:T8 Cause:T2 Theme:E8
 ~~~
 
