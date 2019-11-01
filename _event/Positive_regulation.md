@@ -42,7 +42,7 @@ Here, this sentence may indicate the two following relationships:
 
 ~~~ ann
 Beta-arrestin isoform 1 mediate desensitization and internalization.
-T2      Protein 0 23   Beta-arrestin isoform 1
+T2      GGPs 0 23   Beta-arrestin isoform 1
 T8      Positive_regulation 24 31      mediate
 T9      Negative_regulation 32 47     desensitization
 T10     Localization 52 67  internalization
