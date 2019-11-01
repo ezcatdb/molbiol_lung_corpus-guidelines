@@ -45,10 +45,10 @@ Beta-arrestin isoform 1 mediate desensitization and internalization.
 T2      Protein 0 23   Beta-arrestin isoform 1
 T8      Regulation 24 31      mediate
 T9      Negative_regulation 32 47     desensitization
-T10     Internalization 52 67  internalization
+T10     Localization 52 67  internalization
 E7      Regulation:T8 Cause:T2 Theme:E9
 E8      Negative_regulation:T9 Theme:T6
-E9      Internalization:T10 Theme:T6
+E9      Localization:T10 Theme:T6
 E11     Regulation:T8 Cause:T2 Theme:E8
 ~~~
 
