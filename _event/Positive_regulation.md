@@ -30,7 +30,7 @@ The following words/phrases can be triggers of this event:
 - *up-regulate*; *up-regulates*; *up-regulated*; *up-regulation*
 - *[in] response [to]*
 
-Regarding the trigger word, '*mediate*' is used differently from other trigger words, such as '*activate*' and '*stimulate*', as follows:
+Regarding the trigger word, '*mediate*', it is used differently from other trigger words, such as '*activate*' and '*stimulate*', as follows:
 
 *A mediates B and C*
 
