@@ -14,27 +14,27 @@ This event describes Molecular pathway networks, such as metabolism and signalin
 
 The following words/phrases can be triggers of this event:
 
-- metabolism
-- metabolic pathway
-- signaling  
-- signaling cascade 
-- signaling pathway 
-- signalling  
-- molecular pathway 
-- pathway[s]  
-- [protein] signaling
-- [protein] signaling pathway
-- [cell] signaling pathways
+- metabolic pathway (UMLS ID:C1291081)
+  - metabolism
+- signaling pathway (UMLS ID:C0037080)
+  - signaling  
+  - signaling cascade 
+  - signalling
+  - [protein] signaling
+  - [protein] signaling pathway
+  - [cell] signaling pathways
+- molecular pathway (UMLS ID:C1706062)
+  - pathway[s] (UMLS ID:C1706062)
 
 The following examples are more specific pathways:
-- EGFR signaling
-- ErbB signaling pathway
-- MAPK signaling
-- PDGFR signaling
-- PI3K signaling 
-- VEGFR2 signaling pathway
-- integrin signaling
-- mTOR signaling
+- EGFR signaling (UMLS ID:C3271839)
+- ErbB signaling pathway (UMLS ID:C2984323)
+- MAPK signaling  (UMLS ID:C1518102)
+- PDGFR signaling (UMLS ID:C1155400)
+- PI3K signaling (UMLS ID:C1817666) 
+- VEGFR2 signaling pathway (UMLS ID:C3549205)
+- integrin signaling (UMLS ID:C1512812)
+- mTOR signaling (UMLS ID:C1515673)
 
 ~~~ ann
 MAPK signaling pathway
