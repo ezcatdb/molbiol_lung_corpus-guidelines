@@ -34,9 +34,9 @@ T2 Disorder 26 31 NSCLC
 
 The following words/phrases for [Cell]() and [GGPs]() can be tentatively annotated for this category.
 
-- null
-- (-)
-- (+)
+- null (UMLS ID:C0205160)
+- (-) (UMLS ID:C0205160)
+- (+) (UMLS ID:C1446409)
 
 ~~~ ann
 CD4(+)CD28(null) T-cells
@@ -48,4 +48,5 @@ T5 Cell 17 24 T-cells
 T6 Cell 0 24 CD4(+)CD28(null) T-cells
 T7 Cell 0 6;16 24 CD4(+) T-cells
 ~~~
+
 
