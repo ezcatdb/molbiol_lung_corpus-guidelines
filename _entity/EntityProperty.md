@@ -38,15 +38,16 @@ The following words/phrases for [Cell]() and [GGPs]() can be tentatively annotat
 - (-) (UMLS ID:C0205160)
 - (+) (UMLS ID:C1446409)
 
+In the following example, 'CD4(+) T-cells' have got a UMLS ID (C0039215), whereas 'CD4(+)CD28(null) T-cells' do not have an ID, so that [member_of]() relation is annotated to indicate their relationships.
 ~~~ ann
 CD4(+)CD28(null) T-cells
 T1 GGPs 0 3 CD4
 T2 Entity_Property 3 6 (+)
 T3 GGPs 6 10 CD28
 T4 Entity_Property 10 16 (null)
-T5 Cell 17 24 T-cells
 T6 Cell 0 24 CD4(+)CD28(null) T-cells
 T7 Cell 0 6;16 24 CD4(+) T-cells
+R1 member_of Arg1:T6 Arg2:T7
 ~~~
 
 
