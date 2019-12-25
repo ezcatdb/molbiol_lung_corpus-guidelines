@@ -60,9 +60,10 @@ Moreover, the following words, which indicate roles, can also be triggers of thi
 PLC inhibitor, U-73122
 T1 GGPs 0 3 PLC
 T2 Negative_regulation 4 13 inhibitor
-T3 Pharmacological_substance 15 23 U-73122
+T3 Pharmacological_substance 15 22 U-73122
 E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
+
 
 Arguments:
 
