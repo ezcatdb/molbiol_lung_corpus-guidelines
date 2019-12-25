@@ -10,7 +10,7 @@ This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GEN
 
 This event describes "inactivation/inhibition/down-regulation" event (UMLS ID:C3463820).
 
-The following words/phrases can be triggers of this event:
+The following words/phrases, which are verbs and nominalized verbs, can be triggers of this event:
 
 - *abolish*, *abolishes*, *abolished*, *abolishment*
 - *abrogate*, *abrogates*, *abrogated*, *abrogation*
@@ -51,6 +51,17 @@ E1 Localization:T1 Theme:E2 AtLoc:T4
 E2 Negative_regulation:T2 Theme:T3
 R1 part_of Arg1:T3 Arg2:T4
 R2 part_of Arg1:T4 Arg2:T5
+~~~
+
+Moreover, the following words, which indicate roles, can also be triggers of this event.
+- *inhibitor*, *inhibitors*
+
+~~~ ann
+PLC inhibitor, U-73122
+T1 GGPs 0 3 PLC
+T2 Negative_regulation 4 13 inhibitor
+T3 Pharmacological_substance 15 23 U-73122
+E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
 
 Arguments:
