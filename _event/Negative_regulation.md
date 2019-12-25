@@ -64,6 +64,8 @@ T3 Pharmacological_substance 15 22 U-73122
 E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
 
+The following phrase can also be triggers of this event.
+- *inhibitory effect(s)*
 
 Arguments:
 
