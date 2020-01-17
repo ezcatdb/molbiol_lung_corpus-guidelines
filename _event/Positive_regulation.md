@@ -52,7 +52,6 @@ E9      Localization:T10 Theme:T6
 E11     Positive_regulation:T8 Cause:T2 Theme:E8
 ~~~
 
-
 The following sample sentence indicates:
 - CXCL12 => phosphorylation of SMAD3
 ~~~ ann
@@ -109,6 +108,33 @@ E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
 
+~~~ ann
+Protein levels were increased in both IPF and HP for MMP-8, MMP-9, and protein-C, whereas VEGF was decreased compared with control.
+T1 Disorder 38 41 IPF
+T2 Disorder 46 48 HP
+T3 GGPs 53 58 MMP-8
+T4 GGPs 60 65 MMP-9
+T5 GGPs 71 80 protein-C
+T6 GGPs 90 94 VEGF
+T7 Gene_expression 0 14 Protein levels
+T8 Gene_expression 0 14 Protein levels
+T9 Gene_expression 0 14 Protein levels
+T10 Gene_expression 0 14 Protein levels
+T11 Positive_regulation 20 29 increased
+T12 Positive_regulation 20 29 increased
+T13 Positive_regulation 20 29 increased
+T14 Negative_regulation 99 108 decreased
+T15 Subject 123 130 control 
+E1 Gene_expression:T7 Theme:T3
+E2 Gene_expression:T8 Theme:T4
+E3 Gene_expression:T9 Theme:T5
+E4 Gene_expression:T10 Theme:T6
+E5 Positive_regulation:T11 Theme:E1 Disorder:T1 Disorder2:T2
+E6 Positive_regulation:T12 Theme:E2 Disorder:T1 Disorder2:T2
+E7 Positive_regulation:T13 Theme:E3 Disorder:T1 Disorder2:T2
+E8 Negative_regulation:T14 Theme:E4 Disorder:T1 Disorder2:T2
+~~~
+
 Arguments:
 
 *Theme* (optional; zero or more) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
@@ -116,6 +142,8 @@ Arguments:
 *Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
 
 *AtLoc* (optional; zero or one) indicates the location where `Positive regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+
+*Disorder* (optional) indicates the disorder for which `Positive regulation` event occurs: [Disorder]().
 
 *Intermediary* (?)
 
