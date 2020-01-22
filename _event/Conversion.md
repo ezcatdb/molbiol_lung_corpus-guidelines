@@ -14,26 +14,28 @@ This event describes the changes in covalent bonds of molecules, including modif
 
 The following words/phrases can be triggers of this event:
 
-- phosphorylated  
-- phosphorylation  
-- phosphorylations  
-  - autophosphorylation
-  - self-phosphorylation
-  - protein phosphorylation
-  - tyrosine autophosphorylation 
-  - tyrosine phosphorylation
-  - hyperphosphorylation
-- dephosphorylation
-- methylation
-- acetylation
-- carboxymethylation
-- cleavage  
-- degradation  
+- phosphorylated (UMLS ID:C0031715)
+- phosphorylation (UMLS ID:C0031715)
+- phosphorylations (UMLS ID:C0031715)
+  - autophosphorylation (UMLS ID:C0813988)
+  - self-phosphorylation (UMLS ID:C0813988)
+  - protein phosphorylation (UMLS ID:C0031715)
+  - tyrosine autophosphorylation (UMLS ID:C0813988)
+  - tyrosine phosphorylation (UMLS ID:C0031715)
+  - hyperphosphorylation (UMLS ID:C0031715)
+- dephosphorylation (UMLS ID:C3160734)
+- methylation (UMLS ID:C0025723)
+- acetylation (UMLS ID:C0001038)
+- carboxymethylation (UMLS ID:C0596262)
+- carboxymethylated (UMLS ID:C0596262)
+- cleavage  (UMLS ID:C0596311)
+  - degradation  (UMLS ID:C0596311)
+- cross-linking (UMLS ID:C0332220)
+- cross-linked (UMLS ID:C0332220)
 
-Moreover, *enzyme activity*, which changes covalent bonds of [Organic_compound_other]() or [GGPs](), can be trigger words for this event.
 
-- [enzyme] activity
-- [enzyme] hydrolysis
+- [enzyme] activity (UMLS ID:C0243102)
+  - [enzyme] hydrolysis  (UMLS ID:C0020291)
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
@@ -53,8 +55,8 @@ E1 Conversion:T1 Theme:T2 Product:T3
 ~~~ ann
 luciferase activity
 T1 GGPs 0 10 luciferase
-T2 Conversion 0 19 luciferase activity
-E1 Conversion:T2
+T2 Conversion 11 19 activity
+E1 Conversion:T2 Cause:T1
 ~~~
 
 Arguments:
