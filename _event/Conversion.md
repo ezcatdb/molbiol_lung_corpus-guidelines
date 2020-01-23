@@ -33,9 +33,8 @@ The following words/phrases can be triggers of this event:
 - cross-linking (UMLS ID:C0332220)
 - cross-linked (UMLS ID:C0332220)
 
-
-- [enzyme] activity (UMLS ID:C0243102)
-  - [enzyme] hydrolysis  (UMLS ID:C0020291)
+The following one can also be trigger words:
+- [enzyme] hydrolysis  (UMLS ID:C0020291)
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
@@ -51,12 +50,6 @@ T1 Conversion 0 7 Phospho
 T2 GGPs 8 10 S6
 T3 GGPs 0 10 Phospho-S6
 E1 Conversion:T1 Theme:T2 Product:T3
-~~~
-~~~ ann
-luciferase activity
-T1 GGPs 0 10 luciferase
-T2 Conversion 11 19 activity
-E1 Conversion:T2 Cause:T1
 ~~~
 
 Arguments:
