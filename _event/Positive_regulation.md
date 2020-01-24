@@ -154,7 +154,10 @@ T11 Positive_regulation 20 29 increased
 T12 Positive_regulation 20 29 increased
 T13 Positive_regulation 20 29 increased
 T14 Negative_regulation 99 108 decreased
-T18 Negative_regulation 99 108 decreased
+T18 Positive_regulation 20 29 increased
+T19 Positive_regulation 20 29 increased
+T20 Positive_regulation 20 29 increased
+T21 Negative_regulation 99 108 decreased
 T15 Subject 38 41 IPF
 T16 Subject 46 48 HP
 T17 Subject 123 130 control 
@@ -165,11 +168,17 @@ E4 Gene_expression:T10 Theme:T6
 E5 Positive_regulation:T11 Theme:E1 Subject:T15 Subject2:T16
 E6 Positive_regulation:T12 Theme:E2 Subject:T15 Subject2:T16
 E7 Positive_regulation:T13 Theme:E3 Subject:T15 Subject2:T16
-E8 Negative_regulation:T14 Theme:E4 Subject:T15 Subject2:T16
-E9 Negative_regulation:T18 Theme:E4 Subject:T17
+E8 Positive_regulation:T18 Theme:E1 Subject:T17
+E9 Positive_regulation:T19 Theme:E2 Subject:T17
+E10 Positive_regulation:T20 Theme:E3 Subject:T17
+E11 Negative_regulation:T14 Theme:E4 Subject:T15 Subject2:T16
+E12 Negative_regulation:T21 Theme:E4 Subject:T17
 R1 Subject_Disorder Arg1:T15 Arg2:T1
 R2 Subject_Disorder Arg1:T16 Arg2:T2
-A1 Negated E9
+A1 Negated E8
+A2 Negated E9
+A3 Negated E10
+A4 Negated E12
 ~~~
 
 Arguments:
