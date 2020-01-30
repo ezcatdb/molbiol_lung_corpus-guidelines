@@ -138,6 +138,8 @@ E8 Negative_regulation:T14 Theme:E4 Disorder:T1 Disorder2:T2
 R1 Subject_Disorder Arg1:T15 Arg2:T1
 R2 Subject_Disorder Arg1:T16 Arg2:T2
 ~~~
+
+<!---
 ~~~ ann
 Protein levels were increased in both IPF and HP for MMP-8, MMP-9, and protein-C, whereas VEGF was decreased compared with control.
 T1 Disorder 38 41 IPF
@@ -222,6 +224,7 @@ A2 Manner E9 low
 A3 Manner E10 low
 A4 Manner E12 low
 ~~~
+--->
 
 Arguments:
 
