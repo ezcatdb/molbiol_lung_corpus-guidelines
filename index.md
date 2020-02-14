@@ -91,11 +91,9 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
-
   - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
   - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
-  
-  - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }}
+
   - [Localization](): {% assign i = site.event | where_exp:"i", "i.title == 'Localization'" | first %}{{ i.shortdef }}
   
   - [Regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Regulation'" | first %}{{ i.shortdef }}
@@ -103,10 +101,12 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
     - [Positive_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Positive_regulation'" | first %}{{ i.shortdef }}
 
   - [Cellular_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Cellular_process'" | first %}{{ i.shortdef }}
-  
+ <!--
+    - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }} 
+ -->
   - [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
-    - [Conversion](): {% assign i = site.event | where_exp:"i", "i.title == 'Conversion'" | first %}{{ i.shortdef }}
     - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
+        - [Conversion](): {% assign i = site.event | where_exp:"i", "i.title == 'Conversion'" | first %}{{ i.shortdef }}
     - [Gene_expression](): {% assign i = site.event | where_exp:"i", "i.title == 'Gene_expression'" | first %}{{ i.shortdef }}
     
 
