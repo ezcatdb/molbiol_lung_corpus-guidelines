@@ -106,7 +106,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
     - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }} 
  -->
 
-- [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
+  - [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
     - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
         - [Conversion](): {% assign i = site.event | where_exp:"i", "i.title == 'Conversion'" | first %}{{ i.shortdef }}
     - [Gene_expression](): {% assign i = site.event | where_exp:"i", "i.title == 'Gene_expression'" | first %}{{ i.shortdef }}
