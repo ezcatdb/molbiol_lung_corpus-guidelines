@@ -14,7 +14,10 @@ The following words/phrases can be triggers of this event:
 
 - mutation (if naturally occured) (UMLS ID:C0026882)
 - polymorphism (genetic polymorphism) (UMLS ID:C0032529)
+
+<!-- removed
 - [enzyme] activity (UMLS ID:C0243102)
+-->
 
 ~~~ ann
 Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
@@ -35,13 +38,8 @@ T6 Disorder 109 114 NSCLC
 E1 Molecular_function:T2 Product:T1
 E2 Molecular_function:T5 Product:T1
 R1 Coreference Arg1:T4 Arg2:T1
-~~~ 
-~~~ ann
-luciferase activity
-T1 GGPs 0 10 luciferase
-T2 Conversion 0 19 luciferase activity
-E1 Conversion:T2 
 ~~~
+
 
 Arguments:
 

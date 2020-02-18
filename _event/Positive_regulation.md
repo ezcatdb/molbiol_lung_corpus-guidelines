@@ -86,6 +86,21 @@ CXCL12 => phosphorylation of SMAD3 => expression of CTGF
 
 ~~~ ann
 LOXL1/LOXL2 gene expression and protein levels were increased.
+T1 GGPs 0 5 LOXL1
+T2 GGPs 6 11 LOXL2
+T5 Gene_expression 12 27 gene expression
+T6 Gene_expression 12 27 gene expression
+T9 Positive_regulation 52 61 increased
+T10 Positive_regulation 52 61 increased
+E1 Gene_expression:T5 Theme:T1
+E2 Gene_expression:T6 Theme:T2
+E5 Positive_regulation:T9 Theme:E1
+E6 Positive_regulation:T10 Theme:E2
+~~~
+
+<!--
+~~~ ann
+LOXL1/LOXL2 gene expression and protein levels were increased.
 T1 GGPs 0 5;12 16 LOXL1 gene
 T2 GGPs 6 16 LOXL2 gene
 T3 GGPs 0 5;32 39 LOXL1 protein
@@ -107,6 +122,7 @@ E6 Positive_regulation:T10 Theme:E2
 E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
+-->
 
 ~~~ ann
 Protein levels were increased in both IPF and HP for MMP-8, MMP-9, and protein-C, whereas VEGF was decreased compared with control.
@@ -225,6 +241,15 @@ A3 Manner E10 low
 A4 Manner E12 low
 ~~~
 --->
+
+The *Theme* for this event can be molecular entities as follows:
+
+~~~ ann
+luciferase activity was elevated.
+T1 GGPs 0 10 luciferase
+T2 Positive_regulation 24 32 elevated
+E1 Positive_regulation:T2 Theme:T1
+~~~
 
 Arguments:
 
