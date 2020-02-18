@@ -64,6 +64,8 @@ T7 Gene_expression 32 46 protein levels
 T8 Gene_expression 32 46 protein levels
 T9 Positive_regulation 52 61 increased
 T10 Positive_regulation 52 61 increased
+T11 Positive_regulation 52 61 increased
+T12 Positive_regulation 52 61 increased
 E1 Gene_expression:T5 Theme:T1
 E2 Gene_expression:T6 Theme:T2
 E3 Gene_expression:T7 Theme:T1
