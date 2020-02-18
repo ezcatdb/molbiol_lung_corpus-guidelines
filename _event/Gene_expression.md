@@ -26,7 +26,10 @@ The following words/phrases can be triggers of *translation* (UMLS ID:C1519614):
 - *[protein] formation*
 - *[protein] expression*
 - *[protein] synthesis*
+
+<!-- The following phrase was removed from example phrases for translation
 - *[protein] level (increased)*
+-->
 
 The following words/phrases can be triggers of *gene expression* (UMLS ID:C0017262), if it is not clear whether *transcription* or *translation* is stated.
 
@@ -39,6 +42,21 @@ The following words/phrases can be triggers of *gene expression* (UMLS ID:C00172
 - *synthesize*; *synthesizes*; *synthesized*; *synthesis*
 - *up-expression*
 
+~~~ ann
+LOXL1/LOXL2 gene expression and protein levels were increased.
+T1 GGPs 0 5 LOXL1
+T2 GGPs 6 11 LOXL2
+T5 Gene_expression 12 27 gene expression
+T6 Gene_expression 12 27 gene expression
+T9 Positive_regulation 52 61 increased
+T10 Positive_regulation 52 61 increased
+E1 Gene_expression:T5 Theme:T1
+E2 Gene_expression:T6 Theme:T2
+E5 Positive_regulation:T9 Theme:E1
+E6 Positive_regulation:T10 Theme:E2
+~~~
+
+<!--
 ~~~ ann
 LOXL1/LOXL2 gene expression and protein levels were increased.
 T1 GGPs 0 5;12 16 LOXL1 gene
@@ -62,6 +80,7 @@ E6 Positive_regulation:T10 Theme:E2
 E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
+-->
 
 Arguments:
 
