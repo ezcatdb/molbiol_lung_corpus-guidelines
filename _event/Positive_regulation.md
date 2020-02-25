@@ -298,8 +298,6 @@ R1 Subject_Disorder Arg1:T6 Arg2:T5
 A1 Speculated E1
 ~~~
 
-The *Theme* for this event can be molecular entities as follows:
-
 ~~~ ann
 luciferase activity was elevated.
 T1 GGPs 0 10 luciferase
