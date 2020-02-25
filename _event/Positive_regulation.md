@@ -266,13 +266,19 @@ T17 Gene_expression 38 52 concentrations
 T18 Gene_expression 157 163 levels
 T19 Gene_expression 157 163 levels
 T20 Positive_regulation 28 37 increased
+T21 Positive_regulation 28 37 increased
+T22 Positive_regulation 28 37 increased
+T23 Positive_regulation 28 37 increased
 E1 Gene_expression:T14 Theme:T4
 E2 Gene_expression:T15 Theme:T5
 E3 Gene_expression:T16 Theme:T6
 E4 Gene_expression:T17 Theme:T7
-E5 Gene_expression:T18 Theme:T10 disorder:T12
-E6 Gene_expression:T19 Theme:T11 disorder:T12
+E5 Gene_expression:T18 Theme:T10 disorder:T9
+E6 Gene_expression:T19 Theme:T11 disorder:T9
 E7 Positive_regulation:T20 Theme:E1 atLoc:T3 disorder:T1
+E8 Positive_regulation:T21 Theme:E2 atLoc:T3 disorder:T1
+E9 Positive_regulation:T22 Theme:E3 atLoc:T3 disorder:T1
+E10 Positive_regulation:T23 Theme:E4 atLoc:T3 disorder:T1
 R1 part_of Arg1:T3 Arg2:T2
 ~~~
 
