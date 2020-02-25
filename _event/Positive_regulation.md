@@ -282,6 +282,18 @@ E10 Positive_regulation:T23 Theme:E4 atLoc:T3 disorder:T1
 R1 part_of Arg1:T3 Arg2:T2
 ~~~
 
+Occasionally, other events, which could be the *Theme* for this Positive_regulation event, are abreviated in the sentences. In such cases, molecular entities can be the *Theme* for this event.
+
+~~~ ann
+No data are available as to whether IL-8 is elevated in sera of IPF patients.
+T1 Speculation_cue 0 7 No data
+T2 Speculation_cue 28 35 whether
+T3 GGPs 36 40 IL-8
+T4 Anatomical_entity 56 60 sera
+T5 Disorder 64 67 IPF
+T6 Subject 68 76 patients
+~~~
+
 The *Theme* for this event can be molecular entities as follows:
 
 ~~~ ann
