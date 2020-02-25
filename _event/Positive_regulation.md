@@ -293,7 +293,8 @@ T4 Anatomical_entity 56 60 sera
 T5 Disorder 64 67 IPF
 T6 Subject 68 76 patients
 T7 Positive_regulation 44 52 elevated
-E1 Positive_regulation:T7 Theme:T3 Cue:T1 Cue2:T2
+E1 Positive_regulation:T7 Theme:T3 atLoc:T4 disorder:T5 Cue:T1 Cue2:T2
+R1 Subject_Disorder Arg1:T6 Arg2:T5
 A1 Speculated E1
 ~~~
 
