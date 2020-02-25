@@ -292,6 +292,9 @@ T3 GGPs 36 40 IL-8
 T4 Anatomical_entity 56 60 sera
 T5 Disorder 64 67 IPF
 T6 Subject 68 76 patients
+T7 Positive_regulation 44 52 elevated
+E1 Positive_regulation:T7 Theme:T3 Cue:T1 Cue2:T2
+A1 Speculated E1
 ~~~
 
 The *Theme* for this event can be molecular entities as follows:
