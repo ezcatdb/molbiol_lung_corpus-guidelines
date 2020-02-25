@@ -242,6 +242,26 @@ A4 Manner E12 low
 ~~~
 --->
 
+The phrases, *Higher/lower*, should not be annotated as Regulation events.
+
+~~~ ann
+IPF sputum supernatants had increased concentrations of IGFBP-2, IL-8, TGF-β, MMP-9 and KL-6 when compared to healthy subjects where COPD had higher IL-6 and TNF-α levels than IPF and HS.
+T1 Disorder 0 3 IPF
+T2 Anatomical_entity 4 10 sputum
+T3 Anatomical_entity 11 23 supernatants
+T4 GGPs 56 63 IGFBP-2
+T5 GGPs 65 69 IL-8
+T6 GGPs 71 76 TGF-β
+T7 GGPs 78 83 MMP-9
+T8 GGPs 88 92 KL-6
+T9 Subject 110 126 healthy subjects
+T10 Disorder 133 137 COPD
+T11 GGPs 149 153 IL-6
+T12 GGPs 158 163 TNF-α
+T13 Disorder 176 179 IPF
+T14 Subject 184 186 HS
+~~~
+
 The *Theme* for this event can be molecular entities as follows:
 
 ~~~ ann
