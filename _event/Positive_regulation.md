@@ -245,7 +245,7 @@ A4 Manner E12 low
 The phrases, *Higher/lower*, should not be annotated as Regulation events.
 
 ~~~ ann
-IPF sputum supernatants had increased concentrations of IGFBP-2, IL-8, TGF-β and KL-6 when compared to healthy subjects where COPD had higher IL-6 and TNF-α levels than IPF and HS.
+IPF sputum supernatants had increased concentrations of IGFBP-2, IL-8, TGF-β and KL-6 when compared to healthy subjects whereas COPD had higher IL-6 and TNF-α levels than IPF and HS.
 T1 Disorder 0 3 IPF
 T2 Anatomical_entity 4 10 sputum
 T3 Anatomical_entity 11 23 supernatants
@@ -254,17 +254,17 @@ T5 GGPs 65 69 IL-8
 T6 GGPs 71 76 TGF-β
 T7 GGPs 81 85 KL-6
 T8 Subject 103 119 healthy subjects
-T9 Disorder 126 130 COPD
-T10 GGPs 142 146 IL-6
-T11 GGPs 151 156 TNF-α
-T12 Disorder 169 172 IPF
-T13 Subject 177 179 HS
+T9 Disorder 128 132 COPD
+T10 GGPs 144 148 IL-6
+T11 GGPs 153 158 TNF-α
+T12 Disorder 171 174 IPF
+T13 Subject 179 181 HS
 T14 Gene_expression 38 52 concentrations
 T15 Gene_expression 38 52 concentrations
 T16 Gene_expression 38 52 concentrations
 T17 Gene_expression 38 52 concentrations
-T18 Gene_expression 157 163 levels
-T19 Gene_expression 157 163 levels
+T18 Gene_expression 159 165 levels
+T19 Gene_expression 159 165 levels
 T20 Positive_regulation 28 37 increased
 T21 Positive_regulation 28 37 increased
 T22 Positive_regulation 28 37 increased
