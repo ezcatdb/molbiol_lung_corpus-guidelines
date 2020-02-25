@@ -254,7 +254,7 @@ T5 GGPs 65 69 IL-8
 T6 GGPs 71 76 TGF-β
 T7 GGPs 81 85 KL-6
 T8 Subject 103 119 healthy subjects
-T9 Disorder 116 130 COPD
+T9 Disorder 126 130 COPD
 T10 GGPs 142 146 IL-6
 T11 GGPs 151 156 TNF-α
 T12 Disorder 169 172 IPF
@@ -263,10 +263,17 @@ T14 Gene_expression 38 52 concentrations
 T15 Gene_expression 38 52 concentrations
 T16 Gene_expression 38 52 concentrations
 T17 Gene_expression 38 52 concentrations
+T18 Gene_expression 157 163 levels
+T19 Gene_expression 157 163 levels
+T20 Positive_regulation 28 37 increased
 E1 Gene_expression:T14 Theme:T4
 E2 Gene_expression:T15 Theme:T5
 E3 Gene_expression:T16 Theme:T6
 E4 Gene_expression:T17 Theme:T7
+E5 Gene_expression:T18 Theme:T10 disorder:T12
+E6 Gene_expression:T19 Theme:T11 disorder:T12
+E7 Positive_regulation:T20 Theme:E1 atLoc:T3 disorder:T1
+R1 part_of Arg1:T3 Arg2:T2
 ~~~
 
 The *Theme* for this event can be molecular entities as follows:
