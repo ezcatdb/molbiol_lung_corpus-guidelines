@@ -1,11 +1,11 @@
 ---
 layout: entry
-title: "Count_subjct"
+title: "Count_sbjct"
 shortdef: "Attribute for Subject with N count"
 order: 10
 ---
 
-The attribute, 'Count_subjct', is for [Subject]() that is expressed "N= ***".
+The attribute, 'Count_sbjct', is for [Subject]() that is expressed "N= ***".
 
 ~~~ ann
 Patients with IPF (n=25) and lung cancer (n=15)
