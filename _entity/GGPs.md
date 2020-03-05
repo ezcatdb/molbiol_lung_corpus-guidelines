@@ -109,6 +109,22 @@ T2 Positive_regulation 24 32 elevated
 E1 Positive_regulation:T2 Theme:T1
 ~~~
 
+~~~ ann
+PLC inhibitor, U-73122
+T1 GGPs 0 3 PLC
+T2 Negative_regulation 4 13 inhibitor
+T3 Pharmacological_substance 15 22 U-73122
+E1 Negative_regulation:T2 Cause:T3 Theme:T1
+~~~
+~~~ ann
+Rho inhibitor C3 exotoxin
+T1 GGPs 0 3 Rho
+T2 Negative_regulation 4 13 inhibitor
+T3 GGPs 14 25 C3 exotoxin
+E1 Negative_regulation:T2 Cause:T3 Theme:T1
+~~~
+
+
 In case of modified GGPs, annotation can be performed as follows:
 ~~~ ann
 Phospho-S6

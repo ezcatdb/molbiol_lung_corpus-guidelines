@@ -10,6 +10,16 @@ The name of this entity group is based on the <a href="http://www.nactem.ac.uk/P
 This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 
 Medicines are categorized into this entity group.
+
+~~~ ann
+PLC inhibitor, U-73122
+T1 GGPs 0 3 PLC
+T2 Negative_regulation 4 13 inhibitor
+T3 Pharmacological_substance 15 22 U-73122
+E1 Negative_regulation:T2 Cause:T3 Theme:T1
+~~~
+
+
 The following protein medicines can also be categorized in to this group.
 
 - Nivolumab
