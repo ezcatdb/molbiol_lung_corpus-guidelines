@@ -21,10 +21,19 @@ R2 Subject_Disorder Arg1:T5 Arg2:T4
 R3 member_of Arg1:T3 Arg2:T1
 R4 member_of Arg1:T5 Arg2:T1
 ~~~
+
+The following case may have two possible annotations:
 ~~~ ann
 controls (N=24)
 T1 Subject 0 15 controls (N=24)
 A1 Count_sbjct T1
+~~~
+~~~ ann
+controls (N=24)
+T1 Subject 0 8 controls
+T2 Subject 10 14 N=24
+A1 Count_sbjct T2
+R1 Coreference Arg1:T2 Arg2:T1
 ~~~
 
 <!--
