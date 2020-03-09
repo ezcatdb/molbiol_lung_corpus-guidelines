@@ -59,4 +59,26 @@ T5 Subject 51 63 two patients
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
 
+
+Regarding UMLS IDs for this entity, the IDs will be assigned as follows:
+- C0030705; patients
+- C2986479; Healthy Control
+- C0009932; Control Groups (Controls who are not healthy.)
+
+Regarding attribute for this entity, [Count_sbjct]() has been defined.
+~~~ ann
+Patients with IPF (n=25) and lung cancer (n=15)
+T1 Subject 0 8 Patients
+T2 Disorder 14 17 IPF
+T3 Subject 19 23 n=25
+T4 Disorder 29 40 lung cancer
+T5 Subject 42 46 n=15
+A1 Count_sbjct T3
+A2 Count_sbjct T5
+R1 Subject_Disorder Arg1:T3 Arg2:T2
+R2 Subject_Disorder Arg1:T5 Arg2:T4
+R3 member_of Arg1:T3 Arg2:T1
+R4 member_of Arg1:T5 Arg2:T1
+~~~
+
 <!-- details -->
