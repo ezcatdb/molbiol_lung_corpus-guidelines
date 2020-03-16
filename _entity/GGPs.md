@@ -123,7 +123,15 @@ T2 Negative_regulation 4 13 inhibitor
 T3 GGPs 14 25 C3 exotoxin
 E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
-
+~~~ ann
+interleukin (IL)-33
+T1 GGPs 0 11 interleukin
+T2 GGPs 13 15 IL
+T3 GGPs 0 11;16 19 interleukin-33
+T4 GGPs 13 15;16 19 IL-33
+R1 member_of Arg1:T3 Arg2:T1
+R2 is_equivalent Arg1:T4 Arg2:T3
+~~~
 
 In case of modified GGPs, annotation can be performed as follows:
 ~~~ ann
