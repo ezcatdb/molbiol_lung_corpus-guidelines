@@ -150,7 +150,7 @@ Regarding *mutant/variant* information, it is extremely difficult to normalize t
 - mutant C125A
 
 
-For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> will be used for normalization, in addition to the UMLS database.
+For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> are usually used for normalization in the other corpus.
 On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use.
 An example is indicated as follows:
 
