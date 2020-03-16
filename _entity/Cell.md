@@ -23,7 +23,7 @@ The following words/phrases are examples of this entity.
 - T cells
   - T cell blasts
 - epithelial cells
-  - alveolar epithelial cells
+  - alveolar epithelial cells (UMLS ID:C0225698)
 - endothelial cells
   - capillary endothelial cells
 - platelets
@@ -48,6 +48,13 @@ T2 Artificial_process 19 26 treated
 T3 Organic_compound_other 32 35 PMA
 E1 Artificial_process:T2 Theme:T1 Theme2:T3
 ~~~
-
+~~~ ann
+lung alveolar epithelial cell migration
+T1 Anatomical_entity 0 4 lung
+T2 Cell 5 29 alveolar epithelial cell
+T3 Localization 25 39 cell migration
+E1 Localization:T3 Theme:T2 AtLoc:T1
+R1 part_of Arg1:T2 Arg2:T1
+~~~
 
 <!-- details -->
