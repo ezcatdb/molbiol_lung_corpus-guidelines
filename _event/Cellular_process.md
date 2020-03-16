@@ -20,6 +20,7 @@ The following words/phrases can be triggers of this event:
   - G1 arrest
   - G1 checkpoint
   - G2 checkpoint
+- cell injury (UMLS ID:C0599732)
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
@@ -27,6 +28,12 @@ T1 Cellular_process 0 18 Cellular crosstalk
 T2 Cell 27 43 epithelial cells
 T3 Cell 48 59 fibroblasts
 E1 Cellular_process:T1 Participant:T2 Participant2:T3
+~~~
+~~~ ann
+Epithelial cell injury
+T1 Cell 0 15 Epithelial cell
+T2 Cellular_process 11 22 cell injury
+E1 Cellular_process:T2 Theme:T1
 ~~~
 
 Arguments:
