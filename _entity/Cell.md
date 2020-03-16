@@ -57,7 +57,7 @@ E1 Localization:T3 Theme:T2 AtLoc:T1
 R1 part_of Arg1:T2 Arg2:T1
 ~~~
 
-The following case is complicated:
+The following cases are complicated:
 ~~~ ann
 human lung fibroblasts (HLFs)
 T1 Subject 0 5 human
@@ -69,6 +69,16 @@ R1 part_of Arg1:T3 Arg2:T2
 R2 part_of Arg1:T2 Arg2:T1
 R3 member_of Arg1:T4 Arg2:T3
 R4 is_equivalent Arg1:T5 Arg2:T4
+~~~
+~~~ ann
+pulmonary fibroblast (PF)
+T1 Anatomical_entity 0 9 pulmonary
+T2 Cell 10 20 fibroblast
+T3 Cell 0 20 pulmonary fibroblast
+T4 Cell 22 24 PF
+R1 part_of Arg1:T2 Arg2:T1
+R2 member_of Arg1:T3 Arg2:T2
+R4 is_equivalent Arg1:T4 Arg2:T3
 ~~~
 
 <!-- details -->
