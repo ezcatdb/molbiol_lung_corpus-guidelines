@@ -42,6 +42,8 @@ The following words/phrases can be triggers of movement event:
 - invade, invasion
 - migration
   - cell migration (UMLS ID:C1622501)
+- chemotactic activity (UMLS ID:C0008018)
+- chemotaxis (UMLS ID:C0008018)
 
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
