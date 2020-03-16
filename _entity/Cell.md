@@ -22,7 +22,7 @@ The following words/phrases are examples of this entity.
   - T lymophoblasts
 - T cells
   - T cell blasts
-- epithelial cells
+- epithelial cells (UMLS ID:C0014597)
   - alveolar epithelial cells (UMLS ID:C0225698)
 - endothelial cells
   - capillary endothelial cells
@@ -32,7 +32,7 @@ The following words/phrases are examples of this entity.
 - monocytes
 - white blood cells
 - macrophages
-- fibroblasts
+- fibroblasts (UMLS ID:C0016030)
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
