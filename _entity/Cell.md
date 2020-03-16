@@ -57,4 +57,18 @@ E1 Localization:T3 Theme:T2 AtLoc:T1
 R1 part_of Arg1:T2 Arg2:T1
 ~~~
 
+The following case is complicated:
+~~~ ann
+human lung fibroblasts (HLFs)
+T1 Subject 0 5 human
+T2 Anatomical_entity 6 10 lung
+T3 Cell 11 22 fibroblasts
+T4 Cell 0 22 human lung fibroblasts
+T5 Cell 24 28 HLFs
+R1 part_of Arg1:T3 Arg2:T2
+R2 part_of Arg1:T2 Arg2:T1
+R3 member_of Arg1:T4 Arg2:T3
+R4 is_equivalent Arg1:T5 Arg2:T4
+~~~
+
 <!-- details -->
