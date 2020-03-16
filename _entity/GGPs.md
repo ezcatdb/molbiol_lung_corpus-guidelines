@@ -27,6 +27,9 @@ However, some data of UMLS 'horm' might be for [Organic_compound_other]().
 Some data of UMLS 'nnon' also may be for [Organic_compound_other](), if they are metabolites, instead of parts of genes/gene products.
 
 Protein molecules, gene products, and genes are categorized into this entity group.
+- interleukin (UMLS ID:C0021764)
+- IL (UMLS ID:C0021764)
+- PINK1 gene (UMLS ID:C1422771)
 
 ~~~ ann
 Patients with high MMP-9 levels.
