@@ -40,6 +40,7 @@ The following words/phrases can be triggers of movement event:
 - infection
 - metastasis
 - invade, invasion
+- migration
 
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
@@ -58,6 +59,14 @@ T5 Subject 51 63 two patients
 T7 Localization 33 43 metastases
 E2 Localization:T7 toLoc:T2
 R1 Subject_Disorder Arg1:T5 Arg2:T4
+~~~
+~~~ ann
+lung alveolar epithelial cell migration
+T1 Anatomical_entity 0 4 lung
+T2 Cell 5 29 alveolar epithelial cell
+T3 Localization 30 39 migration
+E1 Localization:T3
+R1 part_of Arg1:T2 Arg2:T1
 ~~~
 
 Arguments:
