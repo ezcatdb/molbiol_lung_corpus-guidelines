@@ -32,7 +32,7 @@ E1 Cellular_process:T1 Participant:T2 Participant2:T3
 ~~~ ann
 Epithelial cell injury
 T1 Cell 0 15 Epithelial cell
-T2 Cellular_process 11 22 cell injury
+T2 Cellular_process 16 22 injury
 E1 Cellular_process:T2 Theme:T1
 ~~~
 
