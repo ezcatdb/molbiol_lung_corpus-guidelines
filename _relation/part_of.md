@@ -21,7 +21,7 @@ R2 part_of Arg1:T2 Arg2:T3
 lung alveolar epithelial cell migration
 T1 Anatomical_entity 0 4 lung
 T2 Cell 5 29 alveolar epithelial cell
-T3 Localization 25 39 cell migration
+T3 Localization 30 39 migration
 E1 Localization:T3 Theme:T2 AtLoc:T1
 R1 part_of Arg1:T2 Arg2:T1
 ~~~
