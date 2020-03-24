@@ -39,7 +39,7 @@ E1 Cellular_process:T2 Theme:T1
 Arguments:
 
 The *atLoc*, *fromLoc* and *toLoc* for this event must be
-- [Cell](),
+- [Cell]()
 - [Cell_component]()
 - [Entity Property]().
 
