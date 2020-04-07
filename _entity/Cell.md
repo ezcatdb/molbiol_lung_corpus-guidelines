@@ -28,18 +28,18 @@ The following words/phrases are examples of this entity.
 - platelets (= thrombocytes)（血小板）
 - white blood cells (= leukocytes)（白血球）
   - monocytes (= mononuclear phagocytes)（単球）
-   - macrophages (= phagocytes)
-   - dendritic cells (樹状細胞)
-   - osteoclasts (破骨細胞)
+    - macrophages (= phagocytes)
+    - dendritic cells (樹状細胞)
+    - osteoclasts (破骨細胞)
   - lymphocytes（リンパ球）
-   - T lympohocytes
-    - T lymophoblasts
-   - T cells
-    - T cell blasts
+    - T lympohocytes
+      - T lymophoblasts
+    - T cells
+      - T cell blasts
   - granulocytes (= polymorphonuclear leucocytes = blood granulocytic cells = granular leukocytes)(顆粒球)
-   - neutrophils (= neutrophiles)（好中球）
-   - eosinophil granulocytes　（好酸球）
-   - basophils (好塩基球)
+    - neutrophils (= neutrophiles)（好中球）
+    - eosinophil granulocytes　（好酸球）
+    - basophils (好塩基球)
 
 
 ~~~ ann
