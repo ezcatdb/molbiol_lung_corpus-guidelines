@@ -18,21 +18,29 @@ Cell line ontology
 'Cells' are categorized into this entity group.
 
 The following words/phrases are examples of this entity.
-- T lympohocytes
-  - T lymophoblasts
-- T cells
-  - T cell blasts
+
 - epithelial cells (UMLS ID:C0014597)
   - alveolar epithelial cells (UMLS ID:C0225698)
 - endothelial cells
   - capillary endothelial cells
-- platelets
-- thrombocytes
-- mononuclear phagocyte
-- monocytes
-- white blood cells
-- macrophages
 - fibroblasts (UMLS ID:C0016030)
+
+- platelets (= thrombocytes)（血小板）
+- white blood cells (= leukocytes)（白血球）
+  - monocytes (= mononuclear phagocytes)（単球）
+   - macrophages (= phagocytes)
+   - dendritic cells (樹状細胞)
+   - osteoclasts (破骨細胞)
+  - lymphocytes（リンパ球）
+   - T lympohocytes
+    - T lymophoblasts
+   - T cells
+    - T cell blasts
+  - granulocytes (= polymorphonuclear leucocytes = blood granulocytic cells = granular leukocytes)(顆粒球)
+   - neutrophils (= neutrophiles)（好中球）
+   - eosinophil granulocytes　（好酸球）
+   - basophils (好塩基球)
+
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
