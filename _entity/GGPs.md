@@ -167,5 +167,27 @@ An example is indicated as follows:
 
 <a href="https://en.wikipedia.org/wiki/Chemokine">Chemokines</a>, such as IL-8, and <a href="https://en.wikipedia.org/wiki/Chemokine_receptor">their corresponding receptors</a>, which are composed of proteins, are categorized into this entity.
 
+<div style="margin:1em" markdown="1">
+
+| Protein name |  cells attracted by corresponding protein   | cytokine/receptor      | UMLS ID |
+|--------------|----------------------|------------------|------------|
+| CCL1   | T-lymphocytes  |  cytokine  | |
+| CCL2   | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCL3   | Monocytes / macrophages  |  cytokine  | |
+| CCL5   | Monocytes / macrophages  |  cytokine  | |
+| CCL7   | Monocytes / macrophages  |  cytokine  | |
+| CCL8   | Monocytes / macrophages  |  cytokine  | |
+| CCL13  | Monocytes / macrophages  |  cytokine  | |
+| CCL17  | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCL22  | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCR1   | Mast cells   | receptor  | |
+| CCR2   | Mast cells   | receptor  | |
+| CCR3   | Mast cells   | receptor  | |
+| CCR4   | Mast cells   | receptor  | |
+| CCR5   | Mast cells   | receptor  | |
+| CXCR2  | Mast cells   | receptor  | | 
+| CXCR4  | Mast cells   | receptor  | |
+
+</div>
 
 <!-- details -->
