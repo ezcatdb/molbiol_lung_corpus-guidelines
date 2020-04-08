@@ -169,8 +169,9 @@ An example is indicated as follows:
 
 <div style="margin:1em" markdown="1">
 
-| Protein name |  cells attracted by corresponding protein   | cytokine/receptor      | UMLS ID |
-|--------------|----------------------|------------------|------------|
+| Protein name |  cells attracted         | cytokine/receptor      | UMLS ID    |
+|              | by corresponding protein |                        |            |
+|--------------|--------------------------|------------------------|------------|
 | CCL1   | T-lymphocytes  |  cytokine  | |
 | CCL2   | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
 | CCL3   | Monocytes / macrophages  |  cytokine  | |
