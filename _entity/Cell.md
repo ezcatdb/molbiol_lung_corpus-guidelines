@@ -32,10 +32,8 @@ The following words/phrases are examples of this entity.
     - dendritic cells (樹状細胞)
     - osteoclasts (破骨細胞)
   - lymphocytes（リンパ球）
-    - T lympohocytes
-      - T lymophoblasts
-    - T cells
-      - T cell blasts
+    - T lymphocytes (= T cells)
+      - T lymphoblasts (= T cell blasts)
   - granulocytes (= polymorphonuclear leucocytes = blood granulocytic cells = granular leukocytes)(顆粒球)
     - neutrophils (= neutrophiles)（好中球）
     - eosinophil granulocytes　（好酸球）
