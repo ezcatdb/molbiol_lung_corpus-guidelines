@@ -25,7 +25,10 @@ The following words/phrases are examples of this entity.
   - capillary endothelial cells
 - fibroblasts (UMLS ID:C0016030)
 
+- <a href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell">hematopoietic stem cells</a> (= HSCs)(造血幹細胞)
 - platelets (= thrombocytes)（血小板）
+- mast cells (= mastocyte = labrocyte)(肥満細胞;顆粒細胞;マスト細胞)
+- red blood cells (= erythrocytes)（赤血球）
 - white blood cells (= leukocytes)（白血球）
   - monocytes (= mononuclear phagocytes)（単球）
     - macrophages (= phagocytes)
@@ -34,10 +37,13 @@ The following words/phrases are examples of this entity.
   - lymphocytes（リンパ球）
     - T lymphocytes (= T cells)
       - T lymphoblasts (= T cell blasts)
+    - natural killer cells (= NK cells = large granular lymphocytes)
+    - B lymphocytes (= B cells)
   - granulocytes (= polymorphonuclear leucocytes = blood granulocytic cells = granular leukocytes)(顆粒球)
-    - neutrophils (= neutrophiles)（好中球）
-    - eosinophil granulocytes　（好酸球）
-    - basophils (好塩基球)
+    - myeloblasts (骨髄芽球)
+      - neutrophils (= neutrophiles)（好中球）
+      - eosinophils (= eosinophil granulocytes)（好酸球）
+      - basophils (好塩基球)
 
 
 ~~~ ann
