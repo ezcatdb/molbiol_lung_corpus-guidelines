@@ -169,25 +169,29 @@ An example is indicated as follows:
 
 <div style="margin:1em" markdown="1">
 
-| Protein      |        cells attracted by                |  cytokine/receptor      | UMLS ID    |
-|  name        |       corresponding protein              |                         |            |
-|--------------|------------------------------------------|-------------------------|------------|
-| CCL1         | T-lymphocytes                            |  cytokine  | |
-| CCL2         | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
-| CCL3         | Monocytes / macrophages                  |  cytokine  | |
-| CCL5         | Monocytes / macrophages                  |  cytokine  | |
-| CCL7         | Monocytes / macrophages                  |  cytokine  | |
-| CCL8         | Monocytes / macrophages                  |  cytokine  | |
-| CCL13        | Monocytes / macrophages                  |  cytokine  | |
-| CCL17        | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
-| CCL22        | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
-| CCR1         | Mast cells                               |  receptor  | |
-| CCR2         | Mast cells                               |  receptor  | |
-| CCR3         | Mast cells                               |  receptor  | |
-| CCR4         | Mast cells                               |  receptor  | |
-| CCR5         | Mast cells                               |  receptor  | |
-| CXCR2        | Mast cells                               |  receptor  | | 
-| CXCR4        | Mast cells                               |  receptor  | |
+| Protein       |        cells attracted by                |  cytokine/receptor      | UMLS ID    |
+|  name         |       corresponding protein              |                         |            |
+|---------------|------------------------------------------|-------------------------|------------|
+| CCL1          | T-lymphocytes                            |  cytokine  | |
+| CCL2          | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCL3          | Monocytes / macrophages                  |  cytokine  | |
+| CCL5          | Monocytes / macrophages / eosinophils    |  cytokine  | |
+| CCL7          | Monocytes / macrophages / eosinophils    |  cytokine  | |
+| CCL8          | Monocytes / macrophages                  |  cytokine  | |
+| CCL11         | Eosinophils                              |  cytokine  | |
+| CCL13         | Monocytes / macrophages / eosinophils    |  cytokine  | |
+| CCL17         | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCL22         | Monocytes / macrophages / T-lymphocytes  |  cytokine  | |
+| CCL24         | Eosinophils                              |  cytokine  | |
+| CCL26         | Eosinophils                              |  cytokine  | |
+| CXCL8 (IL-8)  | Neutrophils                              |  cytokine  | |
+| CCR1          | Mast cells                               |  receptor  | |
+| CCR2          | Mast cells                               |  receptor  | |
+| CCR3          | Mast cells                               |  receptor  | |
+| CCR4          | Mast cells                               |  receptor  | |
+| CCR5          | Mast cells                               |  receptor  | |
+| CXCR2         | Mast cells                               |  receptor  | | 
+| CXCR4         | Mast cells                               |  receptor  | |
 
 </div>
 
