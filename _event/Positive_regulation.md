@@ -313,13 +313,18 @@ T2 Positive_regulation 6 14 promoted
 T3 Positive_regulation 6 14 promoted
 T4 Positive_regulation 6 14 promoted
 T5 Cellular_process 15 37 cell cycle progression
-T6 Cellular_process 43 56 proliferation
-T7 Cell 61 65 HLFs
+T6 Cellular_process 42 55 proliferation
+T7 Cell 59 63 HLFs
+T8 Negation_Cue 71 74 not
+T9 GGPs 75 100 alpha smooth muscle actin
+T10 Gene_expression 101 111 expression
 E1 Positive_regulation:T2 Cause:T1 Theme:E4
 E2 Positive_regulation:T3 Cause:T1 Theme:E5
-E3 Positive_regulation:T4 Cause:T1 
+E3 Positive_regulation:T4 Cause:T1 Theme:T6 Cue:T8
 E4 Cellular_process:T5 Theme:T7
 E5 Cellular_process:T6 Theme:T7
+E6 Gene_expression:T10 Theme:T9
+A1 Negated E3
 ~~~
 ~~~ ann
 Activated alveolar epithelial cells have a compromised migration capacity, and also produce connective tissue growth factor and CTGF that contribute to fibroblast activation and matrix protein accumulation.
