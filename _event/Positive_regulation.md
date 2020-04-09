@@ -309,14 +309,21 @@ Other events can be arguments, such as *Theme* and *Cause*.
 ~~~ ann
 LIGHT promoted cell cycle progression and proliferation of HLFs, but not alpha smooth muscle actin expression.
 T1 GGPs 0 5 LIGHT
-T2 Positive_regulation 5 13 promoted
-T3 Cellular_process 14 36 cell cycle progression
-E1 Positive_regulation:T2 Cause:T1 Theme:E2
-E2 Cellular_process:T3 
+T2 Positive_regulation 6 14 promoted
+T3 Positive_regulation 6 14 promoted
+T4 Positive_regulation 6 14 promoted
+T5 Cellular_process 15 37 cell cycle progression
+T6 Cellular_process 43 56 proliferation
+T7 Cell 61 65 HLFs
+E1 Positive_regulation:T2 Cause:T1 Theme:E4
+E2 Positive_regulation:T3 Cause:T1 Theme:E5
+E3 Positive_regulation:T4 Cause:T1 
+E4 Cellular_process:T5 Theme:T7
+E5 Cellular_process:T6 Theme:T7
 ~~~
 ~~~ ann
 Activated alveolar epithelial cells have a compromised migration capacity, and also produce connective tissue growth factor and CTGF that contribute to fibroblast activation and matrix protein accumulation.
-T1 Positive_regulation 0 11 Activated
+T1 Positive_regulation 0 9 Activated
 E1 Positive_regulation:T1
 ~~~
 
