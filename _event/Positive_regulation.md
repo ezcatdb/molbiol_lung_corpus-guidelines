@@ -305,6 +305,21 @@ T2 Positive_regulation 24 32 elevated
 E1 Positive_regulation:T2 Theme:T1
 ~~~
 
+Other events can be arguments, such as *Theme* and *Cause*.
+~~~ ann
+LIGHT promoted cell cycle progression and proliferation of HLFs, but not alpha smooth muscle actin expression.
+T1 GGPs 0 5 LIGHT
+T2 Positive_regulation 5 13 promoted
+T3 Cellular_process 14 36 cell cycle progression
+E1 Positive_regulation:T2 Cause:T1 Theme:E2
+E2 Cellular_process:T3 
+~~~
+~~~ ann
+Activated alveolar epithelial cells have a compromised migration capacity, and also produce connective tissue growth factor and CTGF that contribute to fibroblast activation and matrix protein accumulation.
+T1 Positive_regulation 0 11 Activated
+E1 Positive_regulation:T1
+~~~
+
 Arguments:
 
 *Theme* (optional; zero or more) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
