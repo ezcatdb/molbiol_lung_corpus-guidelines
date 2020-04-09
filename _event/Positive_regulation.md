@@ -320,7 +320,7 @@ T9 GGPs 73 98 alpha smooth muscle actin
 T10 Gene_expression 99 109 expression
 E1 Positive_regulation:T2 Cause:T1 Theme:E4
 E2 Positive_regulation:T3 Cause:T1 Theme:E5
-E3 Positive_regulation:T4 Cause:T1 Theme:T6 Cue:T8
+E3 Positive_regulation:T4 Cause:T1 Theme:E6 Cue:T8
 E4 Cellular_process:T5 Theme:T7
 E5 Cellular_process:T6 Theme:T7
 E6 Gene_expression:T10 Theme:T9
