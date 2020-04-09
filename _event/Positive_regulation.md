@@ -315,7 +315,7 @@ T4 Positive_regulation 6 14 promoted
 T5 Cellular_process 15 37 cell cycle progression
 T6 Cellular_process 42 55 proliferation
 T7 Cell 59 63 HLFs
-T8 Negation_Cue 69 72 not
+T8 Negation_cue 69 72 not
 T9 GGPs 73 98 alpha smooth muscle actin
 T10 Gene_expression 99 109 expression
 E1 Positive_regulation:T2 Cause:T1 Theme:E4
