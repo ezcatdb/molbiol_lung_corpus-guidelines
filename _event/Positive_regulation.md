@@ -349,6 +349,10 @@ E6 Positive_regulation:T8 Theme:E8 Cause:T6
 E7 Positive_regulation:T10 Theme:T9
 E8 Localization:T12 Theme:T11 AtLoc:T2
 ~~~
+~~~ ann
+IPF is mainly driven by activated alveolar epithelial cells that have a compromised migration capacity.
+T1 Disorder 0 3 IPF
+~~~
 
 Arguments:
 
