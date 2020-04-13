@@ -343,7 +343,7 @@ T12 Localization 157 169 accumulation
 E1 Positive_regulation:T1 Theme:T2
 E2 Negative_regulation:T3 Theme:E3 AtLoc:T2
 E3 Localization:T4 Theme:T2
-E4 Gene_expression:T5 Theme:T6
+E4 Gene_expression:T5 Theme:T6 AtLoc:T2
 E5 Positive_regulation:T7 Theme:E7 Cause:T6
 E6 Positive_regulation:T8 Theme:E8 Cause:T6
 E7 Positive_regulation:T10 Theme:T9
