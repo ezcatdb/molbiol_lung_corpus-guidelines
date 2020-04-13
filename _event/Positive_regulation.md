@@ -327,18 +327,27 @@ E6 Gene_expression:T10 Theme:T9
 A1 Negated E3
 ~~~
 ~~~ ann
-Activated alveolar epithelial cells have a compromised migration capacity, and also produce connective tissue growth factor and CTGF that contribute to fibroblast activation and matrix protein accumulation.
+Activated alveolar epithelial cells have a compromised migration capacity, and also produce CTGF that contribute to fibroblast activation and matrix protein accumulation.
 T1 Positive_regulation 0 9 Activated
 T2 Cell 10 37 alveolar epithelial cells
 T3 Negative_regulation 43 54 compromised
 T4 Localization 55 64 migration
 T5 Gene_expression 84 91 produce
-T6 Gene_expression 84 91 produce
-E1 Positive_regulation:T1
-E2 Negative_regulation:T3
-E3 Localization:T4
+T6 GGPs 92 96 CTGF
+T7 Positive_regulation 102 112 contribute
+T8 Positive_regulation 102 112 contribute
+T9 Cell 116 126 fibroblast
+T10 Positive_regulation 127 138 activation
+T11 GGPs 142 156 matrix protein
+T12 Localization 157 169 accumulation
+E1 Positive_regulation:T1 Theme:T2
+E2 Negative_regulation:T3 Theme:E3 AtLoc:T2
+E3 Localization:T4 Theme:T2
 E4 Gene_expression:T5
-E5 Gene_expression:T6
+E5 Positive_regulation:T7
+E6 Positive_regulation:T8
+E7 Positive_regulation:T10 Theme:T9
+E8 Localization:T12 Theme:T11 AtLoc:T2
 ~~~
 
 Arguments:
