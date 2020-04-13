@@ -333,7 +333,7 @@ T2 Cell 10 37 alveolar epithelial cells
 T3 Negative_regulation 43 54 compromised
 T4 Localization 55 64 migration
 T5 Gene_expression 84 91 produce
-T5 Gene_expression 84 91 produce
+T6 Gene_expression 84 91 produce
 E1 Positive_regulation:T1
 E2 Negative_regulation:T3
 E3 Localization:T4
