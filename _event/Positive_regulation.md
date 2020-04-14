@@ -357,15 +357,15 @@ T3 Positive_regulation 24 33 activated
 T4 Cell 34 59 alveolar epithelial cells
 T5 Negative_regulation 72 83 compromised
 T6 Localization 84 93 migration
-E1 Positive_regulation:T2
+E1 Positive_regulation:T2 Theme:T1 Cause:E2
 E2 Positive_regulation:T3 Theme:T4
-E3 Negative_regulation:T5
-E4 Localization:T6
+E3 Negative_regulation:T5 Theme:E4 AtLoc:T4
+E4 Localization:T6 Theme:T4
 ~~~
 
 Arguments:
 
-*Theme* (optional; zero or more) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
+*Theme* (optional; zero or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
 
 *Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
 
