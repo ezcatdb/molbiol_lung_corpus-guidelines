@@ -157,7 +157,7 @@ Regarding the image observation, the following phrases can be 'Disorder':
 - ground glass
 - ground-glass
 - ground glass opacity
-- ground-grass opacity
+- ground-glass opacity
 - ground glass opacification
 - ground-glass opacification
 
