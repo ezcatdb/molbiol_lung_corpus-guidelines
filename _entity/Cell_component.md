@@ -20,7 +20,7 @@ The following words/phrases are examples of this entity.
 - cytosol
 - nucleus
 - transmembrane
-- plasma membrame
+- plasma membrane
 - extracellular matrix
 - mitochondria
 
