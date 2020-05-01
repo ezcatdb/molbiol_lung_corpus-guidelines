@@ -28,9 +28,9 @@ E1 Artificial_process:T2 Theme:T1 Instrument:T3
 ~~~
 ~~~ ann
 The cancer cell line was treated with various concentration of paclitaxel for 24 hours.
-T1 cell 4 22 cancer cell line
-T2 Artificial_process 27 34 treated
-T3 Pharmacological_substance 65 75 paclitaxel
+T1 cell 4 20 cancer cell line
+T2 Artificial_process 25 32 treated
+T3 Pharmacological_substance 63 73 paclitaxel
 E1 Artificial_process:T2 Theme:T1 Instrument:T3
 ~~~
 
