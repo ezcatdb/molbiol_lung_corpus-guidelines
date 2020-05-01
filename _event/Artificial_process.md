@@ -37,7 +37,7 @@ E1 Artificial_process:T2 Theme:T1 Instrument:T3
 
 Arguments:
 
-The *Theme* for this event can be [Cell](), [GGPs](), [Organic_compound_other](), and [Pharmacological_substance]().
+The *Theme* for this event can be [Subject](), [Cell](), [GGPs](), [Organic_compound_other](), and [Pharmacological_substance]().
 
 The *Instrument* for this event can be entities used to carry out an artificial process, such as [GGPs](), [Organic_compound_other](), and [Pharmacological_substance]().
 
