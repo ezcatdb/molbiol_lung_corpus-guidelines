@@ -9,15 +9,16 @@ order: 0
 This event describes 'Artificial process', which is usually experimental procedures.
 
 The following words/phrases can be triggers for this event:
-- treatment
+- treat/treatment
   - pretreatment
-- incubation
+- incubate/incubation
   - preincubation
 - addition
-- cultured
+- culture/cultured
   - coculture
 - transfection
 - exposure
+- administer/administration
 
 ~~~ann
 T cell blasts were treated with PMA.
