@@ -19,6 +19,7 @@ The following words/phrases can be triggers for this event:
 - transfection
 - exposure
 - administer/administration
+- surgery
 
 ~~~ann
 T cell blasts were treated with PMA.
@@ -34,6 +35,20 @@ T2 Artificial_process 25 32 treated
 T3 Pharmacological_substance 63 73 paclitaxel
 E1 Artificial_process:T2 Theme:T1 Instrument:T3
 ~~~
+~~~ ann
+Administration of IL-13 to mice.
+T1 Artificial_process 0 14 Administration
+T2 GGPs 18 23 IL-13
+T3 Subject 27 31 mice
+E1 Artificial_process:T1 Theme:T3 Instrument:T2
+~~~
+~~~ ann
+The IPF patient underwent thoracoscopic surgery.
+T1 Disorder 4 7 IPF
+T2 Subject 8 15 patient
+~~~
+
+
 
 Arguments:
 
