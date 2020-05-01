@@ -45,10 +45,11 @@ E1 Artificial_process:T1 Theme:T3 Instrument:T2
 ~~~ ann
 The IPF patient underwent thoracoscopic surgery.
 T1 Disorder 4 7 IPF
-T2 Subject 8 15 patient
+T2 Subject 4 15 IPF patient
+T3 Artificial_process 26 47 thoracoscopic surgery
+E1 Artificial_process:T3 Theme:T2
+R1 Subject_Disorder Arg1:T2 Arg2:T1
 ~~~
-
-
 
 Arguments:
 
