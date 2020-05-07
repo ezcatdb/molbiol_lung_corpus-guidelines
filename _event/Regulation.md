@@ -1,9 +1,9 @@
 ---
 layout: entry
-title: "Positive_regulation"
+title: "Regulation"
 category: "Biological process"
-shortdef: "Positive regulation"
-order: 22
+shortdef: "Regulation"
+order: 20
 ---
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
