@@ -14,16 +14,19 @@ The following words/phrases can be triggers of this event:
 
 - *activate*; *activates*; *activated*; *activation*
 - *cause*; *causes*; *caused*
+- *control*; *controls*; *controled*
 - *depend*; *depends*; *depended*; *dependent*
 - *elevate*; *elevates*; *elevated*; *elevation*
 - *enhance*; *enhances*; *enhanced*
 - *increase*; *increases*; *increased*
 - *induce*; *induces*; *induced*; *induction*
 - *mediate*; *mediates*; *mediated*
+- *modulate*; *modulates*; *modulated*; *modulation*
 - *necessary*
 - *positively regulate*; *positively regulates*; *positively regulated*; *positive regulation*
 - *promote*; *promotes*; *promoted*; *promotion*
 - *require*; *requires*; *required*
+- *regulate*; *regulates*; *regulated*; *regulation*
 - *stimulate*; *stimulates*; *stimulated*; *stimulation*
 - *transactivate*; *transactivates*; *transactivated*; *transactivation*
 - *trigger*; *triggers*; *triggered*
