@@ -71,6 +71,18 @@ T2 Negative_regulation 4 13 inhibitor
 T3 GGPs 14 25 C3 exotoxin
 E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
+~~~ ann
+mTOR inhibitor attenuated EMT in AECs.
+T1 GGPs 0 4 mTOR
+T2 Pharmacological_substance 0 14 mTOR inhibitor
+T3 Negative_regulation 5 14 inhibitor
+T4 Negative_regulation 15 25 attenuated
+T5 Cellular_process 26 29 EMT
+T6 Cell 33 37 AECs
+E1 Negative_regulation:T3 Theme:T1 Cause:T2
+E2 Negative_regulation:T4 Theme:E3 Cause:E1
+E3 Cellular_process:T5 atLoc:T5
+~~~
 
 The following phrase can also be triggers of this event.
 - *inhibitory effect(s)*
