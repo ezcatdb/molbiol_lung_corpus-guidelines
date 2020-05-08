@@ -28,16 +28,16 @@ The following words/phrases may be triggers, depending on the situations:
 
 ~~~ ann
 interstitial pneumonia associated with collagen vascular diseases.
-T1 Disorder 0 23 interstitial pneumonia
-T2 Regulation 24 34 associated
-T3 Disorder 40 66 collagen vascular diseases
+T1 Disorder 0 22 interstitial pneumonia
+T2 Regulation 23 33 associated
+T3 Disorder 39 65 collagen vascular diseases
 E1 Regulation:T2 Cause:T3 Theme:T1
 ~~~
 ~~~ ann
 lung fibrosis-associated cancers.
-T1 Disorder 0 14 lung fibrosis
-T2 Regulation 15 25 associated
-T3 Disorder 26 33 cancers
+T1 Disorder 0 13 lung fibrosis
+T2 Regulation 14 24 associated
+T3 Disorder 25 32 cancers
 E1 Regulation:T2 Cause:T1 Theme:T3
 ~~~
 
