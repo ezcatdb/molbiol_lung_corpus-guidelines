@@ -14,7 +14,15 @@ This event describes "regulation process" event (UMLS ID:C1327622).
 If it is not clear whether the trigger words are "positive" or "negative", this "Regulation" event will be selected.
 
 The following words/phrases can be triggers of this event:
-- *?*
+- *modify*; *modified*; *modifies*; *modification*
+- *alter*; *altered*; *alters* 
+- *change*; *changed*; *changes*
+- *affect*; *affected*; *affects*
+- *effect*
+- *influence*; *influenced*; *influences*
+- *[play a/an ~] role [in ~ing]*
+- *associate*; *associated*; *associates*; *association*
+- *involve*; *involved*; *involves*
 
 Arguments:
 
