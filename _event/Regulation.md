@@ -26,6 +26,20 @@ The following words/phrases may be triggers, depending on the situations:
 - *associate*; *associated*; *associates*; *association* (These can be also triggers for [Binding]() event)
 - *[play a/an ~] role [in ~ing]* (Depending on "*~ing*")
 
+~~~ ann
+interstitial pneumonia associated with collagen vascular diseases.
+T1 Disorder 0 23 interstitial pneumonia
+T2 Regulation 24 34 associated
+T3 Disorder 40 66 collagen vascular diseases
+E1 Regulation:T2 Cause:T3 Theme:T1
+~~~
+~~~ ann
+lung fibrosis-associated cancers.
+T1 Disorder 0 14 lung fibrosis
+T2 Regulation 15 25 associated
+T3 Disorder 26 33 cancers
+E1 Regulation:T2 Cause:T1 Theme:T3
+~~~
 
 Arguments:
 
