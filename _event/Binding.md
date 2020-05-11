@@ -2,7 +2,7 @@
 layout: entry
 title: "Binding"
 category: "Biological process"
-shortdef: "Non-covalnet interaction between molecules"
+shortdef: "Non-covalent interaction between molecules"
 order: 21
 ---
 
@@ -26,6 +26,6 @@ E1 Binding:T3 Theme:T1 Theme2:T2
 
 Arguments:
 
-*Theme* (optional; multiple) indicates molecular entities ([GGPs](), [Organic_compound_other](), [Pharmacological_substance](), etc.)
+*Theme* (optional; multiple) indicates molecular entities ([GGPs](), [Organic_compound_other](), [Pharmacological_substance](), [Inorganic_compound](), etc.)
 
 <!--details-->
