@@ -12,7 +12,9 @@ This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GEN
 
 This event describes "non-covalent interaction" between molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound]().
 
-However, interaction between molecules and [Cell]()/[Cell_component]() will be categorized in [Localization]().
+However, covalent bond formation will be categorized in [Conversion]().
+
+Moreover, interaction between molecules and [Cell]()/[Cell_component]() will be categorized in [Localization]().
 
 Interaction between [Cell]()/[Cell_component]() will be categorized in [Cellular_process]().
 
