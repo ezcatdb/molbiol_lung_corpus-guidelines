@@ -28,4 +28,6 @@ Arguments:
 
 *Theme* (optional; multiple) indicates molecular entities ([GGPs](), [Organic_compound_other](), [Pharmacological_substance](), [Inorganic_compound](), etc.)
 
+*atLoc* (optional; zero or one) indicates the location where `Binding` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+
 <!--details-->
