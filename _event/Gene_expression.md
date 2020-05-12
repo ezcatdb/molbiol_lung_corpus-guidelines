@@ -95,7 +95,7 @@ Arguments:
 
 *Theme* for this event must be genes/gene products: [GGPs]().
 
-*AtLoc* indicates the section where the this event occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+*atLoc* indicates the section where the this event occurs : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
