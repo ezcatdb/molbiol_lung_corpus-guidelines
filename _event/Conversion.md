@@ -58,7 +58,7 @@ Arguments:
 
 *Product* (optional; zero or more) indicates the molecule(s) that could be produced by the 'Conversion' event: [GGPs]() or [Organic_compound_other](). 
 
-*AtLoc* indicates the section where the target molecules, to which the 'Conversion' occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+*atLoc* indicates the section where the target molecules, to which the 'Conversion' occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
