@@ -126,7 +126,7 @@ Arguments:
 
 *Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
 
-*AtLoc* (optional; zero or one) indicates the location where `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+*atLoc* (optional; zero or one) indicates the location where `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
 *Disorder* (optional) indicates the disorder for which `Positive regulation` event occurs: [Disorder]().
 
