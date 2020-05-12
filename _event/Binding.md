@@ -43,6 +43,14 @@ T2 GGPs 5 13 TGF-beta
 T3 Binding 14 25 interaction
 E1 Binding:T3 Theme:T1 Theme2:T2
 ~~~
+~~~ ann
+TNFSF14 binds to HVEM on T lymphocytes.
+T1 GGPs 0 7 TNFSF14
+T2 Binding 8 13 binds
+T3 GGPs 17 21 HVEM
+T4 Cell 25 38 T lymphocytes
+E1 Binding:T2 Theme:T1 Theme2:T3 atLoc:T4
+~~~
 
 Arguments:
 
