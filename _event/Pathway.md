@@ -54,9 +54,10 @@ E2 Pathway:T3
 ~~~
 
 Arguments:
-*Participant* (optional; zero or more) for this event must be [GGPs](), [Organic_compound_other]() or [Pharmacological_substance](), which are molecular entities participating in pathway.
 
-*AtLoc* (optional; zero or one) indicates the location, such as [Cell_component](), [Cell]() or  [Anatomical_entity](), where `Pathway` event occurs.
+*Participant* (optional; zero or more) for this event must be [GGPs](), [Organic_compound_other]() or [Pharmacological_substance](), which are molecular entities involved in the `Pathway`.
+
+*atLoc* (optional; zero or one) indicates the location, such as [Cell_component](), [Cell]() or  [Anatomical_entity](), where `Pathway` event occurs.
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
