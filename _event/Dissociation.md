@@ -18,7 +18,13 @@ Dissociation between [Cell]()/[Cell_component]() will be categorized in [Cellula
 
 The following words/phrases can be triggers of this event:
 
--*?*
+- *disaggregate*, *disaggregates*, *disaggregated*, *disaggregation*
+- *disassemble*, *disassembles*, *disassembled*, *disassembly*
+- *disrupt*, *disrupts*, *disrupted*, *disruption*
+- *dissociate*, *dissociates*, *dissociated*, *dissociation*
+- *free*, *frees*; *freed*
+- *release*, *releases*, *released*, *releasing*
+
 
 
 Arguments:
