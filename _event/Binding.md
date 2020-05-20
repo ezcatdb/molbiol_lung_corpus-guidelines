@@ -11,6 +11,7 @@ This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GEN
 -->
 
 This event describes "non-covalent interaction" between molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound]() (UMLS ID: C1167622).
+ Moreover, this event is opposite to [Dissociation]().
 
 However, covalent bond formation will be categorized in [Conversion]().
 
