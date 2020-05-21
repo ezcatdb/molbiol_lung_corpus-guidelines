@@ -14,29 +14,25 @@ This event describes the changes in covalent bonds of molecules, including modif
 
 The following words/phrases can be triggers of this event:
 
-- phosphorylated (UMLS ID:C0031715)
-- phosphorylation (UMLS ID:C0031715)
-- phosphorylations (UMLS ID:C0031715)
+- *phosphorylate*, *phosphorylates*, *phosphorylated*, *phosphorylation(s)* (UMLS ID:C0031715)
   - autophosphorylation (UMLS ID:C0813988)
   - self-phosphorylation (UMLS ID:C0813988)
   - protein phosphorylation (UMLS ID:C0031715)
   - tyrosine autophosphorylation (UMLS ID:C0813988)
   - tyrosine phosphorylation (UMLS ID:C0031715)
   - hyperphosphorylation (UMLS ID:C0031715)
-- dephosphorylation (UMLS ID:C3160734)
-- methylation (UMLS ID:C0025723)
-- acetylation (UMLS ID:C0001038)
-- carboxymethylation (UMLS ID:C0596262)
-- carboxymethylated (UMLS ID:C0596262)
-- cleavage  (UMLS ID:C0596311)
-  - degradation  (UMLS ID:C0596311)
-- cross-linking (UMLS ID:C0332220)
-- cross-linked (UMLS ID:C0332220)
+- *dephosphorylate*, *dephosphorylates*, *dephosphorylated*, *dephosphorylation* (UMLS ID:C3160734)
+- *methylate*, *methylates*, *methylated*, *methylation* (UMLS ID:C0025723)
+- *acetylate*, *acetylates*, *acetylated*, *acetylation* (UMLS ID:C0001038)
+- *carboxymethylate*, *carboxymethylates*, *carboxymethylated*, *carboxymethylation* (UMLS ID:C0596262)
+- *cleave*, *cleaves*, *cleaved*, *cleavage* (UMLS ID:C0596311)
+  - *degrade*, *degrades*, *degraded*, *degradation*  (UMLS ID:C0596311)
+- *cross-link*, *cross-links*, *cross-linked*, *cross-linking* (UMLS ID:C0332220)
 
-The following one can also be trigger words:
+
+The following ones can also be trigger words:
 - [enzyme] hydrolysis  (UMLS ID:C0020291)
 - proteolysis (UMLS ID:C0597304)
-- [enzyme] degradation (UMLS ID:C0678637)
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
@@ -64,7 +60,13 @@ E1 Conversion:T2 Cause:T1 Theme:T3 Product:T5
 E2 Positive_regulation:T4 Cause:E1 Theme:T5
 R1 part_of Arg1:T5 Arg2:T3
 ~~~
-
+~~~ ann
+Extracellular matrix cross-linking enzymes
+T1 Anatomical_entity 0 21 Extracellular matrix
+T2 Conversion 22 35 cross-linking
+T3 GGPs 0 43 Extracellular matrix cross-linking enzymes
+E1 Conversion:T2 Theme:T1 Cause:T3
+~~~
 
 Arguments:
 
