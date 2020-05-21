@@ -64,6 +64,26 @@ E6 Positive_regulation:T10 Theme:E2
 E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
+~~~ ann
+Serum level of KL-6 was elevated.
+T1 Anatomical_entity 0 5 Serum
+T2 Gene_expression 6 11 level
+T3 GGPs 15 19 KL-6
+T4 Positive_regulation 24 32 elevated
+E1 Gene_expression:T2 Theme:T3 atLoc:T1
+E2 Positive_regulation:T4 Theme:E1
+~~~
+~~~ ann
+T-cells lose surface expression of CD28.
+T1 Cell 0 7 T-cells
+T2 Negative_regulation 8 12 lose
+T3 Cell_component 13 20 surface
+T4 Gene_expression 21 31 expression
+T5 GGPs 35 39 CD28
+E1 Negative_regulation:T2 Theme:E2 atLoc:T1
+E2 Gene_expression:T4 Theme:T5
+R1 part_of Arg1:T3 Arg2:T1
+~~~
 
 <!--
 ~~~ ann
