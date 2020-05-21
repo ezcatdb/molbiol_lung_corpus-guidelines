@@ -31,6 +31,7 @@ The following words/phrases, which are verbs and nominalized verbs, can be trigg
 - *repress*, *represses*, *repressed*, *repression*
 - *suppress*, *suppresses*, *suppressed*, *suppression*
 - *damage*
+- *lose*, *loses*, *losed*, *loss*
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
@@ -52,7 +53,17 @@ E2 Negative_regulation:T2 Theme:T3
 R1 part_of Arg1:T3 Arg2:T4
 R2 part_of Arg1:T4 Arg2:T5
 ~~~
-
+~~~ ann
+T-cells lose surface expression of CD28.
+T1 Cell 0 7 T-cells
+T2 Negative_regulation 8 12 lose
+T3 Cell_component 13 20 surface
+T4 Gene_expression 21 31 expression
+T5 GGPs 35 39 CD28
+E1 Negative_regulation:T2 Theme:E2 atLoc:T1
+E2 Gene_expression:T4 Theme:T5
+R1 part_of Arg1:T3 Arg2:T1
+~~~
 
 Moreover, the following words, which indicate roles, can also be triggers of this event.
 - *inhibitor*, *inhibitors*
