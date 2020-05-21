@@ -15,9 +15,8 @@ The following words/phrases can be triggers of this event:
 - mutation (if naturally occured) (UMLS ID:C0026882)
 - polymorphism (genetic polymorphism) (UMLS ID:C0032529)
 
-<!-- removed
 - [enzyme] activity (UMLS ID:C0243102)
--->
+  - catalytic activity (UMLS ID:C0243102)
 
 ~~~ ann
 Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
@@ -39,7 +38,15 @@ E1 Molecular_function:T2 Product:T1
 E2 Molecular_function:T5 Product:T1
 R1 Coreference Arg1:T4 Arg2:T1
 ~~~
-
+~~~ ann
+MMP-7 activity in regard to elastin degradation
+T1 GGPs 0 5 MMP-7
+T2 Molecular_function 6 14 activity
+T3 GGPs 28 35 elastin
+T4 Conversion 36 47 elastin 
+E1 Molecular_function:T2 Cause:T1
+E2 Conversion:T4 Theme:T3 Cause:T1
+~~~
 
 Arguments:
 
