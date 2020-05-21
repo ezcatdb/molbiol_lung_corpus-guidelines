@@ -35,6 +35,8 @@ The following words/phrases can be triggers of this event:
 
 The following one can also be trigger words:
 - [enzyme] hydrolysis  (UMLS ID:C0020291)
+- proteolysis (UMLS ID:C0597304)
+- [enzyme] degradation (UMLS ID:C0678637)
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
@@ -51,6 +53,18 @@ T2 GGPs 8 10 S6
 T3 GGPs 0 10 Phospho-S6
 E1 Conversion:T1 Theme:T2 Product:T3
 ~~~
+~~~ ann
+MMP-7 degrades elastin, generating elastin fragments.
+T1 GGPs 0 5 MMP-7
+T2 Conversion 6 14 degrades
+T3 GGPs 15 22 elastin
+T4 Positive_regulation 24 34 generating
+T5 GGPs 35 52 elastin fragments
+E1 Conversion:T2 Cause:T1 Theme:T3 Product:T5
+E2 Positive_regulation:T4 Cause:E1 Theme:T5
+R1 part_of Arg1:T5 Arg2:T3
+~~~
+
 
 Arguments:
 
