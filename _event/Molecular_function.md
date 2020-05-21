@@ -28,7 +28,7 @@ T4 Anatomical_entity 83 87 lung
 E1 Molecular_function:T2 Product:T1
 ~~~
 ~~~ ann
-Studies on MTHFR C677T polymorphism and lung cancer ... The C677T porpmorphism was correlated with a risk of NSCLC.
+Studies on MTHFR C677T polymorphism and lung cancer ... The C677T polymorphism was correlated with a risk of NSCLC.
 T1 GGPs 11 22 MTHFR C677T
 T2 Molecular_function 23 35 polymorphism
 T3 Disorder 40 51 lung cancer
