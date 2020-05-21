@@ -31,7 +31,7 @@ The following words/phrases, which are verbs and nominalized verbs, can be trigg
 - *repress*, *represses*, *repressed*, *repression*
 - *suppress*, *suppresses*, *suppressed*, *suppression*
 - *damage*
-- *lose*, *loses*, *losed*, *loss*
+- *lose*, *loses*, *lost*, *loss*
 
 ~~~ ann
 Phosphorylation of AKT2 was downregulated.
