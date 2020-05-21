@@ -64,7 +64,7 @@ R1 part_of Arg1:T5 Arg2:T3
 Extracellular matrix cross-linking enzymes
 T1 Anatomical_entity 0 21 Extracellular matrix
 T2 Conversion 22 35 cross-linking
-T3 GGPs 0 43 Extracellular matrix cross-linking enzymes
+T3 GGPs 0 42 Extracellular matrix cross-linking enzymes
 E1 Conversion:T2 Theme:T1 Cause:T3
 ~~~
 
