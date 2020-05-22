@@ -45,7 +45,7 @@ T2 Molecular_function 6 14 activity
 T3 GGPs 28 35 elastin
 T4 Conversion 36 47 elastin 
 E1 Molecular_function:T2 Cause:T1
-E2 Conversion:T4 Theme:T3 Cause:T1
+E2 Conversion:T4 Theme:T3 Cause:E1
 ~~~
 
 Arguments:
