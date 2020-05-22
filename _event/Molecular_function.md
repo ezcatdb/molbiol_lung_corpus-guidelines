@@ -13,6 +13,7 @@ This event describes biological events at molecular levels.
 The following words/phrases can be triggers of this event:
 
 - mutation (if naturally occured) (UMLS ID:C0026882)
+  - deletion [mutation] (UMLS ID:C1511760)
 - polymorphism (genetic polymorphism) (UMLS ID:C0032529)
 
 - [enzyme] activity (UMLS ID:C0243102)
