@@ -24,27 +24,28 @@ Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - FVC (UMLS; C3714541)
 - % predicted forced vital capacity (UMLS; C2919678)
 - %FVC (UMLS; C2919678) 
-- total lung capacity
-- TLC
+- total lung capacity (UMLS; C0040509)
+- TLC (UMLS; C0040509)
 - Diffusion Capacity of the Lung for Carbon Monoxide (UMLS; C1516251)
 - DLco (UMLS; C1516251)
 - % Predicted Diffusion Capacity of the Lung for Carbon Monoxide (UMLS; C4054207)
 - %DLco (UMLS; C4054207)
-- forced expiratory volume in 1 second
-- FEV1 
-- FEV1/FVC ratio
-- FEV1%
+- forced expiratory volume in 1 second (UMLS; C0849974)
+- FEV1 (UMLS; C0849974)
+- FEV1% (UMLS; C0849974)
+- FEV1/FVC ratio (UMLS; C3815113)
 
-
-- Forced expiratory flow
-- FEF
-- maximal (mid-)expiratory flow
-- MMEF
-- MEF
-- peak expiratory flow
-- PEF
-- tidal volume
-- TV
+- Forced expiratory flow (UMLS; C3804964)
+- FEF (UMLS; C3804964)
+  - maximal (mid-)expiratory flow [Rate] (UMLS; C0024966)
+  - MMFR (UMLS; C0024966)
+  - FEF 25%-75% (UMLS; C0024966)
+  - mean mid-expiratory flow rate (UMLS; C1306020)
+  - MMFR (UMLS; C0024966 or C1306020)
+- peak expiratory flow (UMLS; C1518922)
+- PEF (UMLS; C1518922)
+- tidal volume (UMLS; C0040210)
+- TV (UMLS; C0040210)
 
 ~~~ ann
 IPF patients with a forced vital capacity (FVC) of 50-80%.
@@ -57,13 +58,13 @@ R3 Subject_Disorder Arg1:T5 Arg2:T1
 ~~~
 
 Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">oxygen saturation</a>:
-- oxygen saturation
-  - arterial oxygen saturation
-  - SaO2
-  - venous oxygen saturation
-  - SvO2
-  - peripheral oxygen saturation
-  - SpO2
+- oxygen saturation (UNLS; C0523807)
+  - arterial oxygen saturation (UMLS; C0428175)
+  - SaO2 (UMLS; C0428175)
+  - venous oxygen saturation (UMLS; C0428176)
+  - SvO2 (UMLS; C0428176)
+  - peripheral oxygen saturation (UMLS; C2317096)
+  - SpO2 (UMLS; C2317096)
 
 
 The following words/phrases are not from Spirometry, but definitely 'Measurement'.
