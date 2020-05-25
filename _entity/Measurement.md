@@ -38,7 +38,6 @@ Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - Forced expiratory flow (UMLS; C3804964)
 - FEF (UMLS; C3804964)
   - maximal (mid-)expiratory flow [Rate] (UMLS; C0024966)
-  - MMFR (UMLS; C0024966)
   - FEF 25%-75% (UMLS; C0024966)
   - mean mid-expiratory flow rate (UMLS; C1306020)
   - MMFR (UMLS; C0024966 or C1306020)
