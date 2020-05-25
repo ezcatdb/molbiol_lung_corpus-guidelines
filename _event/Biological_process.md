@@ -2,7 +2,7 @@
 layout: entry
 title: "Biological_process"
 category: "Biological process"
-shortdef: "Biological process"
+shortdef: "Biological process beyond cellular levels/Molecular levels"
 order: 10
 ---
 
@@ -12,6 +12,9 @@ The category of this event will be difficult to be classified into other biologi
 
 The following words/phrases can be triggers of this event:
 
+- organogenesis (UMLS; C0242290)
+  - angiogenesis [process] (UMLS; C0302600)
+- fibrogenesis (UMLS; C0596570)
 - resistance
 - homeostasis
 - sensitivity
