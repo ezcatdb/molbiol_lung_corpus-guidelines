@@ -12,11 +12,10 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 -->
 
   - [Disorder](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disorder'" | first %}{{ i.shortdef }}
-
+    - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
 <!--
   - [Disease](): {% assign i = site.entity | where_exp:"i", "i.title == 'Disease'" | first %}{{ i.shortdef }}
   - [Symptom](): {% assign i = site.entity | where_exp:"i", "i.title == 'Symptom'" | first %}{{ i.shortdef }}
-  - [Measurement](): {% assign i = site.entity | where_exp:"i", "i.title == 'Measurement'" | first %}{{ i.shortdef }}
 -->
 
 - [Subject](): {% assign i = site.entity | where_exp:"i", "i.title == 'Subject'" | first %}{{ i.shortdef }}
@@ -91,8 +90,6 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Artificial_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Artificial_process'" | first %}{{ i.shortdef }}
 - [Biological_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Biological_process'" | first %}{{ i.shortdef }}
-  - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
-  - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
 
   - [Localization](): {% assign i = site.event | where_exp:"i", "i.title == 'Localization'" | first %}{{ i.shortdef }}
   
@@ -105,8 +102,10 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
       - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
           - [Conversion](): {% assign i = site.event | where_exp:"i", "i.title == 'Conversion'" | first %}{{ i.shortdef }}
       - [Gene_expression](): {% assign i = site.event | where_exp:"i", "i.title == 'Gene_expression'" | first %}{{ i.shortdef }}
-    
+      - [Binding](): {% assign i = site.event | where_exp:"i", "i.title == 'Binding'" | first %}{{ i.shortdef }}
+      - [Dissociation](): {% assign i = site.event | where_exp:"i", "i.title == 'Dissociation'" | first %}{{ i.shortdef }}
 
+    
 <!-- Under Cellular process
     - [Migration](): {% assign i = site.event | where_exp:"i", "i.title == 'Migration'" | first %}{{ i.shortdef }} 
  -->
