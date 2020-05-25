@@ -16,8 +16,12 @@ The following words/phrases can be triggers of this event:
   - deletion [mutation] (UMLS ID:C1511760)
 - polymorphism (genetic polymorphism) (UMLS ID:C0032529)
 
+- molecular mechanism (UMLS; C0678659)
+- biochemical mechanism (UMLS; C0678659)
 - [enzyme] activity (UMLS ID:C0243102)
   - catalytic activity (UMLS ID:C0243102)
+- chemoattractant activity (UMLS; C1149381) (If chemotaxis, [Cellular_process]())
+- immunoreactivity (UMLS; C0597879) (If it meant immunoassay, [Method_cue]())
 
 ~~~ ann
 Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
