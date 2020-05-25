@@ -10,17 +10,26 @@ This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GEN
 
 The following words/phrases can be triggers of this event:
 
-- apoptosis
-- differentiation
-- carcinogenesis
-- angiogenesis
+- apoptosis (UMLS; C0162638)
+- [cell] differentiation [process] (UMLS; C0007589)
+- carcinogenesis (UMLS; C0596263)
 - cellular crosstalk
-- cell cycle
-  - G1 phase
-  - G1 arrest
-  - G1 checkpoint
-  - G2 checkpoint
+- cell cycle (UMLS; C0007586) (see <a href="https://en.wikipedia.org/wiki/Cell_cycle">Cell cycle</a>)
+  - G1 phase (UMLS; C0079395)
+  - G1 [cell cycle] arrest (UMLS; C3178834)
+  - G1/S [transition] checkpoint (UMLS C1517340)
+  - S phase (UMLS; C0080129)
+  - G2 phase (UMLS; C0079396)
+  - G2/M [transition] checkpoint (UMLS; C3549430)
+  - M phase (UMLS; C0007591)
+    - prophase 
+    - prometaphase
+    - metaphase 
+    - anaphase 
+    - telophase
 - cell injury (UMLS ID:C0599732)
+- endoplasmic reticulum (ER) stress (UMLS; C3178870)
+  - unfolded protein response (UMLS; C1155342)
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
