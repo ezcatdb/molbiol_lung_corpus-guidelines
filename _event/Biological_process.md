@@ -2,7 +2,7 @@
 layout: entry
 title: "Biological_process"
 category: "Biological process"
-shortdef: "Biological process beyond cellular levels/Molecular levels"
+shortdef: "Biological process beyond cellular/molecular levels"
 order: 10
 ---
 
