@@ -14,24 +14,15 @@ The following words/phrases can be triggers of this event:
 - [cell] differentiation [process] (UMLS; C0007589)
 - carcinogenesis (UMLS; C0596263)
 - cellular crosstalk
-- cell cycle (UMLS; C0007586) (see <a href="https://en.wikipedia.org/wiki/Cell_cycle">Cell cycle</a>)
-  - cell cycle progression (UMLS; C1516334)
-  - cell cycle control (UMLS; C1155872)
-  - G1 phase (UMLS; C0079395)
-  - G1 [cell cycle] arrest (UMLS; C3178834)
-  - G1/S [transition] checkpoint (UMLS C1517340)
-  - S phase (UMLS; C0080129)
-  - G2 phase (UMLS; C0079396)
-  - G2/M [transition] checkpoint (UMLS; C3549430)
-  - M phase (UMLS; C0007591)
-    - prophase 
-    - prometaphase
-    - metaphase 
-    - anaphase 
-    - telophase
+
 - cell injury (UMLS ID:C0599732)
 - endoplasmic reticulum (ER) stress (UMLS; C3178870)
   - unfolded protein response (UMLS; C1155342)
+
+The following words/phrases related to cell cycle (UMLS; C0007586) can be triggers of this event as well (see <a href="https://en.wikipedia.org/wiki/Cell_cycle">Cell cycle</a>):
+  - cell cycle progression (UMLS; C1516334)
+  - cell cycle control (UMLS; C1155872)
+  - G1 [cell cycle] arrest (UMLS; C3178834)
 
 ~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
