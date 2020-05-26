@@ -20,6 +20,11 @@ The following words/phrases for [Disorder]() can be tentatively annotated for th
 - stable
 - severe
 - grade 1
+- chronic phase (UMLS; C0457343)
+- chronically progressive phase
+- subacutely progressive phase
+- subacute phase
+- inflammatory phase
 
 ~~~ ann
 stage I lung cancer
