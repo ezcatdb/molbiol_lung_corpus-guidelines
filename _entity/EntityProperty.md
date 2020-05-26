@@ -12,11 +12,12 @@ order: 100
 Technical terms, which are not any other Entity information, can be categorized into this category, 'Entity Property'.
 
 The following words/phrases for [Disorder]() can be tentatively annotated for this category.
-- stage I
-- stage II
-- stage IIIB
-- stage IV
-- stage IIIB/IV
+- stage I (UMLS; C0441766)
+- stage II (UMLS; C0441767)
+- stage III (UMLS; C0441771)
+- stage IIIB (UMLS; C0456599)
+- stage IV (UMLS; C0441772)
+- stage IIIB/IV 
 - stable
 - severe
 - grade 1
@@ -24,6 +25,7 @@ The following words/phrases for [Disorder]() can be tentatively annotated for th
 - chronically progressive phase
 - subacutely progressive phase
 - subacute phase
+- stable phase
 - inflammatory phase
 
 ~~~ ann
