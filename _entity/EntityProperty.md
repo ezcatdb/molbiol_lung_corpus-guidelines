@@ -50,4 +50,16 @@ T7 Cell 0 6;16 24 CD4(+) T-cells
 R1 member_of Arg1:T6 Arg2:T7
 ~~~
 
-
+The following words related to cell cycle (UMLS; C0007586) can be annotated in this category: (see <a href="https://en.wikipedia.org/wiki/Cell_cycle">Cell cycle</a>)
+- cell cycle(UMLS; C0007586)
+  - G1 phase (UMLS; C0079395)
+  - G1/S [transition] checkpoint (UMLS; C1517340)
+  - S phase (UMLS; C0080129)
+  - G2 phase (UMLS; C0079396)
+  - G2/M [transition] checkpoint (UMLS; C3549430)
+  - M phase (UMLS; C0007591)
+    - prophase 
+    - prometaphase
+    - metaphase 
+    - anaphase 
+    - telophase
