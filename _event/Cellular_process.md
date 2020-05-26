@@ -15,6 +15,8 @@ The following words/phrases can be triggers of this event:
 - carcinogenesis (UMLS; C0596263)
 - cellular crosstalk
 - cell cycle (UMLS; C0007586) (see <a href="https://en.wikipedia.org/wiki/Cell_cycle">Cell cycle</a>)
+  - cell cycle progression (UMLS; C1516334)
+  - cell cycle control (UMLS; C1155872)
   - G1 phase (UMLS; C0079395)
   - G1 [cell cycle] arrest (UMLS; C3178834)
   - G1/S [transition] checkpoint (UMLS C1517340)
