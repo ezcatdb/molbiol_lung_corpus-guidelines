@@ -15,10 +15,13 @@ The following words/phrases can be triggers of this event:
 - organogenesis (UMLS; C0242290)
   - angiogenesis [process] (UMLS; C0302600)
 - fibrogenesis (UMLS; C0596570)
+  - fibrotic response
+  - profibrotic response
 - pathogenesis (UMLS; C0699748)
   - immunopathogenesis
   - etiopathogenesis
 - pathophysiological mechanism
+- acute exacerbation (UMLS; C0743630)
 - angiostasis
 - resistance
 - homeostasis
@@ -26,7 +29,8 @@ The following words/phrases can be triggers of this event:
 - remodeling
 - cilium biogenesis (UMLS; C1155941)
 - cilium assembly (UMLS; C1155941)
-- acute exacerbation (UMLS; C0743630)
+- inflammatory response (UMLS; C1155266)
+- immune response [process] (UMLS; C0301872)
 
 ~~~ ann
 matrix remodeling phase
