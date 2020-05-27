@@ -13,8 +13,8 @@ The following words/phrases can be triggers of this event:
 - apoptosis (UMLS; C0162638)
 - [cell] differentiation [process] (UMLS; C0007589)
 - carcinogenesis (UMLS; C0596263)
-- cellular crosstalk
-
+- cellular crosstalk (UMLS; C0007582)
+- intercellular communication process (UMLS; C0007582)
 - cell injury (UMLS ID:C0599732)
 - endoplasmic reticulum (ER) stress (UMLS; C3178870)
   - unfolded protein response (UMLS; C1155342)
