@@ -14,6 +14,7 @@ The following words/phrases can be triggers of localization event:
 
 - accumulation
 - localization, localized
+- adhesion
 
 ~~~ ann
 Accumulation of damaged mitochondria in lung epithelial cells.
