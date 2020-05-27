@@ -25,6 +25,19 @@ The following words/phrases related to cell cycle (UMLS; C0007586) can be trigge
   - G1 [cell cycle] arrest (UMLS; C3178834)
 
 ~~~ ann
+apoptosis of mesenchymal cells
+T1 Cellular_process 0 9 apoptosis
+T2 Cell 13 30 mesenchymal cells
+E1 Cellular_process:T1 Theme:T2
+~~~
+~~~ ann
+apoptosis in fibroblasts
+T1 Cellular_process 0 9 apoptosis
+T2 Cell 13 24 fibroblasts
+E1 Cellular_process:T1 Theme:T2
+~~~
+
+~~~ ann
 Cellular crosstalk between epithelial cells and fibroblasts.
 T1 Cellular_process 0 18 Cellular crosstalk
 T2 Cell 27 43 epithelial cells
