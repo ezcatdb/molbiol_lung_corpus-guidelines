@@ -23,9 +23,9 @@ The following words/phrases can be triggers of this event:
 - pathophysiological mechanism
 - acute exacerbation (UMLS; C0743630)
 - angiostasis
-- resistance
-- homeostasis
-- sensitivity
+- resistance (UMLS; C1514892)
+- homeostasis (UMLS; C0019868)
+- sensitivity (UMLS; C2349185)
 - remodeling
 - cilium biogenesis (UMLS; C1155941)
 - cilium assembly (UMLS; C1155941)
