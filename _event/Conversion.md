@@ -47,7 +47,7 @@ Phospho-S6
 T1 Conversion 0 7 Phospho
 T2 GGPs 8 10 S6
 T3 GGPs 0 10 Phospho-S6
-T4 Organic_compound_other 0 7 Phospho
+T4 Inorganic_compound 0 7 Phospho
 E1 Conversion:T1 Theme:T2 Product:T3
 R1 part_of Arg1:T4 Arg2:T3
 ~~~
