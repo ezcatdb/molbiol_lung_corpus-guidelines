@@ -6,7 +6,7 @@ shortdef: "Artificial process, such as experimental procedures (GENIA)"
 order: 0
 ---
 
-This event describes 'Artificial process', which is usually experimental procedures.
+This event describes 'Artificial processes', which are usually experimental procedures/medical treatments.
 
 The following words/phrases can be triggers for this event:
 - treat/treatment
