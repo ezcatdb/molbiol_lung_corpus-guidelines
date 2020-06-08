@@ -53,6 +53,17 @@ E1 Positive_regulation:T2 Cause:T1 Theme:E2
 E2 Pathway:T3
 ~~~
 
+Occasionally, more than one participant molecule can be included in this event.
+~~~ ann
+MEKK1/MEK1/ERK1 and AP-1 pathway
+T1 GGPs 0 5 MEKK1
+T2 GGPs 6 10 MEK1
+T3 GGPs 11 15 ERK1
+T4 GGPs 20 24 AP-1
+T5 Pathway 0 32 MEKK1/MEK1/ERK1 and AP-1 pathway
+E1 Pathway:T5 Participant:T1 Participant2:T2 Participant3:T3 Participant4:T4
+~~~
+
 Arguments:
 
 *Participant* (optional; zero or more) for this event must be [GGPs](), [Organic_compound_other]() or [Pharmacological_substance](), which are molecular entities involved in the `Pathway`.
