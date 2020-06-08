@@ -51,10 +51,13 @@ T2 Disorder 16 19 IPF
 E1 Biological_process:T1 Theme:T2
 ~~~
 ~~~ ann
-Extracellular matrix remodeling
+Extracellular matrix remodeling due to the collagen crosslinking
 T1 Anatomical_entity 0 20 Extracellular matrix
 T2 Biological_process 21 31 remodeling
-E1 Biological_process:T2 Theme:T1
+T3 GGPs 43 51 collagen
+T4 Conversion 52 64 crosslinking
+E1 Biological_process:T2 Theme:T1 Cause:E2
+E2 Conversion:T4 Theme:T3
 ~~~
 
 Arguments:
