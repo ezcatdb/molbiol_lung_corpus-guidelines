@@ -47,7 +47,9 @@ Phospho-S6
 T1 Conversion 0 7 Phospho
 T2 GGPs 8 10 S6
 T3 GGPs 0 10 Phospho-S6
+T4 Organic_compound_other 0 7 Phospho
 E1 Conversion:T1 Theme:T2 Product:T3
+R1 part_of Arg1:T4 Arg2:T3
 ~~~
 ~~~ ann
 MMP-7 degrades elastin, generating elastin fragments.
@@ -70,7 +72,8 @@ E1 Conversion:T2 Theme:T1 Cause:T3
 
 Arguments:
 
-*Theme* for this event must be molecules whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance]().
+*Theme* for this event must be mostly molecular entities whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance](). 
+However, other entities such as [Cell](), [Cell_component]() and [Anatomical_entity](), which are composed of molecules to be converted, can also be *Theme* for this event.
 
 *Product* (optional; zero or more) indicates the molecule(s) that could be produced by the 'Conversion' event: [GGPs]() or [Organic_compound_other](). 
 
