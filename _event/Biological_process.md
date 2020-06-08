@@ -22,11 +22,11 @@ The following words/phrases can be triggers of this event:
   - etiopathogenesis
 - pathophysiological mechanism
 - acute exacerbation (UMLS; C0743630)
-- angiostasis
+- angiostasis (UMLS; C3179230)
 - resistance (UMLS; C1514892)
 - homeostasis (UMLS; C0019868)
 - sensitivity (UMLS; C2349185)
-- remodeling
+- [tissue] remodeling (UMLS; C1820201)
 - cilium biogenesis (UMLS; C1155941)
 - cilium assembly (UMLS; C1155941)
 - inflammatory response (UMLS; C1155266)
@@ -49,6 +49,12 @@ pathogenesis of IPF
 T1 Biological_process 0 12 pathogenesis
 T2 Disorder 16 19 IPF
 E1 Biological_process:T1 Theme:T2
+~~~
+~~~ ann
+Extracellular matrix remodeling
+T1 Anatomical_entity 0 20 Extracellular matrix
+T2 Biological_process 21 31 remodeling
+E1 Biological_process:T2 Theme:T1
 ~~~
 
 Arguments:
