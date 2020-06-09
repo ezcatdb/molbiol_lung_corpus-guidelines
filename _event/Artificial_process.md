@@ -6,7 +6,7 @@ shortdef: "Artificial process, such as experimental procedures (GENIA)"
 order: 0
 ---
 
-This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments.
+This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments. Thus, this event can affect entities.
 
 Analysis/assay names should be annotated as [Method_cue], which may suggest confirmation/speculation degree of events.
 
