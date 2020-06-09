@@ -8,7 +8,7 @@ order: 109
 The 'Method cue' may suggest confirmation/speculation degree of events.
 This cue can be types of experimental studies/clinical examination to analyse biological events. 
 
-Specific actions for experimental procedures/clinical examiniations should be annotated as [Artificial_process](). Such actions may make some effect on entities.
+Specific actions for experimental procedures/clinical examiniations should be annotated as [Artificial_process](). Such actions may make some effects on entities.
 
 - ***(experimental/computational)*** analyses/tests/assays 
 
