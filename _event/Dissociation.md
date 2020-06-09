@@ -10,7 +10,9 @@ order: 22
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 -->
 
-This event describes "Dissociation" of molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound](), which had interacted with each other as described in [Binding](). Thus, this event is opposite to [Binding]().
+This event describes "Dissociation" of molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound](), which had interacted with each other, as described in [Binding](). Thus, this event is opposite to [Binding]().
+
+UMLS ID for this event; Molecular dissociation (UMLS; C0301643).
 
 Moreover, dissociation between molecules and [Cell]()/[Cell_component]() will be categorized in [Localization]().
 
