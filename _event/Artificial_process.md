@@ -2,7 +2,7 @@
 layout: entry
 title: 'Artificial_process'
 category: "Artificial process"
-shortdef: "Artificial process, such as experimental procedures (GENIA)"
+shortdef: "Artificial process, such as experimental procedures/medical treatments"
 order: 0
 ---
 
