@@ -5,10 +5,10 @@ shortdef: "Cues by experimental study types"
 order: 109
 ---
 
-This cue may suggest confirmation degree of events.
-This cue can be types of experimental studies to analyse biological events. 
+The 'Method cue' may suggest confirmation/speculation degree of events.
+This cue can be types of experimental studies/clinical examination to analyse biological events. 
 
-Specific action for experimental procedures should be annotated as [Artificial_process]().
+Specific actions for experimental procedures/clinical examiniations should be annotated as [Artificial_process](). Such actions may make some effect on entities.
 
 - ***(experimental/computational)*** analyses/tests/assays 
 
@@ -18,6 +18,8 @@ More concrete analysis names for the cue are as follows:
 - [reversed-phase *etc.*] choromatography
 - enzyme-linked immunosorbent assay (UMLS; C0014441)
 - ELISA (UMLS; C0014441)
+- chest X-ray (UMLS; C0039985)
+- CT scan(s) (UMLS; C0040405)
 
 ~~~ ann
 Bronchoalveolar lavage fluids from 2 patients were concentrated by reversed-phase chromatography.
