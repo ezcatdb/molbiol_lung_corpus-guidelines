@@ -6,7 +6,9 @@ shortdef: "Artificial process, such as experimental procedures (GENIA)"
 order: 0
 ---
 
-This event describes 'Artificial processes', which are usually experimental procedures/medical treatments.
+This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments.
+
+Analysis/assay names should be annotated as [Method_cue], which may suggest confirmation/speculation degree of events.
 
 The following words/phrases can be triggers for this event:
 - treat/treatment
@@ -49,6 +51,15 @@ T2 Subject 4 15 IPF patient
 T3 Artificial_process 26 47 thoracoscopic surgery
 E1 Artificial_process:T3 Theme:T2
 R1 Subject_Disorder Arg1:T2 Arg2:T1
+~~~
+~~~ ann
+Bronchoalveolar lavage fluids from 2 patients were concentrated by reversed-phase chromatography.
+T1 Anatomical_entity 0 29 Bronchoalveolar lavage fluids
+T2 Subject 35 45 2 patients
+T3 Artificial_process 51 63 concentrated
+T4 Method_cue 67 96 reversed-phase chromatography
+E1 Artificial_process:T3 Theme:T1
+R1 part_of Arg1:T1 Arg2:T2
 ~~~
 
 Arguments:
