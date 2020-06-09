@@ -14,12 +14,15 @@ Specific actions for experimental procedures/clinical examiniations should be an
 
 More concrete analysis names for the cue are as follows:
 
-- Mutagenesis
 - [reversed-phase *etc.*] choromatography
 - enzyme-linked immunosorbent assay (UMLS; C0014441)
 - ELISA (UMLS; C0014441)
 - chest X-ray (UMLS; C0039985)
 - CT scan(s) (UMLS; C0040405)
+
+<!--
+- Mutagenesis
+-->
 
 ~~~ ann
 Bronchoalveolar lavage fluids from 2 patients were concentrated by reversed-phase chromatography.
