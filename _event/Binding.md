@@ -10,7 +10,7 @@ order: 21
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 -->
 
-This event describes "non-covalent interaction" between molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound]() (UMLS ID: C1167622).
+This event describes "non-covalent interaction" between molecules, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance]() and [Inorganic_compound]().
  Moreover, this event is opposite to [Dissociation]().
 
 However, covalent bond formation will be categorized in [Conversion]().
@@ -18,6 +18,8 @@ However, covalent bond formation will be categorized in [Conversion]().
 Moreover, interaction between molecules and [Cell]()/[Cell_component]() will be categorized in [Localization]().
 
 Interaction between [Cell]()/[Cell_component]() will be categorized in [Cellular_process]().
+
+UMLS ID for this event; Molecular Interaction Process (UMLS; C1167622).
 
 The following words/phrases can be triggers of this event:
 
