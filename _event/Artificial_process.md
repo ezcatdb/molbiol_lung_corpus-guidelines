@@ -8,7 +8,7 @@ order: 0
 
 This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments. Thus, this event can affect entities.
 
-Analysis/assay names should be annotated as [Method_cue](), which may suggest confirmation/speculation degree of events.
+Analysis/assay names should be annotated as [Method_cue]()[Method cue](), which may suggest confirmation/speculation degree of events.
 
 The following words/phrases can be triggers for this event:
 - treat/treatment
