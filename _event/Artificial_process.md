@@ -21,6 +21,7 @@ The following words/phrases can be triggers for this event:
 - transfection (UMLS; C0040669)
 - exposure (UMLS; C0332157)
 - administer/administration (UMLS; C1621583)
+- concentrate (UMLS; C2003864)
 - surgery (UMLS; C0543467)
 
 ~~~ann
