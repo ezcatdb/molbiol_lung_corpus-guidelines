@@ -12,14 +12,14 @@ Analysis/assay names should be annotated as [Method cue](), which may suggest co
 
 The following words/phrases can be triggers for this event:
 - treat/treatment
-  - pretreatment
-- incubate/incubation
+  - pretreatment (UMLS; C3539076)
+- incubate/incubation (UMLS; C1439852)
   - preincubation
 - addition
-- culture/cultured
-  - coculture
-- transfection
-- exposure
+- culture/cultured (UMLS; C1449619)
+  - coculture (UMLS; C0282547)
+- transfection (UMLS; C0040669)
+- exposure (UMLS; C0332157)
 - administer/administration
 - surgery
 
