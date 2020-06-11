@@ -20,8 +20,8 @@ The following words/phrases can be triggers for this event:
   - coculture (UMLS; C0282547)
 - transfection (UMLS; C0040669)
 - exposure (UMLS; C0332157)
-- administer/administration
-- surgery
+- administer/administration (UMLS; C1621583)
+- surgery (UMLS; C0543467)
 
 ~~~ann
 T cell blasts were treated with PMA.
