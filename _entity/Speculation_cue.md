@@ -53,13 +53,13 @@ The following words indicate that the events involved are tested/investigated. T
 Markers of fibrogenesis, including collagen and CTGF were evaluated by measuring mRNA level using RT-PCR.
 T1 GGPs 0 7 Markers
 T2 Biological_process 11 23 fibrogenesis
-T3 GGPs 36 44 collagen
-T4 GGPs 49 53 CTGF
-T5 Speculation_cue 59 68 evaluated
-T6 Speculation_cue 72 81 measuring
-T7 Gene_expression 82 92 mRNA level
-T8 Gene_expression 82 92 mRNA level
-T9 Method_cue 99 105 RT-PCR
+T3 GGPs 35 43 collagen
+T4 GGPs 48 52 CTGF
+T5 Speculation_cue 58 67 evaluated
+T6 Speculation_cue 71 80 measuring
+T7 Gene_expression 81 91 mRNA level
+T8 Gene_expression 81 91 mRNA level
+T9 Method_cue 98 104 RT-PCR
 E1 Biological_process:T2 Participant:E2 Participant2:E3 cue:T5
 E2 Gene_expression:T7 Theme:T3 cue:T6 cue2:T9
 E3 Gene_expression:T8 Theme:T4 cue:T6 cue2:T9
