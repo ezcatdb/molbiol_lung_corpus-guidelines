@@ -21,9 +21,16 @@ The following words/phrases can be triggers for this event:
 - transfection (UMLS; C0040669)
 - exposure (UMLS; C0332157)
 - administer/administration (UMLS; C1621583)
+- adoptive transfer (UMLS; C0376518)
 - concentrate (UMLS; C2003864)
 - surgery (UMLS; C0543467)
 
+~~~ ann
+IL-33 treatment
+T1 GGPs 0 5 IL-33
+T2 Artificial_process 6 15 treatment
+E1 Artificial_process:T2 Instrument:T1
+~~~
 ~~~ann
 T cell blasts were treated with PMA.
 T1 Cell 0 13 T cell blasts
@@ -46,14 +53,6 @@ T3 Subject 27 31 mice
 E1 Artificial_process:T1 Theme:T3 Instrument:T2
 ~~~
 ~~~ ann
-The IPF patient underwent thoracoscopic surgery.
-T1 Disorder 4 7 IPF
-T2 Subject 4 15 IPF patient
-T3 Artificial_process 26 47 thoracoscopic surgery
-E1 Artificial_process:T3 Theme:T2
-R1 Subject_Disorder Arg1:T2 Arg2:T1
-~~~
-~~~ ann
 Bronchoalveolar lavage fluids from 2 patients were concentrated by reversed-phase chromatography.
 T1 Anatomical_entity 0 29 Bronchoalveolar lavage fluids
 T2 Subject 35 45 2 patients
@@ -70,6 +69,14 @@ T3 Organic_compound_other 28 37 hydrogels
 T4 GGPs 43 51 collagen
 T5 GGPs 56 61 IL-13
 E1 Artificial_process:T2 Theme:T1 Instrument:T3 Instrument2:T4 Instrument3:T5
+~~~
+~~~ ann
+The IPF patient underwent thoracoscopic surgery.
+T1 Disorder 4 7 IPF
+T2 Subject 4 15 IPF patient
+T3 Artificial_process 26 47 thoracoscopic surgery
+E1 Artificial_process:T3 Theme:T2
+R1 Subject_Disorder Arg1:T2 Arg2:T1
 ~~~
 
 Arguments:
