@@ -45,6 +45,26 @@ T2 Biological_process 5 17 fibrogenesis
 E1 Biological_process:T2 Theme:T1
 ~~~
 ~~~ ann
+Markers of fibrogenesis, including collagen and CTGF were evaluated by measuring mRNA level using RT-PCR.
+T1 GGPs 0 7 Markers
+T2 Biological_process 11 23 fibrogenesis
+T3 GGPs 35 43 collagen
+T4 GGPs 48 52 CTGF
+T5 Speculation_cue 58 67 evaluated
+T6 Speculation_cue 71 80 measuring
+T7 Gene_expression 81 91 mRNA level
+T8 Gene_expression 81 91 mRNA level
+T9 Method_cue 98 104 RT-PCR
+E1 Biological_process:T2 Participant:E2 Participant2:E3 cue:T5
+E2 Gene_expression:T7 Theme:T3 cue:T6 cue2:T9
+E3 Gene_expression:T8 Theme:T4 cue:T6 cue2:T9
+R1 member_of Arg1:T3 Arg2:T1
+R2 member_of Arg1:T4 Arg2:T1
+A1 Speculated E1
+A2 Speculated E2
+A3 Speculated E3
+~~~
+~~~ ann
 pathogenesis of IPF
 T1 Biological_process 0 12 pathogenesis
 T2 Disorder 16 19 IPF
