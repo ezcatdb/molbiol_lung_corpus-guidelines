@@ -63,6 +63,8 @@ T9 Method_cue 98 104 RT-PCR
 E1 Biological_process:T2 Participant:E2 Participant2:E3 cue:T5
 E2 Gene_expression:T7 Theme:T3 cue:T6 cue2:T9
 E3 Gene_expression:T8 Theme:T4 cue:T6 cue2:T9
+R1 member_of Arg1:T3 Arg2:T1
+R2 member_of Arg1:T4 Arg2:T1
 A1 Speculated E1
 A2 Speculated E2
 A3 Speculated E3
