@@ -61,6 +61,20 @@ T3 GGPs 17 21 HVEM
 T4 Cell 25 38 T lymphocytes
 E1 Binding:T2 Theme:T1 Theme2:T3 atLoc:T4
 ~~~
+~~~ ann
+ERK/GLI-1 complex formation
+T1 GGPs 0 3 ERK
+T2 GGPs 4 9 GLI-1
+T3 Binding 10 27 complex formation
+E1 Binding:T3 Theme:T1 Theme2:T2
+~~~
+~~~ ann
+ERK and GLI-1 form a complex.
+T1 GGPs 0 3 ERK
+T2 GGPs 8 13 GLI-1
+T3 Binding 14 28 form a complex
+E1 Binding:T3 Theme:T1 Theme2:T2
+~~~
 
 Arguments:
 
