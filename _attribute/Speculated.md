@@ -34,8 +34,9 @@ T2 Artificial_process 21 40 direct implantation
 T3 Speculation_cue 41 46 might
 T4 Positive_regulation 52 58 led to
 T5 Biological_process 59 69 metastasis
+T6 Disorder 59 69 metastasis
 E1 Artificial_process:T2 
-E2 Positive_regulation:T4 Cause:E1 Theme:T5 cue:T3 cue2:T1 
+E2 Positive_regulation:T4 Cause:E1 Theme:E3 cue:T3 cue2:T1 
 E3 Biological_process:T5
 A1 Speculated E2
 ~~~
