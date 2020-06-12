@@ -48,6 +48,7 @@ The following words indicate that the events involved are tested/investigated. T
 - investigate(d)/investigation
 - evaluate(d)/evaluation
 - measure(d)/measurement
+- assess(ed)/assessment
 
 ~~~ ann
 Markers of fibrogenesis, including collagen and CTGF were evaluated by measuring mRNA level using RT-PCR.
