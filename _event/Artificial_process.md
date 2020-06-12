@@ -65,10 +65,10 @@ R1 part_of Arg1:T1 Arg2:T2
 ~~~ ann
 Fibroblasts are cultured on hydrogels with collagen and IL-13 for 8 days.
 T1 Cell 0 11 Fibroblasts
-T2 Artificial_process 15 23 cultured
-T3 Organic_compound_other 27 34 hydrogels
-T4 GGPs 40 48 collagen
-T5 GGPs 53 58 IL-13
+T2 Artificial_process 16 24 cultured
+T3 Organic_compound_other 28 37 hydrogels
+T4 GGPs 43 51 collagen
+T5 GGPs 56 61 IL-13
 E1 Artificial_process:T2 Theme:T1 Instrument:T3 Instrument2:T4 Instrument3:T5
 ~~~
 
