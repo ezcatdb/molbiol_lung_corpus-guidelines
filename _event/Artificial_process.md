@@ -23,6 +23,7 @@ The following words/phrases can be triggers for this event:
 - administer/administration (UMLS; C1621583)
 - adoptive transfer (UMLS; C0376518)
 - concentrate (UMLS; C2003864)
+- decellularize(d)/decellularization (UMLS; C3827823)
 - surgery (UMLS; C0543467)
 
 ~~~ ann
@@ -69,6 +70,14 @@ T3 Organic_compound_other 28 37 hydrogels
 T4 GGPs 43 51 collagen
 T5 GGPs 56 61 IL-13
 E1 Artificial_process:T2 Theme:T1 Instrument:T3 Instrument2:T4 Instrument3:T5
+~~~
+~~~ ann
+Decellularized lung matrices
+T1 Artificial_process 0 15 Decellularized
+T2 Anatomical_entity 16 20 lung
+T3 Anatomical_entity 21 29 matrices
+E1 Artificial_process:T1 Product:T3
+R1 part_of Arg1:T3 Arg2:T2
 ~~~
 ~~~ ann
 The IPF patient underwent thoracoscopic surgery.
