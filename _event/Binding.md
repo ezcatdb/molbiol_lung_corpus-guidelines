@@ -51,7 +51,7 @@ Interaction of CXCL12 and CXC receptor 4
 T1 Binding 0 11 Interaction
 T2 GGPs 15 21 CXCL12
 T3 GGPs 26 40 CXC receptor 4
-E1 Binding:T1
+E1 Binding:T1 Theme:T2 Theme2:T3
 ~~~
 ~~~ ann
 TNFSF14 binds to HVEM on T lymphocytes.
