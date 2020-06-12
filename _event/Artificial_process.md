@@ -75,7 +75,7 @@ E1 Artificial_process:T2 Theme:T1 Instrument:T3 Instrument2:T4 Instrument3:T5
 Decellularized lung matrices
 T1 Artificial_process 0 14 Decellularized
 T2 Anatomical_entity 15 19 lung
-T3 Anatomical_entity 20 28 matrices
+T3 Anatomical_entity 20 27 matrices
 E1 Artificial_process:T1 Product:T3
 R1 part_of Arg1:T3 Arg2:T2
 ~~~
