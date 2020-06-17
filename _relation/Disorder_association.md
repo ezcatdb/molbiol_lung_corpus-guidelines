@@ -19,5 +19,10 @@ T1 Disorder 0 26 primary Sjögren's syndrome
 T2 Disorder 35 57 interstitial pneumonia
 R1 Disorder_association Arg1:T2 Arg2:T1
 ~~~
-
+~~~ ann
+CVD-IP
+T1 Disorder 0 3 CVD
+T2 Disorder 4 6 IP
+R1 Disorder_association Arg1:T2 Arg2:T1
+~~~
 <!--details-->
