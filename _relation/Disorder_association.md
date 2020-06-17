@@ -5,7 +5,7 @@ shortdef: "relationships between two disorders"
 order: 111
 ---
 
-When two different disorders ([Disorder]()) occur, these 'Disorders' may be connected with this relation.
+When two different 'Disorders' ([Disorder]()) occur, these 'Disorders' may be connected with this relation.
 
 ~~~ ann
 IPF-associated pulmonary hypertension
@@ -15,8 +15,8 @@ R1 Disorder_association Arg1:T2 Arg2:T1
 ~~~
 ~~~ ann
 primary Sjögren's syndrome-related interstitial pneumonia
-T1 Disorder 0 20 primary Sjögren's syndrome
-T2 Disorder 35 45 interstitial pneumonia
+T1 Disorder 0 26 primary Sjögren's syndrome
+T2 Disorder 35 57 interstitial pneumonia
 R1 Disorder_association Arg1:T2 Arg2:T1
 ~~~
 
