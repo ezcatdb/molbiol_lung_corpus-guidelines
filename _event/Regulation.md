@@ -27,6 +27,19 @@ The following words/phrases may be triggers, depending on the situations:
 - *[play a/an ~] role [in ~ing]* (Depending on "*~ing*")
 
 ~~~ ann
+Immune responses may be associated with the development of IPF.
+T1 Biological_process 0 16 Immune responses
+T2 Speculation_cue 17 20 may
+T3 Regulation 24 34 associated
+T4 Biological_process 44 55 development
+T5 Disorder 59 62 IPF
+E1 Biological_process:T1
+E2 Regulation:T3 Cause:E1 Theme:E3 cue:T2
+E3 Biological_process:T4 Theme:T5
+A1 Speculated E2
+~~~
+<!--
+~~~ ann
 interstitial pneumonia associated with collagen vascular diseases.
 T1 Disorder 0 22 interstitial pneumonia
 T2 Regulation 23 33 associated
@@ -40,6 +53,7 @@ T2 Regulation 14 24 associated
 T3 Disorder 25 32 cancers
 E1 Regulation:T2 Cause:T1 Theme:T3
 ~~~
+-->
 
 Arguments:
 
