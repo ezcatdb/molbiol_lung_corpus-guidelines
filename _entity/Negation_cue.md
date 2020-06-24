@@ -1,6 +1,6 @@
 ---
 layout: entry
-title: "Negation Cue"
+title: "Negation cue"
 shortdef: "negation words and phrases"
 order: 107
 ---
