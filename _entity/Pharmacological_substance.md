@@ -20,7 +20,7 @@ E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
 
 
-The following protein medicines can also be categorized in to this group.
+The following protein medicines can also be categorized into this group.
 
 - Nivolumab
 - Tocilizumab
