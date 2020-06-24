@@ -9,7 +9,7 @@ This entity group is based on Cell_natural and Cell_cultured in the <a href="htt
 
 This entity is based on 
 <a href="https://www.ebi.ac.uk/ols/ontologies/cl">
-Cell ontlogy
+Cell ontology
 </a> or 
 <a href="https://www.ebi.ac.uk/ols/ontologies/clo">
 Cell line ontology
@@ -26,23 +26,23 @@ The following words/phrases are examples of this entity.
 - fibroblasts (UMLS ID:C0016030)
 
 - <a href="https://en.wikipedia.org/wiki/Hematopoietic_stem_cell">hematopoietic stem cells</a> (= HSCs)(造血幹細胞)
-- platelets (= thrombocytes)（血小板）
+- platelets (= thrombocytes)(血小板)
 - mast cells (= mastocyte = labrocyte)(肥満細胞;顆粒細胞;マスト細胞)
-- red blood cells (= erythrocytes)（赤血球）
-- white blood cells (= leukocytes)（白血球）
-  - monocytes (= mononuclear phagocytes)（単球）
+- red blood cells (= erythrocytes)(赤血球)
+- white blood cells (= leukocytes)(白血球)
+  - monocytes (= mononuclear phagocytes)(単球)
     - macrophages (= phagocytes)
     - dendritic cells (樹状細胞)
     - osteoclasts (破骨細胞)
-  - lymphocytes（リンパ球）
+  - lymphocytes (リンパ球)
     - T lymphocytes (= T cells)
       - T lymphoblasts (= T cell blasts)
     - natural killer cells (= NK cells = large granular lymphocytes)
     - B lymphocytes (= B cells)
   - granulocytes (= polymorphonuclear leucocytes = blood granulocytic cells = granular leukocytes)(顆粒球)
     - myeloblasts (骨髄芽球)
-      - neutrophils (= neutrophiles)（好中球）
-      - eosinophils (= eosinophil granulocytes)（好酸球）
+      - neutrophils (= neutrophiles)(好中球)
+      - eosinophils (= eosinophil granulocytes)(好酸球)
       - basophils (好塩基球)
 
 
