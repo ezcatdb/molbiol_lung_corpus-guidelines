@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Organic_compound_other"
-shortdef: "Organic Compound, excluding medicine (GENIA)"
+shortdef: "Organic compound, excluding medicine (GENIA)"
 order: 20
 ---
 
