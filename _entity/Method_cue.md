@@ -1,7 +1,7 @@
 ---
 layout: entry
-title: "Method Cue"
-shortdef: "Cues by experimental study types"
+title: "Method cue"
+shortdef: "Cues by experimental study/clinical diagnosis types"
 order: 109
 ---
 
