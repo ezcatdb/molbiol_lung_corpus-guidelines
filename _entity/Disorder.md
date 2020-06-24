@@ -53,7 +53,7 @@ The following words/phrases should be annotated as 'Disorder'.
 - idiopathic interstitial pneumonia 
 - interstitial lung disease 
 - pulmonary hypertension 
-- Sarcoidosis 
+- sarcoidosis 
 - pulmonary sarcoidosis 
 - pleural effusion 
 - lung lesions 
