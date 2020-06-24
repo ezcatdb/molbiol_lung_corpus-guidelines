@@ -1,12 +1,11 @@
 ---
 layout: entry
-title: "Speculation Cue"
+title: "Speculation cue"
 shortdef: "speculation words and phrases"
 order: 108
 ---
 
-In addition to verbs, such as “suggest”, “show”, and “indicate”, the
-following phrases can be speculation cues.
+In addition to verbs, such as “suggest”, “show”, and “indicate”, the following words/phrases can be 'Speculation cue'.
 
 - can/could ***(be) (concluded/considered/described/interpreted/rationalized)***
 - may/might
