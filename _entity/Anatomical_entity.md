@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Anatomical_entity"
-shortdef: "Anatomical entities, inculding organs and tissues"
+shortdef: "Anatomical entities, including organs and tissues"
 order: 12
 ---
 
