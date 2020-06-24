@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Speculation cue"
-shortdef: "speculation words and phrases"
+shortdef: "Speculation words and phrases"
 order: 108
 ---
 
