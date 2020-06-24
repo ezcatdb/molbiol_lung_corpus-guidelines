@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Negation cue"
-shortdef: "negation words and phrases"
+shortdef: "Negation words and phrases"
 order: 107
 ---
 
