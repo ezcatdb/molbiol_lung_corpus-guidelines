@@ -98,7 +98,8 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
   - [Regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Regulation'" | first %}{{ i.shortdef }}
     - [Negative_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Negative_regulation'" | first %}{{ i.shortdef }}
     - [Positive_regulation](): {% assign i = site.event | where_exp:"i", "i.title == 'Positive_regulation'" | first %}{{ i.shortdef }}
-    
+  - [Correlation](): {% assign i = site.event | where_exp:"i", "i.title == 'Correlation'" | first %}{{ i.shortdef }}
+  
   - [Cellular_process](): {% assign i = site.event | where_exp:"i", "i.title == 'Cellular_process'" | first %}{{ i.shortdef }}
     - [Molecular_function](): {% assign i = site.event | where_exp:"i", "i.title == 'Molecular_function'" | first %}{{ i.shortdef }}
       - [Pathway](): {% assign i = site.event | where_exp:"i", "i.title == 'Pathway'" | first %}{{ i.shortdef }}
