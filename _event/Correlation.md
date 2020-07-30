@@ -2,7 +2,7 @@
 layout: entry
 title: "Correlation"
 category: "Biological process"
-shortdef: "Correlation between several entities/events"
+shortdef: "Correlation between several entities/events; co-occurence of several events"
 order: 23
 ---
 <!---
