@@ -9,7 +9,7 @@ order: 23
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 --->
 
-This event describes "Correlation" event (UMLS ID:C1707520).
+This event describes "Correlation" or "Co-occurence" (UMLS ID:C0332281).
 
 When several events/entities are correlated, this event will be selected. Or, when several events occur simultaneously, those events can be connected with this event.
 
