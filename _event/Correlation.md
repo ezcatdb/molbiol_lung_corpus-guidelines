@@ -66,7 +66,7 @@ E4 Positive_regulation:T6 Theme:T7
 
 Arguments:
 
-*Theme* (two or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is related. For physical entity, *Theme*, whose function or quality is affected.
+*Theme* (two or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is related. For physical entity, *Theme*, whose function or quality is related.
 
 
 *atLoc* (optional; zero or one) indicates the location where `Correlation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
