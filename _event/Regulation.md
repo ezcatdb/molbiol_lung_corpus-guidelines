@@ -19,39 +19,25 @@ The following words/phrases can be triggers of this event:
 - *change*; *changed*; *changes*
 - *effect*
 - *influence*; *influenced*; *influences*
-- *involve*; *involved*; *involves*
 - *modify*; *modified*; *modifies*; *modification*
 
 The following words/phrases may be triggers, depending on the situations:
-- *associate*; *associated*; *associates*; *association* (These can be also triggers for [Binding]() event)
 - *[play a/an ~] role [in ~ing]* (Depending on "*~ing*")
 
 ~~~ ann
-Immune responses may be associated with the development of IPF.
+Immune responses may affect the development of IPF.
 T1 Biological_process 0 16 Immune responses
 T2 Speculation_cue 17 20 may
-T3 Regulation 24 34 associated
-T4 Biological_process 44 55 development
-T5 Disorder 59 62 IPF
+T3 Regulation 21 27 affect
+T4 Biological_process 32 43 development
+T5 Disorder 47 50 IPF
 E1 Biological_process:T1
 E2 Regulation:T3 Cause:E1 Theme:E3 cue:T2
 E3 Biological_process:T4 Theme:T5
 A1 Speculated E2
 ~~~
+
 <!--
-~~~ ann
-interstitial pneumonia associated with collagen vascular diseases.
-T1 Disorder 0 22 interstitial pneumonia
-T2 Regulation 23 33 associated
-T3 Disorder 39 65 collagen vascular diseases
-E1 Regulation:T2 Cause:T3 Theme:T1
-~~~
-~~~ ann
-lung fibrosis-associated cancers.
-T1 Disorder 0 13 lung fibrosis
-T2 Regulation 14 24 associated
-T3 Disorder 25 32 cancers
-E1 Regulation:T2 Cause:T1 Theme:T3
 ~~~
 -->
 
