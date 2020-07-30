@@ -2,7 +2,7 @@
 layout: entry
 title: "Correlation"
 category: "Biological process"
-shortdef: "Correlation"
+shortdef: "Correlation between several entities/events"
 order: 23
 ---
 <!---
@@ -13,16 +13,28 @@ This event describes "Correlation" event (UMLS ID:C1707520).
 
 When several events/entities are correlated, this event will be selected. Or, when several events occur simultaneously, those events can be connected with this event.
 
+Relations, whose cause and effect are not clear, can be annotated with this event.
+
 <!---
 If it is not clear whether the trigger words are "positive" or "negative", this "Regulation" event will be selected.
 --->
 
 The following words/phrases can be triggers of this event:
-- *involve*; *involved*; *involves*
-
+- *involve*; *involved*; *involves*; *involvement*
+- *accompany*; *accompanied*; *accompanies*
+- *characterize*; *characterized*; *characterizes*; *characterization*
+- *coincide*; *coincided*; *coincides*; *coincident*
+- *correlate*; *correlated*; *correlates*; *correlation*
+- *concomitant*; *concomitantly*
+- *parallel*; *paralleled*; *parallels*
+- *relate*; *related*; *relates*; *relation*
+- *synergy*
 
 The following words/phrases may be triggers, depending on the situations:
 - *associate*; *associated*; *associates*; *association* (These can be also triggers for [Binding]() event)
+- *combine*; *combined*; *combines*; *combination* (These can be also triggers for [Binding]() or [Conversion]())
+- *couple*; *coupled*; *couples* (These can be also triggers for [Binding]() or [Conversion]())
+- *link*; *linked*; *links* (These can be also triggers for [Binding]() or [Conversion]())
 - *[play a/an ~] role [in ~ing]* (Depending on "*~ing*")
 
 ~~~ ann
@@ -37,16 +49,29 @@ E2 Correlation:T3 Theme:E1 Theme2:E3 cue:T2
 E3 Biological_process:T4 Theme:T5
 A1 Speculated E2
 ~~~
-
+~~~ ann
+The reduction in collagen was associated with a reduction in macrophages and increased CXCL10.
+T1 Negative_regulation 4 13 reduction
+T2 GGPs 17 25 collagen
+T3 Correlation 30 40 associated
+T4 Negative_regulation 48 57 reduction
+T5 Cell 61 72 macrophages
+T6 Positive_regulation 77 86 increased
+T7 GGPs 87 93 CXCL10
+E1 Negative_regulation:T1 Theme:T2
+E2 Correlation:T3 Theme:E1 Theme2:E3 Theme3:E4
+E3 Negative_regulation:T4 Theme:T5
+E4 Positive_regulation:T6 Theme:T7
+~~~
 
 Arguments:
 
-*Theme* (optional; zero or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
+*Theme* (two or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is related. For physical entity, *Theme*, whose function or quality is affected.
 
 
-*atLoc* (optional; zero or one) indicates the location where `Regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+*atLoc* (optional; zero or one) indicates the location where `Correlation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-*Disorder* (optional) indicates the disorder for which `Regulation` event occurs: [Disorder]().
+*Disorder* (optional) indicates the disorder for which `Correlation` event occurs: [Disorder]().
 
 *Intermediary* (?)
 
