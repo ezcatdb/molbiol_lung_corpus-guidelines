@@ -52,6 +52,15 @@ E1 Conversion:T1 Theme:T2 Product:T3
 R1 part_of Arg1:T4 Arg2:T3
 ~~~
 ~~~ ann
+p-S6
+T1 Conversion 0 2 p-
+T2 GGPs 1 3 S6
+T3 GGPs 0 3 p-S6
+T4 Inorganic_compound 0 2 p-
+E1 Conversion:T1 Theme:T2 Product:T3
+R1 part_of Arg1:T4 Arg2:T3
+~~~
+~~~ ann
 MMP-7 degrades elastin, generating elastin fragments.
 T1 GGPs 0 5 MMP-7
 T2 Conversion 6 14 degrades
