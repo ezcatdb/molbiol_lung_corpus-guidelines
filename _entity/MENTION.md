@@ -9,6 +9,6 @@ order: 101
 
 <!-- details -->
 
-Technical terms for mutation information, which cannot be included in GGPs can be categorized into this category, 'MENTION'.
+Technical terms for mutation information, which cannot be included in [GGPs () can be categorized into this category, 'MENTION'.
 
 
