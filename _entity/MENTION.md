@@ -10,6 +10,7 @@ order: 101
 <!-- details -->
 
 Technical terms for mutation information, which cannot be included in [GGPs](), can be categorized into this category, 'MENTION'.
+
 The following words must be typical mutation info:
  - 1G/2G
  - rs1800925(C/T)
