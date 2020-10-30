@@ -22,3 +22,10 @@ T6 Molecular_function 28 32 SNPs
 E1 Molecular_function:T5 Theme:T2 Product:T1
 E2 Molecular_function:T6 Theme:T4 Product:T3
 ~~~
+~~~ ann
+SNP type 5A/6A at position -1612/-1617 of the MMP-3 gene
+T1 Molecular_function 0 3 SNP
+T2 MENTION 9 29 5A/6A at position -1612/-1617
+T3 GGPs 37 47 MMP-3 gene
+E1 Molecular_function:T1 Theme:T3 Product:T2
+~~~
