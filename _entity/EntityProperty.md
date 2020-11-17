@@ -39,7 +39,7 @@ T1 Entity_Property 12 25 stage IIIB/IV
 T2 Disorder 26 31 NSCLC
 ~~~
 
-The following words/phrases for [Cell]() and [GGPs]() can be tentatively annotated for this category.
+The following words/phrases, which are used to indicate so-called 'cell marker expression' or *immunophenotyping*, for [Cell]() and [GGPs]() can be tentatively annotated for this category.
 
 - null (UMLS ID:C0205160)
 - (-) (UMLS ID:C0205160)
