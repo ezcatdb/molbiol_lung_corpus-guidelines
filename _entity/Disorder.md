@@ -168,28 +168,38 @@ The following phrases also can be 'Disorder':
 
 - chronic lung allograft dysfunction 
 - restrictive allograft syndrome 
+</div>
 
-The following words, which indicate the ambiguous degree/state of disease, are also included in this entity.
-- advanced
-- severe
-
-If these words are not included in the UMLS data, the UMLS IDs should be selected for the disease themselves.
+If the words, which indicate ambiguous degree/state, are not included in the UMLS data, the UMLS IDs should be selected for the disease themselves.
 - IPF (UMLS; C1800706)
-- advanced IPF (UMLS; C1800706)
+- advanced "IPF" (UMLS; C1800706)
 
 ~~~ ann
 Patients with advanced IPF
 T1 Subject 0 8 Patients
-T2 Disorder 14 26 advanced IPF
+T2 Disorder 23 26 IPF
+T3 Entity_Property 14 22 advanced
 R1 Subject_Disorder arg1:T1 arg2:T2
 N1	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
+~~~ ann
+Patients with advanced IPF
+T1 Subject 0 8 Patients
+T2 Disorder 23 26 IPF
+T3 Entity_Property 14 22 advanced
+T4 Disorder 14 26 advanced IPF
+R1 Subject_Disorder arg1:T1 arg2:T2
+R2 member_of arg1:T4 arg2:T2
+N1	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
+~~~
 
-Currently, the following words/phrases for stage of disease are tentatively annotated as [Entity Property]().
+The following words/phrases for stage/degree of disease are nnotated as [Entity Property]().
 - stage I
 - stage II
 - stage IIIB
 - stage IV
 - stage IIIB/IV
+- advanced (UMLS; C0205179)
+- severe (UMLS; C0205082)
 
 <!-- details -->
