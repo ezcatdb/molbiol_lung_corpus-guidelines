@@ -188,7 +188,7 @@ T1 Subject 0 8 Patients
 T2 Disorder 23 26 IPF
 T3 Entity_Property 14 22 advanced
 T4 Disorder 14 26 advanced IPF
-R1 Subject_Disorder arg1:T1 arg2:T2
+R1 Subject_Disorder arg1:T1 arg2:T4
 R2 member_of arg1:T4 arg2:T2
 N1	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
