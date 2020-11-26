@@ -32,11 +32,18 @@ The following words/phrases for [Disorder]() can be tentatively annotated for th
 stage I lung cancer
 T1 Entity_Property 0 7 stage I
 T2 Disorder 8 19 lung cancer
+T3 Disorder 0 19 stage I lung cancer
+R1 member_of Arg1:T3 Arg2:T2
 ~~~
 ~~~ ann
 chemo-naïve stage IIIB/IV NSCLC
-T1 Entity_Property 12 25 stage IIIB/IV
-T2 Disorder 26 31 NSCLC
+T1 Entity_Property 12 22 stage IIIB
+T2 Entity_Property 12 18;23 25 stage IV
+T3 Disorder 26 31 NSCLC
+T4 Disorder 12 22;25 31 stage IIIB NSCLC
+T5 Disorder 12 18;23 31 stage IV NSCLC
+R1 member_of Arg1:T4 Arg2:T3
+R2 member_of Arg1:T5 Arg2:T3
 ~~~
 
 The following words/phrases, which are used to indicate so-called *cell marker expression* or *immunophenotyping*, for [Cell]() and [GGPs]() can be tentatively annotated for this category.
