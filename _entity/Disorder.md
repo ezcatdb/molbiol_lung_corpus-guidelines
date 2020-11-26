@@ -174,6 +174,7 @@ If the words, which indicate ambiguous degree/state, are not included in the UML
 - IPF (UMLS; C1800706)
 - advanced "IPF" (UMLS; C1800706)
 
+<!--
 ~~~ ann
 Patients with advanced IPF
 T1 Subject 0 8 Patients
@@ -182,6 +183,8 @@ T3 Entity_Property 14 22 advanced
 R1 Subject_Disorder arg1:T1 arg2:T2
 N1	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
+-->
+
 ~~~ ann
 Patients with advanced IPF
 T1 Subject 0 8 Patients
