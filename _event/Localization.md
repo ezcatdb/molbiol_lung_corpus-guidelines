@@ -98,7 +98,7 @@ Here, these words may be tentatively assigned the same ID as "localization" (UML
 
 ~~~ ann
 fibroblastic foci
-T1 Cell 0 12
+T1 Cell 0 12 fibroblastic
 T2 Localization 13 17 foci
 E1 Localization:T2 Theme:T1
 ~~~
