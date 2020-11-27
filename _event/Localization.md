@@ -13,7 +13,7 @@ This event indicates localization or movement of entity, such as [Cell]() and mo
 The following words/phrases can be triggers of localization event:
 
 - accumulation
-- localization, localized
+- localization, localized (UMLS ID:C0475264)
 - adhesion
 
 ~~~ ann
@@ -46,6 +46,8 @@ The following words/phrases can be triggers of movement event:
 - chemotactic activity (UMLS ID:C0008018)
 - chemotaxis (UMLS ID:C0008018)
 - cellular infiltrate/infiltration
+- (cellular) secretion (UMLS ID:C0036536)
+  - release (UMLS ID:C0036536)
 
 ~~~ ann
 Squamous cell carcinoma of the lung invaded the right main bronchus.
@@ -73,7 +75,40 @@ T3 Localization 30 39 migration
 E1 Localization:T3 Theme:T2 AtLoc:T1
 R1 part_of Arg1:T2 Arg2:T1
 ~~~
+~~~ ann
+IL-8 secretion
+T1 GGPs 0 4 IL-8
+T2 Localization 5 14 secretion
+E1 Localization:T2 Theme:T1
+~~~
+~~~ ann
+TNF-alpha release by alveolar macrophages
+T1 GGPs 0 9 TNF-alpha
+T2 Localization 10 17 release
+T3 Cell 21 41 alveolar macrophages
+E1 Localization:T2 Theme:T1 fromLoc:T3
+~~~
 
+The following cases, in which the words such as "foci" or "focus" can be annotated as event trigger for this event, might be special:
+Here, these words may be tentatively assigned the same ID as "localization" (UMLS ID:C0475264).
+- fibroblast foci
+- fibroblastic foci 
+- myofibroblast-rich focus core
+- fibroblastic focus
+
+~~~ ann
+fibroblastic foci
+T1 Cell 0 12
+T2 Localization 13 17 foci
+E1 Localization:T2 Theme:T1
+~~~
+~~~ ann
+myofibroblast-rich focus core
+T1 Cell 0 13 myofibroblast
+T2 Localization 19 29 focus core
+E1 Localization:T2 Theme:T1
+~~~
+- 
 Arguments:
 
 The *atLoc*, *fromLoc* and *toLoc* for this event must be
