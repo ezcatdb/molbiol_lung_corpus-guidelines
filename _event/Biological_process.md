@@ -20,6 +20,7 @@ The following words/phrases can be triggers of this event:
 - pathogenesis (UMLS; C0699748)
   - immunopathogenesis
   - etiopathogenesis
+  - development [of some disease]
 - pathophysiological mechanism
 - acute exacerbation (UMLS; C0743630)
 - angiostasis (UMLS; C3179230)
@@ -31,6 +32,8 @@ The following words/phrases can be triggers of this event:
 - cilium assembly (UMLS; C1155941)
 - inflammatory response (UMLS; C1155266)
 - immune response [process] (UMLS; C0301872)
+- injury
+  - tissue damage (UMLS; C0010957)
 
 ~~~ ann
 matrix remodeling phase
@@ -78,6 +81,18 @@ T3 GGPs 43 51 collagen
 T4 Conversion 52 64 crosslinking
 E1 Biological_process:T2 Theme:T1 Cause:E2
 E2 Conversion:T4 Theme:T3
+~~~
+~~~ ann
+epithelial injury
+T1 Cell 0 10 epithelial
+T2 Biological_process 11 17 injury
+E1 Biological_process:T2 Theme:T1
+~~~
+~~~ ann
+injured lung
+T1 Biological_process 0 7 injured
+T2 Anatomical_entity 8 12 lung
+E1 Biological_process:T1 Theme:T2
 ~~~
 
 Arguments:
