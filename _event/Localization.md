@@ -13,7 +13,7 @@ This event indicates localization or movement of entity, such as [Cell]() and mo
 The following words/phrases can be triggers of localization event:
 
 - accumulation
-- localization, localized (UMLS ID:C0475264)
+- localization, localized (UMLS ID:C0475264 -> C1744691)
 - adhesion
 
 ~~~ ann
