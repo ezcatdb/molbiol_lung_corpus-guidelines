@@ -22,7 +22,7 @@ The following words/phrases can be triggers of this event:
   - catalytic activity (UMLS ID:C0243102)
 - chemoattractant activity (UMLS; C1149381) (If chemotaxis, [Cellular_process]())
 - immunoreactivity (UMLS; C0597879) (If it meant immunoassay, [Method_cue]())
-- (indirect) interaction (UMLS; C1148560 (originallyfor Molecular function))
+- (indirect?) interaction (UMLS; C1148560 (originally for Molecular function))(If it is difficult to determine whether it is direct interaction)
 
 ~~~ ann
 Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
