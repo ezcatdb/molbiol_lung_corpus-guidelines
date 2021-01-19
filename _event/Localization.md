@@ -38,7 +38,7 @@ E1 Localization:T2 Theme:T1 AtLoc:T3
 
 The following words/phrases can be triggers of movement event:
 
-- infection
+- infection (This can be [Disorder]())
 - metastasis
 - invade, invasion
 - migration
