@@ -39,9 +39,7 @@ The following examples are more specific pathways:
 ~~~ ann
 MAPK signaling pathway
 T1 GGPs 0 4 MAPK
-T2 Pathway 5 22 signaling pathway
 T3 Pathway 0 22 MAPK signaling pathway
-E1 Pathway:T2 Participant:T1
 E2 Pathway:T3 Participant:T1
 ~~~
 ~~~ ann
