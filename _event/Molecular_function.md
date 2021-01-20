@@ -20,9 +20,11 @@ The following words/phrases can be triggers of this event:
 - biochemical mechanism (UMLS; C0678659)
 - [enzyme] activity (UMLS ID:C0243102)
   - catalytic activity (UMLS ID:C0243102)
+- biosynthesis (anabolism, or biosynthetic process) (UMLS; C0220781)
+- degradation (catabolism, or breakdown) (UMLS; C0699900)
 - chemoattractant activity (UMLS; C1149381) (If chemotaxis, [Cellular_process]())
 - immunoreactivity (UMLS; C0597879) (If it meant immunoassay, [Method_cue]())
-- (indirect?) interaction (UMLS; C1148560 (originally for Molecular function))(If it is difficult to determine whether it is direct interaction)
+- (indirect) interaction (UMLS; C1148560 (originally for Molecular function))(in case where it is difficult to determine whether it is a direct interaction between molecules)
 
 ~~~ ann
 Infulence of methylenetetrahydrofolate reductase C677T polymorphism on the risk of lung cancer
