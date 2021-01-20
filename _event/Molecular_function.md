@@ -23,7 +23,7 @@ The following words/phrases can be triggers of this event:
 - biosynthesis (anabolism, or biosynthetic process) (UMLS; C0220781)
 - degradation (catabolism, or breakdown) (UMLS; C0699900)
 - chemoattractant activity (UMLS; C1149381) (If chemotaxis, [Cellular_process]())
-- immunoreactivity (UMLS; C0597879) (If it meant immunoassay, [Method_cue]())
+- immunoreactivity (UMLS; C0597879) (If it meant immunoassay, [Method cue]())
 - (indirect) interaction (UMLS; C1148560 (originally for Molecular function))(in case where it is difficult to determine whether it is a direct interaction between molecules)
 
 ~~~ ann
