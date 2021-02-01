@@ -16,8 +16,8 @@ CD73, the enzyme protein which produces adenosine.
 T1 GGPs 0 4 CD73
 T2 GGPs 10 24 enzyme protein
 T3 Organic_compound_other 40 49 adenosine
-T4 Biological_process 31 39 produces
-E1 Biological_process:T4 Theme:T3 Cause:T2
+T4 Molecular_function 31 39 produces
+E1 Molecular_function:T4 Theme:T3 Cause:T2
 R1 Coreference Arg1:T2 Arg2:T1
 ~~~
 
