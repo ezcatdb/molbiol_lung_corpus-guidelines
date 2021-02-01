@@ -8,3 +8,12 @@ The relation, 'coreference', is used when additional expressions refer to the sa
 This relation connects common expression to more specific/concrete expression.
 
 There are two types of coreference, entity coreference and event coreference.
+
+~~~ ann
+CD73, the enzyme protein which produces adenosine.
+T1 GGPs 0 4 CD73
+T2 GGPs 10 24 enzyme protein
+T3 Organic_compound_other 38 47 adenosine
+R1 Coreference Arg1:T2 Arg2:T1
+~~~
+
