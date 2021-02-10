@@ -8,7 +8,7 @@ order: 31
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
-This event indicates localization or movement of entity, such as [Cell]() and molecular entities including [GGPs]().
+This event indicates localization or movement of entities, such as [Cell]() and molecular entities including [GGPs]().
 
 The following words/phrases can be triggers of localization event:
 
