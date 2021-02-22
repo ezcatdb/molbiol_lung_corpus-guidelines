@@ -30,7 +30,7 @@ T1 Anatomical_entity 0 29 Bronchoalveolar lavage fluids
 T2 Subject 35 45 2 patients
 T3 Artificial_process 51 63 concentrated
 T4 Method_cue 67 96 reversed-phase chromatography
-E1 Artificial_process:T3 Theme:T1
+E1 Artificial_process:T3 Theme:T1 cue:T4
 R1 part_of Arg1:T1 Arg2:T2
 ~~~
 ~~~ ann
