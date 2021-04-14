@@ -135,6 +135,12 @@ T4 GGPs 13 15;16 19 IL-33
 R1 member_of Arg1:T3 Arg2:T1
 R2 is_equivalent Arg1:T4 Arg2:T3
 ~~~
+~~~ ann
+interleukin (IL)-33
+T1 GGPs 0 11 interleukin
+T3 GGPs 0 19 interleukin (IL)-33
+R1 member_of Arg1:T3 Arg2:T1
+~~~
 
 In case of modified GGPs, annotation can be performed as follows:
 ~~~ ann
