@@ -54,7 +54,7 @@ R1 part_of Arg1:T4 Arg2:T3
 ~~~ ann
 p-S6
 T1 Conversion 0 2 p-
-T2 GGPs 1 3 S6
+T2 GGPs 2 4 S6
 T3 GGPs 0 4 p-S6
 T4 Inorganic_compound 0 2 p-
 E1 Conversion:T1 Theme:T2 Product:T3
