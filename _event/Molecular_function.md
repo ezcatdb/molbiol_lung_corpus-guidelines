@@ -43,8 +43,7 @@ T4 GGPs 60 65  C677T
 T5 Molecular_function 66 78 polymorphism
 T6 Disorder 109 114 NSCLC
 E1 Molecular_function:T2 Product:T1
-E2 Molecular_function:T5 Product:T1
-R1 Coreference Arg1:T4 Arg2:T1
+E2 Molecular_function:T5 Product:T4
 ~~~
 ~~~ ann
 MMP-7 activity in regard to elastin degradation
