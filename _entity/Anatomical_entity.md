@@ -32,8 +32,8 @@ T1 Disorder 0 23 Squamous cell carcinoma
 T2 Cell 0 23 Squamous cell carcinoma
 T3 Anatomical_entity 31 35 lung
 T4 Anatomical_entity 48 67 right main bronchus
-T5 Migration 36 43 invaded
-E1 Migration:T5 Theme:T2 fromLoc:T3 toLoc:T4
+T5 Localization 36 43 invaded
+E1 Localization:T5 Theme:T2 fromLoc:T3 toLoc:T4
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
@@ -53,8 +53,8 @@ Using PET-CT, we diagnosed liver metastases in the two patients.
 T2 Anatomical_entity 27 32 liver
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
-T7 Migration 33 43 metastases
-E2 Migration:T7 toLoc:T2
+T7 Localization 33 43 metastases
+E2 Localization:T7 toLoc:T2
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 ~~~
 
