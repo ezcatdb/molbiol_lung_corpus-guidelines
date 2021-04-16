@@ -33,7 +33,6 @@ controls (N=24)
 T1 Subject 0 8 controls
 T2 Subject 10 14 N=24
 A1 Count_sbjct T2
-R1 Coreference Arg1:T2 Arg2:T1
 ~~~
 
 <!--
