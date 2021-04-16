@@ -1,9 +1,9 @@
 ---
 layout: entry
 title: "Dissociation"
-category: "Biological process"
+category: "Molecular function"
 shortdef: "Dissociation of multiple molecules"
-order: 22
+order: 75
 ---
 
 <!--
