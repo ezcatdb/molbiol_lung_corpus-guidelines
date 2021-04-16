@@ -1,9 +1,9 @@
 ---
 layout: entry
 title: "Binding"
-category: "Biological process"
+category: "Molecular function"
 shortdef: "Non-covalent interaction between molecules"
-order: 21
+order: 74
 ---
 
 <!--
