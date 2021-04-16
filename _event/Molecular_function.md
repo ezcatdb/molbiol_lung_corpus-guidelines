@@ -1,7 +1,7 @@
 ---
 layout: entry
 title: "Molecular_function"
-category: "Molecular process"
+category: "Molecular function"
 shortdef: "Processes on molecular level"
 order: 70
 ---
