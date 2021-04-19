@@ -40,6 +40,9 @@ E2 Positive_regulation:T4 Cause:E1 Theme:E3 cue:T3 cue2:T1
 E3 Biological_process:T5
 A1 Speculated E2
 ~~~
+
+<!--
+
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Method_cue 6 12 PET-CT
@@ -55,3 +58,18 @@ R1 Subject_Disorder Arg1:T5 Arg2:T6
 R2 part_of Arg1:T3 Arg2:T5
 ~~~
 
+~~~ ann
+Using PET-CT, we diagnosed liver metastases in the two patients.
+T1 Anatomical_entity 27 32 liver
+T2 Method_cue 6 12 PET-CT
+T3 Artificial_process 17 26 diagnosed
+T4 Disorder 27 43 liver metastases
+T5 Subject 51 63 two patients
+T6 Localization 33 43 metastases
+E1 Artificial_process:T3 Theme:T4 cue:T2
+E2 Localization:T6 atLoc:T1
+R1 Subject_Disorder Arg1:T5 Arg2:T4
+R2 part_of Arg1:T1 Arg2:T5
+~~~
+
+-->
