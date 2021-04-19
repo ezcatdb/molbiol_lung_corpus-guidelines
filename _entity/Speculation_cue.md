@@ -26,17 +26,21 @@ In addition to verbs, such as “suggest”, “show”, and “indicate”, the
 - Presumably/probably
 - presume(d)
 
+
 ~~~ ann
 We hypothesized that direct implantation might have led to metastasis.
 T1 Speculation_cue 3 15 hypothesized
-T2 Surgery 21 40 direct implantation
+T2 Artificial_process 21 40 direct implantation
 T3 Speculation_cue 41 46 might
-T4 Adverse_effect 52 58 led to
-T5 Disease 59 69 metastasis
-E1 Surgery:T2 
-E2 Adverse_effect:T4 has_agent:E1 affects:T5 cue:T3 cue2:T1 
+T4 Positive_regulation 52 58 led to
+T5 Biological_process 59 69 metastasis
+T6 Disorder 59 69 metastasis
+E1 Artificial_process:T2 
+E2 Positive_regulation:T4 Cause:E1 Theme:E3 cue:T3 cue2:T1 
+E3 Biological_process:T5
 A1 Speculated E2
 ~~~
+
 
 The following words indicate that the events involved are not clear/known.
 - unclear
