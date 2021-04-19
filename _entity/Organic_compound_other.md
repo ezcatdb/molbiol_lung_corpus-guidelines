@@ -32,13 +32,15 @@ in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 ~~~ ann
 The alpha-phosphate of ATP.
 T1 Organic_compound_other 23 26 ATP
+T2 Inorganic_compound 4 19 alpha-phosphate
+R1 part_of Arg1:T2 Arg2:T1
 ~~~
 ~~~ann
 T cell blasts were treated with PMA.
 T1 Cell 0 13 T cell blasts
 T2 Artificial_process 19 26 treated
 T3 Organic_compound_other 32 35 PMA
-E1 Artificial_process:T2 Theme:T1 Theme2:T3
+E1 Artificial_process:T2 Theme:T1 Instrument:T3
 ~~~
 
 <!-- details -->
