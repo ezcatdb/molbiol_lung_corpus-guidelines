@@ -24,15 +24,15 @@ Diseases and symptoms, which can be a group in phenotype, will be annotated in t
 Idiopathic pulmonary fibrosis (IPF) is a fatal condition. 
 T1 Disorder 0 29 Idiopathic pulmonary fibrosis
 T2 Disorder 31 34 IPF
-T3 Phenotype 41 56 fatal condition
-R1 is_equivalent Arg1:T2 Arg2:T1
+T3 Disorder 41 56 fatal condition
 ~~~
 
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T3 Disorder 58 69 lung cancer
-T5 Anatomical_entity 58 62 lung
+T2 Artificial_process 32 53 right upper lobectomy
+T3 Disorder 58 70 lung cancer
+E1 Artificial_process:T2 Theme:T1
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
 
@@ -149,7 +149,6 @@ Idiopathic pulmonary fibrosis (IPF) is a fatal condition.
 T1 Disorder 0 29 Idiopathic pulmonary fibrosis
 T2 Disorder 31 34 IPF
 T3 Disorder 41 56 fatal condition
-R1 is_equivalent Arg1:T2 Arg2:T1
 ~~~
 
 <div style="background-color: yellow" markdown="1">
