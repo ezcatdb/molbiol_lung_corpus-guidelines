@@ -134,8 +134,10 @@ T2 Disorder 26 51 sleep breathing disorders
 T3 Disorder 53 57 SBDs
 T4 Regulation 4 10 impact
 T5 Biological_process 62 70 survival
+T6 Regulation 18 25 related
 E1 Regulation:T4 Cause:T2 Theme:E2
 E2 Biological_process:T5
+E3 Regulation:T6 Cause:T1 Theme:T2
 ~~~
 ~~~ ann
 The common adverse effects of Icotinib were rash and diarrhea.
