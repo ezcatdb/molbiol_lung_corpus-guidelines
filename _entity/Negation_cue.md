@@ -11,30 +11,14 @@ Negation words, such as "not", can be combined with event expressions.
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
-T3 Surgery 28 39 lung resect
-E1 Surgery:T3 has_subject:T1 cue:T2
+T3 Anatomical_entity 28 32 lung
+T4 Artificial_process 33 39 resect
+E1 Artificial_process:T4 Theme:T3 cue:T2
 A1 Negated E1
+R1 part_of Arg1:T3 Arg2:T1
 ~~~
 
 However, even if the negation words can be identified as Negation_cue, such cues are not always connected with event expressions.
-
-<!--
-
-~~~ ann
-A gem-diol intermediate, not an acyl enzyme.
-T1 FunctionalGroup 2 10 gem-diol
-T2 EntityProperty 2 23 gem-diol intermediate
-T3 Negation_cue 25 28 not
-T4 FunctionalGroup 32 36 acyl
-T5 Enzyme 37 43 enzyme
-T6 EntityProperty 32 43 acyl enzyme
-A1 EntityAttribute T2 ReactionState
-A2 EntityAttribute T6 ReactionState
-R1 whole_part Arg1:T2 Arg2:T1
-R2 whole_part Arg1:T6 Arg2:T4
-R3 whole_part Arg1:T6 Arg2:T5
-~~~
--->
 
 In addition to typical negation words, such as “no”, “not’, “none” and
 “neither ~ nor ~”, the following words/phrases can be negation cues.
