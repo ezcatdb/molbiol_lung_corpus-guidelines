@@ -47,7 +47,7 @@ T2 Method_cue 6 12 PET-CT
 T3 Artificial_process 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
-T6 Biological_process 32 43 metastases
+T6 Biological_process 33 43 metastases
 E1 Artificial_process:T3 Theme:T4 cue:T2
 E2 Biological_process:T6 atLoc:T1
 R1 Subject_Disorder Arg1:T5 Arg2:T4
