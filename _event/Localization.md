@@ -58,14 +58,19 @@ T4 Anatomical_entity 48 67 right main bronchus
 T5 Localization 36 43 invaded
 E1 Localization:T5 Theme:T2 fromLoc:T3 toLoc:T4
 ~~~
+
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
-T2 Anatomical_entity 27 32 liver
+T1 Anatomical_entity 27 32 liver
+T2 Method_cue 6 12 PET-CT
+T3 Artificial_process 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
-T7 Localization 33 43 metastases
-E2 Localization:T7 toLoc:T2
+T6 Localization 33 43 metastases
+E1 Artificial_process:T3 Theme:T4 cue:T2
+E2 Localization:T6 atLoc:T1
 R1 Subject_Disorder Arg1:T5 Arg2:T4
+R2 part_of Arg1:T1 Arg2:T5
 ~~~
 ~~~ ann
 lung alveolar epithelial cell migration
