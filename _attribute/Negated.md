@@ -12,9 +12,11 @@ In the following case, the event trigger, which is combined with the Negation Cu
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
 T2 Negation_cue 16 19 not
-T3 Surgery 28 39 lung resect
-E1 Surgery:T3 has_subject:T1 cue:T2
+T3 Anatomical_entity 28 32 lung
+T4 Artificial_process 33 39 resect
+E1 Artificial_process:T4 Theme:T3 cue:T2
 A1 Negated E1
+R1 part_of Arg1:T3 Arg2:T1
 ~~~
 
 <!--
