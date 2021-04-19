@@ -103,8 +103,7 @@ T1 Biological_process 20 39 acute exacerbations
 T2 Disorder 43 72 idiopathic pulmonary fibrosis
 T3 Biological_process 74 76 AE
 T4 Disorder 77 80 IPF
-R3 is_equivalent Arg1:T4 Arg2:T2
-R4 is_equivalent Arg1:T3 Arg2:T1
+
 ~~~
 
 <!--
@@ -133,13 +132,19 @@ The impact of IPF-related sleep breathing disorders (SBDs) on survival.
 T1 Disorder 14 17 IPF
 T2 Disorder 26 51 sleep breathing disorders
 T3 Disorder 53 57 SBDs
-R1 is_equivalent Arg1:T3 Arg2:T2
+T4 Regulation 4 10 impact
+T5 Biological_process 62 70 survival
+E1 Regulation:T4 Cause:T2 Theme:E2
+E2 Biological_process:T5
 ~~~
 ~~~ ann
 The common adverse effects of Icotinib were rash and diarrhea.
 T2 Pharmacological_substance 30 38 Icotinib
 T3 Disorder 44 48 rash
 T4 Disorder 53 61 diarrhea
+T5 Negative_regulation 11 26 adverse effects
+E1 Negative_regulation:T5 Cause:T2 Theme:T3
+E2 Negative_regulation:T5 Cause:T2 Theme:T4
 ~~~
 
 - fatal condition
