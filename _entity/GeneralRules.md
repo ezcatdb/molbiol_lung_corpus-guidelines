@@ -36,6 +36,7 @@ T3 Anatomical_entity 28 32 lung
 T4 Artificial_process 33 39 resect
 E1 Artificial_process:T4 Theme:T3 cue:T2
 A1 Negated E1
+R1 part_of Arg1:T3 Arg2:T1
 ~~~
  
  - Numerals should be included in the entities, as they can suggest groups.
