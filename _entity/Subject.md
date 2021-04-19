@@ -18,12 +18,16 @@ This entity indicates 'individual level' above the [Anatomical_entity]().
 Subjects who underwent lung resect.
 T1 Subject 0 8 Subjects
 T3 Anatomical_entity 23 27 lung
+T4 Artificial_process 28 34 resect
+E1 Artificial_process:T4 Theme:T3
+R1 part_of Arg1:T3 Arg2:T1
 ~~~
 ~~~ ann
 A 40-year-old man had undergone right upper lobectomy for lung cancer.
 T1 Subject 2 17 40-year-old man
-T2 Anatomical_entity 58 62 lung
-T3 Disorder 58 69 lung cancer
+T2 Artificial_process 32 53 right upper lobectomy
+T3 Disorder 58 70 lung cancer
+E1 Artificial_process:T2 Theme:T3
 R1 Subject_Disorder Arg1:T1 Arg2:T3
 ~~~
 ~~~ ann
@@ -40,7 +44,7 @@ T1 Pharmacological_substance 0 9 Bleomycin
 T2 Regulation 10 17 induced
 T3 Disorder 18 36 pulmonary fibrosis
 T4 Subject 40 44 mice
-E1 Regulation:T2 Agent:T1 atLoc:T4 Theme:T3
+E1 Regulation:T2 Cause:T1 atLoc:T4 Theme:T3
 R1 Subject_Disorder Arg1:T4 Arg2:T3
 ~~~
 
@@ -49,14 +53,23 @@ Ten healthy volunteers took 200 mg itraconazole or matched placebo once daily fo
 T1 Subject 0 22 Ten healthy volunteers
 T5 Pharmacological_substance 35 47 itraconazole
 T6 Pharmacological_substance 59 66 placebo
+T7 Artificial_process 23 27 took
+E1 Artificial_process:T7 Theme:T1 Instrument:T5
+E2 Artificial_process:T7 Theme:T1 Instrument:T6
 ~~~
 
 ~~~ ann
 Using PET-CT, we diagnosed liver metastases in the two patients.
 T1 Anatomical_entity 27 32 liver
+T2 Method_cue 6 12 PET-CT
+T3 Artificial_process 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
+T6 Biological_process 33 43 metastases
+E1 Artificial_process:T3 Theme:T4 cue:T2
+E2 Biological_process:T6 atLoc:T1
 R1 Subject_Disorder Arg1:T5 Arg2:T4
+R2 part_of Arg1:T1 Arg2:T5
 ~~~
 
 
