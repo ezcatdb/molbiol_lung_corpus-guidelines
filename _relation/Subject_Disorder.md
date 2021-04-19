@@ -5,7 +5,7 @@ shortdef: "relationships between subject and disorder (PHAEDRA)"
 order: 110
 ---
 
-This relation indicates relationships of [Subject]() with its disorder, [Disease]() or [Symptom](), and also [Phenotype]().
+This relation indicates relationships of [Subject]() with its [Disorder]().
 
 This relation is based on the <a href="http://www.nactem.ac.uk/">PHAEDRA corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
