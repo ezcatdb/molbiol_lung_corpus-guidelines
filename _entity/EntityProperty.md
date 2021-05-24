@@ -28,6 +28,7 @@ The following words/phrases for [Disorder]() can be tentatively annotated for th
 - stable phase
 - inflammatory phase
 
+<!---
 ~~~ ann
 stage I lung cancer
 T1 Entity_Property 0 7 stage I
@@ -45,6 +46,8 @@ T5 Disorder 12 18;23 31 stage IV NSCLC
 R1 member_of Arg1:T4 Arg2:T3
 R2 member_of Arg1:T5 Arg2:T3
 ~~~
+--->
+
 
 The following words/phrases, which are used to indicate so-called *cell marker expression* or *immunophenotyping*, for [Cell]() and [GGPs]() can be tentatively annotated for this category.
 
