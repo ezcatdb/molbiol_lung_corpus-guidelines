@@ -45,9 +45,6 @@ T3 GGPs 36 51 myeloperoxidase
 T4 GGPs 53 56 MPO
 T5 GGPs 63 73 arginase 1
 T6 GGPs 75 79 ARG1
-R1 is_equivalent Arg1:T2 Arg2:T1
-R2 is_equivalent Arg1:T4 Arg2:T3
-R3 is_equivalent Arg1:T6 Arg2:T5
 ~~~
 ~~~ ann
 VEGFR-TKI
@@ -126,6 +123,8 @@ T2 Negative_regulation 4 13 inhibitor
 T3 GGPs 14 25 C3 exotoxin
 E1 Negative_regulation:T2 Cause:T3 Theme:T1
 ~~~
+
+<!---
 ~~~ ann
 interleukin (IL)-33
 T1 GGPs 0 11 interleukin
@@ -135,11 +134,11 @@ T4 GGPs 13 15;16 19 IL-33
 R1 member_of Arg1:T3 Arg2:T1
 R2 is_equivalent Arg1:T4 Arg2:T3
 ~~~
+--->
+
 ~~~ ann
 interleukin (IL)-33
-T1 GGPs 0 11 interleukin
 T3 GGPs 0 19 interleukin (IL)-33
-R1 member_of Arg1:T3 Arg2:T1
 ~~~
 
 In case of modified GGPs, annotation can be performed as follows:
