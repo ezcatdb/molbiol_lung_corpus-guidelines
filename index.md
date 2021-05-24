@@ -135,12 +135,15 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 ## Relations
 
+<!---
 - [is_equivalent](): {% assign i = site.relation | where_exp:"i", "i.title == 'is_equivalent'" | first %}{{ i.shortdef }}
+- [Coreference](): {% assign i = site.relation | where_exp:"i", "i.title == 'coreference'" | first %}{{ i.shortdef }}
+--->
+
 - [member_of](): {% assign i = site.relation | where_exp:"i", "i.title == 'member_of'" | first %}{{ i.shortdef }}
 - [part_of](): {% assign i = site.relation | where_exp:"i", "i.title == 'part_of'" | first %}{{ i.shortdef }}
 - [Subject_Disorder](): {% assign i = site.relation | where_exp:"i", "i.title == 'Subject_Disorder'" | first %}{{ i.shortdef }}
 - [Disorder_association](): {% assign i = site.relation | where_exp:"i", "i.title == 'Disorder_association'" | first %}{{ i.shortdef }}
-- [Coreference](): {% assign i = site.relation | where_exp:"i", "i.title == 'coreference'" | first %}{{ i.shortdef }}
 
 <!---
 {% assign sorted = site.relation | sort: 'order' %}
