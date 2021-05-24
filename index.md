@@ -156,9 +156,12 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Negated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Negated'" | first %}{{ i.shortdef }}
 - [Speculated](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Speculated'" | first %}{{ i.shortdef }}
+<!---
   - [Certainty](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Certainty'" | first %}{{ i.shortdef }}
+--->
 
 - [Count_sbjct](): {% assign i = site.attribute | where_exp:"i", "i.title == 'Count_sbjct'" | first %}{{ i.shortdef }}
+
 
 <!---
 - [MutantAttribute](): {% assign i = site.attribute | where_exp:"i", "i.title == 'MutantAttribute'" | first %}{{ i.shortdef }}
