@@ -33,7 +33,8 @@ The following words/phrases can be triggers of this event:
 - inflammatory response (UMLS; C1155266)
 - immune response [process] (UMLS; C0301872)
 - injury
-  - tissue damage (UMLS; C0010957 -> C0008767 (for Cicatrization))
+  - tissue damage (UMLS; C0010957) 
+  - scarring (UMLS; C0008767 (for Cicatrization))
 - adverse event (UMLS; C0877248)
 
 ~~~ ann
