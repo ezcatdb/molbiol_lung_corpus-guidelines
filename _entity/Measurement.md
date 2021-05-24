@@ -51,8 +51,7 @@ IPF patients with a forced vital capacity (FVC) of 50-80%.
 T1 Disorder 0 3 IPF
 T2 Measurement 19 41 forced vital capacity
 T3 Measurement 43 46 FVC
-T5 Subject 4 12 IPF patients 
-R1 is_equivalent Arg1:T3 Arg2:T2
+T5 Subject 4 12 IPF patients
 R3 Subject_Disorder Arg1:T5 Arg2:T1
 ~~~
 
