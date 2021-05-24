@@ -80,7 +80,6 @@ T5 Cell 24 28 HLFs
 R1 part_of Arg1:T3 Arg2:T2
 R2 part_of Arg1:T2 Arg2:T1
 R3 member_of Arg1:T4 Arg2:T3
-R4 is_equivalent Arg1:T5 Arg2:T4
 ~~~
 ~~~ ann
 pulmonary fibroblast (PF)
@@ -90,7 +89,6 @@ T3 Cell 0 20 pulmonary fibroblast
 T4 Cell 22 24 PF
 R1 part_of Arg1:T2 Arg2:T1
 R2 member_of Arg1:T3 Arg2:T2
-R4 is_equivalent Arg1:T4 Arg2:T3
 ~~~
 
 <!-- details -->
