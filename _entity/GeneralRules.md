@@ -11,6 +11,8 @@ The top ranking of the priority for entities are as follows:
 - [Cell]()
 - [Pharmacological_substance]()
 
+For normalization for entities and event triggers, the UMLS IDs will be adopted.
+
 <!--
 - [Anatomical_entity]()
 - [Protein_molecule]()
