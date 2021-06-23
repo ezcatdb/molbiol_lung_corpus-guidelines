@@ -1,7 +1,7 @@
 ---
 layout: entry
-title: General rules for entities
-shortdef: "Entity rules"
+title: General rules
+shortdef: "basic rules"
 order: 0
 ---
 <!--
