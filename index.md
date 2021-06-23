@@ -3,10 +3,10 @@ layout: entry
 title: Annotation guidelines for molecuar biology corpus (lung diseases)
 ---
 
-## Entities
+## Rules
 - [General rules](): {% assign i = site.entity | where_exp:"i", "i.title == 'General rules'" | first %}{{ i.shortdef }}
 
-## entities
+## Entities
 <!--
 - [Phenotype](): {% assign i = site.entity | where_exp:"i", "i.title == 'Phenotype'" | first %}{{ i.shortdef }}
 -->
@@ -75,7 +75,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 
 - [Genetic_info](): {% assign i = site.entity | where_exp:"i", "i.title == 'Genetic_info'" | first %}{{ i.shortdef }}
 
-## cues
+## Cues
 - [Negation cue](): {% assign i = site.entity | where_exp:"i", "i.title == 'Negation cue'" | first %}{{ i.shortdef }}
 - [Speculation cue](): {% assign i = site.entity | where_exp:"i", "i.title == 'Speculation cue'" | first %}{{ i.shortdef }}
  
