@@ -4,7 +4,7 @@ title: Annotation guidelines for molecuar biology corpus (lung diseases)
 ---
 
 ## Entities
-- [General rules for entities](): {% assign i = site.entity | where_exp:"i", "i.title == 'General rules for entities'" | first %}{{ i.shortdef }}
+- [General rules](): {% assign i = site.entity | where_exp:"i", "i.title == 'General rules'" | first %}{{ i.shortdef }}
 
 ## entities
 <!--
