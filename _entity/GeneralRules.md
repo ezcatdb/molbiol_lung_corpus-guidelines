@@ -4,14 +4,18 @@ title: General rules for entities
 shortdef: "Entity rules"
 order: 0
 ---
-
+<!--
 The top ranking of the priority for entities are as follows:
 - [Disorder]()
 - [GGPs]()
 - [Cell]()
 - [Pharmacological_substance]()
+-->
 
-For normalization for entities and event triggers, the UMLS IDs will be adopted.
+For normalization of entities (and event triggers), IDs of the <a href="https://www.nlm.nih.gov/research/umls/index.html">Unified Medical Language System (UMLS)</a> will be adopted.
+Each UMLS ID has some semantic types, such as "dsyn: Disease and Sundrome" and "gngm: Gene or Genome". Based on such semantic types, entity types, such as [Disorder]() and [GGPs](), can be determined.
+
+In order to search appropriate IDs, the <a href="https://ncim.nci.nih.gov/ncimbrowser/">NCI Metathesaurus (NCIm)</a> can be used. 
 
 <!--
 - [Anatomical_entity]()
