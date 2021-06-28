@@ -202,7 +202,7 @@ R2 member_of arg1:T4 arg2:T2
 N1	Reference T2 UMLS:C1800706	Idiopathic Pulmonary Fibrosis
 ~~~
 
-The following words/phrases for stage/degree of disease are nnotated as [Entity Property]().
+The following words/phrases for stage/degree of disease will be annotated as [Entity Property]().
 - stage I
 - stage II
 - stage IIIB
