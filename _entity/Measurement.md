@@ -17,6 +17,7 @@ The definition of 'Measurement' is based on the Semantic types of
 - 'diap' (Diagnostic Procedure)
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
 These words/phrases may suggest the state of [Disorder](), and usually appear along with the corresponding values.
 
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
