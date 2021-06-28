@@ -10,14 +10,14 @@ The definition of 'Measurement' for lung diseases may be mostly based on <a href
 'Measurement', which can be a group in phenotype, will be annotated in this category. 
 The following words/phrases should be annotated as 'Measurement'.
 
-The definition of 'Disorder' is based on the Semantic types of 
+The definition of 'Measurement' is based on the Semantic types of 
 - 'lbpr' (Laboratory Procedure)
 - 'lbtr' (Laboratory or Test Result)
 - 'clna' (Clinical Attribute)
 - 'diap' (Diagnostic Procedure)
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
-
+These words/phrases may suggest the state of [Disorder](), and usually appear along with the corresponding values.
 
 Based on <a href="https://en.wikipedia.org/wiki/Spirometry">spirometry</a>:
 - forced vital capacity (UMLS; C3714541)
@@ -65,7 +65,7 @@ Based on <a href="https://en.wikipedia.org/wiki/Oxygen_saturation_(medicine)">ox
   - SpO2 (UMLS; C2317096)
 
 
-The following words/phrases are not from Spirometry, but definitely 'Measurement'.
+The following words/phrases are not from Spirometry, but definitely 'Measurement', as they can suggest the state of [Disorder]() along with the corresponding values:
 - 6-min walk distance (UMLS; C4055399)
 - 6MWD (UMLS; C4055399)
 - 6-min walk test (UMLS; C4055399)
