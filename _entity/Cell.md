@@ -22,7 +22,7 @@ The definition of ‘Cell’ is based on the Semantic types of
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 
-'Cells' are categorized into this entity group.
+'Cell' is categorized into this entity group.
 
 The following words/phrases are examples of this entity.
 
