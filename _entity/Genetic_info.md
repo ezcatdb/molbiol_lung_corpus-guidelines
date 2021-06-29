@@ -14,6 +14,8 @@ Technical terms for mutation information, which cannot be included in [GGPs](), 
 -->
 Technical terms for mutation information, which cannot be included in [GGPs](), can be categorized into this category, 'Genetic_info'.
 
+However, as it would be difficult to assign the UMLS IDs to this type of entity, this entity will be annotated without the corresponding IDs.
+
 The following words must be typical mutation info:
  - 1G/2G
  - rs1800925(C/T)
