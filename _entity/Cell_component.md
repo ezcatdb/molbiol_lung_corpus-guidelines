@@ -16,7 +16,6 @@ and cellular component
 -->
 
 The definition of ‘Cell component’ is based on the Semantic types of
-
 -    ‘celc’ (Cell Component)
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
