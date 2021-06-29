@@ -15,6 +15,13 @@ Cell ontology
 Cell line ontology
 </a>.
 
+The definition of ‘Cell’ is based on the Semantic types of
+
+-    ‘cell’ (Cell)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
+
 'Cells' are categorized into this entity group.
 
 The following words/phrases are examples of this entity.
@@ -58,7 +65,7 @@ T cell blasts were treated with PMA.
 T1 Cell 0 13 T cell blasts
 T2 Artificial_process 19 26 treated
 T3 Organic_compound_other 32 35 PMA
-E1 Artificial_process:T2 Theme:T1 Theme2:T3
+E1 Artificial_process:T2 Theme:T1 Instrument:T3
 ~~~
 ~~~ ann
 lung alveolar epithelial cell migration
