@@ -9,6 +9,13 @@ The name of this entity group is based on the <a href="http://www.nactem.ac.uk/P
 
 This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 
+The definition of 'Pharmacological_substance' is based on the Semantic types of 
+- 'phsu' (Pharmacologic Substance)
+- 'antb' (Antibiotic), and
+- 'irda' (Indicator, Reagent, or Diagnostic Aid)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
 Medicines are categorized into this entity group.
 
 ~~~ ann
