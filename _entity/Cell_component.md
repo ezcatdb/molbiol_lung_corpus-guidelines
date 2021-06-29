@@ -7,11 +7,19 @@ order: 12
 
 The name of this entity group is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
+<!--
 This entity is based on 
 <a href="https://www.ebi.ac.uk/ols/ontologies/cl">Cell ontology</a> 
 and cellular component
 (<a href="http://amigo.geneontology.org/amigo/term/GO:0005575">GO:0005575</a>) from 
 <a href="http://geneontology.org/">Gene ontology</a>.
+-->
+
+The definition of ‘Cell component’ is based on the Semantic types of
+
+-    ‘celc’ (Cell Component)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 'Cell component' is categorized into this entity group.
 
