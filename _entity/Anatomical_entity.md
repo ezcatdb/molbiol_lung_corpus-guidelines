@@ -9,10 +9,21 @@ The name of this entity group is based on <a href="https://en.wikipedia.org/wiki
 
 Organs, such as lung, and tissues above cells are categorized into this entity group.
 
+<!--
 This entity may be based on the following ontology databases:
 - <a href="https://www.ebi.ac.uk/ols/ontologies/fma">FMA</a>
 - <a href="https://www.ebi.ac.uk/ols/ontologies/uberon">UBERON</a>
 - <a href="https://www.ebi.ac.uk/ols/search?ontology=ncit">NCIT</a>
+-->
+
+The definition of 'Anatomical_entity' is based on the Semantic types of 
+- 'anst' (Anatomical Structure),
+- 'ffas' (Fully Formed Anatomical Structure), 
+- 'bpoc' (Body Part, Organ, or Organ Component),
+- 'bsoj' (Body Space or Junction), and 
+- 'tisu' (Tissue)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
 Regarding the organ, such as lung, the following words/phrases can also be annotated.
 - <a href="https://en.wikipedia.org/wiki/Respiratory_system">respiratory system</a>（呼吸器系）
@@ -68,7 +79,7 @@ R1 Subject_Disorder Arg1:T5 Arg2:T4
 R2 part_of Arg1:T1 Arg2:T5
 ~~~
 
-Regarding tissues in lung, the following words/phrases can also be annotated.
+Regarding the tissues in the lung, the following words/phrases can also be annotated.
 
 - blood
 - serum
@@ -87,7 +98,7 @@ Regarding tissues in lung, the following words/phrases can also be annotated.
 
 - <a href="https://en.wikipedia.org/wiki/Pulmonary_pleurae">pulmonary pleurae</a>（胸膜）
   - parietal pleura
-
+- bronchoalveolar lavage [fluid] (BAL) (UMLS; C0006279)
 
 The following words/phrases are part of <a href="https://en.wikipedia.org/wiki/Circulatory_system">circulatory system</a>（循環器系）.
 
