@@ -25,7 +25,8 @@ in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 The following words/phrases are examples of this entity.
 - cytoplasm
 - cytosol
-- nucleus
+- nucleus (UMLS ID:C0007610)
+  - nuclear (UMLS ID:C0007610)
 - transmembrane
 - plasma membrane
 - extracellular matrix
