@@ -13,6 +13,12 @@ The name of this entity group is based on the <a href="http://www.nactem.ac.uk/m
 
 This entity is based on <a href="https://www.ebi.ac.uk/chembl/">ChEMBL</a> database.
 
+The definition of ‘Inorganic compound’ is based on the Semantic types of
+-    ‘inch’ (Inorganic Chemical)
+-    ‘elii' (Element, Ion, or Isotope)
+
+in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
+
 Inorganic compounds are typically chemicals which do not contain "carbon-hydrogen" bonds.
 This entity usually contains metal ions.
 
