@@ -22,9 +22,9 @@ The definition of 'GGPs' (Gene or Gene products) is based on the Semantic types 
 
 in the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a>.
 
-However, some data of UMLS 'horm' might be for [Organic_compound_other]().
+However, some data of the Semantic type, 'horm', might be categorized into [Organic_compound_other]().
 
-Some data of UMLS 'nnon' also may be for [Organic_compound_other](), if they are metabolites, instead of parts of genes/gene products.
+Some data of the Semantic type, 'nnon', also may be classified into [Organic_compound_other](), if they are metabolites, instead of parts of genes/gene products.
 
 Protein molecules, gene products, and genes are categorized into this entity group.
 - interleukin (UMLS ID:C0021764)
@@ -150,13 +150,11 @@ T3 GGPs 0 10 Phospho-S6
 E1 Conversion:T1 Theme:T2 Product:T3
 ~~~
 
-Regarding *mutant/variant* information, it is extremely difficult to normalize them, as there are too many possible mutants for any GGPs. Thus, such *mutant/variant* information will be included in *Notes*, as follows:
-
-- mutant C125A
-
+Regarding *mutant/variant* information, it is extremely difficult to normalize them, as there are too many possible mutants for any GGPs. Thus, such *mutant/variant* information will be included in [Genetic_info]():
 
 For protein molecules, the <a href="https://proconsortium.org/pro/pro.shtml">PRO database (Protein Ontology)</a> in the <a href="https://proteininformationresource.org/">PIR database</a> are usually used for normalization in the other corpus.
-On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use.
+On the other hand, the granularity of IDs from the <a href="https://www.uniprot.org/">UniProt database</a> is usually too small to use. Thus, the <a href="https://www.nlm.nih.gov/research/umls/">UMLS database</a> is adopted in this work.
+
 An example is indicated as follows:
 
 <div style="margin:1em" markdown="1">
@@ -180,7 +178,7 @@ An example is indicated as follows:
 | CCL1          | T-lymphocytes                            |  cytokine for CCR8 | |
 | CCL2          | Monocytes / macrophages / T-lymphocytes  |  cytokine for CCR2 | |
 | CCL3          | Monocytes / macrophages                  |  cytokine for CCR1 | |
-| CCL5 (RANTES) | Monocytes / macrophages / eosinophils    |  cytokine for CCR5 | |
+| CCL5 (RANTES) | Monocytes / macrophages / eosinophils    |  cytokine for CCR5 | C0072978 |
 | CCL7          | Monocytes / macrophages / eosinophils    |  cytokine for CCR2 | |
 | CCL8          | Monocytes / macrophages                  |  cytokine for CCR1, CCR2B, CCR5 | |
 | CCL11         | Eosinophils                              |  cytokine for CCR2, CCR3, CCR5  | |
@@ -189,7 +187,7 @@ An example is indicated as follows:
 | CCL22 (MDC)   | Monocytes / macrophages / T-lymphocytes  |  cytokine for CCR4 | |
 | CCL24         | Eosinophils                              |  cytokine for CCR3 | |
 | CCL26         | Eosinophils                              |  cytokine for CCR3 | |
-| CXCL8 (IL-8)  | Neutrophils                              |  cytokine for CXCR1, CXCR2 | |
+| CXCL8 (IL-8)  | Neutrophils                              |  cytokine for CXCR1, CXCR2 | C0079633 |
 | CCR1          | Mast cells                               |  receptor for CCL3 | |
 | CCR2          | Mast cells                               |  receptor for CCL2, CCL7, CCL12 | |
 | CCR3          | Mast cells                               |  receptor for CCL11, CCL26, CCL7, CCL13, CCL5, CCL15 | |
