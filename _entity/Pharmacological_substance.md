@@ -53,6 +53,9 @@ Ten healthy volunteers took 200 mg itraconazole or matched placebo once daily fo
 T1 Subject 0 22 Ten healthy volunteers
 T5 Pharmacological_substance 35 47 itraconazole
 T6 Pharmacological_substance 59 66 placebo
+T7 Artificial_process 23 27 took
+E1 Artificial_process:T7 Theme:T1 Instrument:T5
+E2 Artificial_process:T7 Theme:T1 Instrument:T6
 ~~~
 
 <!-- details -->
