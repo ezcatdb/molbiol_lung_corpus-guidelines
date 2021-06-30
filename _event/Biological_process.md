@@ -8,7 +8,7 @@ order: 10
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
-This event will be difficult to be classified into other biological events, such as [Cellular_process]() and [Molecular_function](), as it is on higher level than those events.
+This event will be difficult to be classified into the other biological events, such as [Cellular_process]() and [Molecular_function](), as it is on higher level than the other events.
 
 The following words/phrases can be triggers of this event:
 
@@ -61,8 +61,8 @@ T7 Gene_expression 81 91 mRNA level
 T8 Gene_expression 81 91 mRNA level
 T9 Method_cue 98 104 RT-PCR
 E1 Biological_process:T2 Participant:E2 Participant2:E3 cue:T5
-E2 Gene_expression:T7 Theme:T3 cue:T6 cue2:T9
-E3 Gene_expression:T8 Theme:T4 cue:T6 cue2:T9
+E2 Gene_expression:T7 Theme:T3 Cue:T6 Cue2:T9
+E3 Gene_expression:T8 Theme:T4 Cue:T6 Cue2:T9
 R1 member_of Arg1:T3 Arg2:T1
 R2 member_of Arg1:T4 Arg2:T1
 A1 Speculated E1
@@ -101,7 +101,7 @@ Arguments:
 
 The *atLoc*, *fromLoc* and *toLoc* arguments for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property](), which are the locations where this event occurs. 
 The *atLoc* argument indicates the location at which this event occurs. 
-The *fromLoc* indicates the location from which this event starts, whereas the *toLoc* indicates the location to which this event goes.
+The *fromLoc* indicates the location from which this event starts, whereas the *toLoc* indicates the location to which this event proceeds.
 
 The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
 
