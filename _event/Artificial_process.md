@@ -6,7 +6,7 @@ shortdef: "Artificial process, such as experimental procedures/medical treatment
 order: 0
 ---
 
-This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments. Thus, this event can affect entities.
+This event describes 'Artificial processes', which are usually specific actions for experimental procedures/medical treatments. Thus, this event can affect entities and the other events.
 
 Analysis/assay names should be annotated as [Method cue](), which may suggest confirmation/speculation degree of events.
 
@@ -90,8 +90,9 @@ R1 Subject_Disorder Arg1:T2 Arg2:T1
 
 Arguments:
 
-The *Theme* for this event can be [Subject](), [Cell](), [GGPs](), [Organic_compound_other](), and [Pharmacological_substance]().
+The *Theme* for this event can be targets of this event, such as [Subject](), [Anatomical_entity](), and [Cell]().
 
-The *Instrument* for this event can be entities used to carry out an artificial process, such as [GGPs](), [Organic_compound_other](), and [Pharmacological_substance]().
+The *Instrument* for this event can be entities, such as [GGPs](), [Organic_compound_other](), and [Pharmacological_substance](),  which are used and given to *Theme*, to carry out an artificial process.
 
+The *Product* for this event can be entities, which can be produced by this event.
 <!--details-->
