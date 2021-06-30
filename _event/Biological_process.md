@@ -99,7 +99,7 @@ E1 Biological_process:T1 Theme:T2
 
 Arguments:
 
-The *atLoc*, *fromLoc* and *toLoc* arguments for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property](), which are the locations where this event occurs. 
+The *atLoc*, *fromLoc* and *toLoc* arguments for this event must be [Subject](), [Anatomical_entity](), [Cell](), and [Cell_component](), which are the locations where this event occurs. 
 The *atLoc* argument indicates the location at which this event occurs. 
 The *fromLoc* indicates the location from which this event starts, whereas the *toLoc* indicates the location to which this event proceeds.
 
