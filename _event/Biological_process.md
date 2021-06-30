@@ -8,7 +8,7 @@ order: 10
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
-The category of this event will be difficult to be classified into other biological events, such as [Cellular_process]() and [Molecular_function]().
+This event will be difficult to be classified into other biological events, such as [Cellular_process]() and [Molecular_function](), as it is on higher level than those events.
 
 The following words/phrases can be triggers of this event:
 
@@ -99,9 +99,21 @@ E1 Biological_process:T1 Theme:T2
 
 Arguments:
 
-The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+The *atLoc*, *fromLoc* and *toLoc* arguments for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property](), which are the locations where this event occurs. 
+The *atLoc* argument indicates the location at which this event occurs. 
+The *fromLoc* indicates the location from which this event starts, whereas the *toLoc* indicates the location to which this event goes.
 
 The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
+
+The *Cause* for this event is entities/events, which cause this event, whereas the *Theme* for this event is entities/events, which are targets of this events. 
+
+The *Participant* is entities/events, which are involved in this event.
+
+The *Product* is entities/events, which is produced by this event.
+
+The *disorder* argument is [Disorder]().
+
+The *Cue* argument is cues, such as [Negation_cue](), [Speculation_cue]() or [Method_cue]().
 
 
 <!--details-->
