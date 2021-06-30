@@ -48,7 +48,7 @@ T2 Negative_regulation 16 23 damaged
 T3 Cell_component 24 36 mitochondria
 T4 Cell 40 61 lung epithelial cells
 T5 Anatomical_entity 40 44 lung
-E1 Localization:T1 Theme:T3 AtLoc:T4
+E1 Localization:T1 Theme:T3 atLoc:T4
 E2 Negative_regulation:T2 Theme:T3
 R1 part_of Arg1:T3 Arg2:T4
 R2 part_of Arg1:T4 Arg2:T5
@@ -123,25 +123,25 @@ E1 Gene_expression:T7 Theme:T3
 E2 Gene_expression:T8 Theme:T4
 E3 Gene_expression:T9 Theme:T5
 E4 Gene_expression:T10 Theme:T6
-E5 Positive_regulation:T11 Theme:E1 Disorder:T1 Disorder2:T2
-E6 Positive_regulation:T12 Theme:E2 Disorder:T1 Disorder2:T2
-E7 Positive_regulation:T13 Theme:E3 Disorder:T1 Disorder2:T2
-E8 Negative_regulation:T14 Theme:E4 Disorder:T1 Disorder2:T2
+E5 Positive_regulation:T11 Theme:E1 disorder:T1 disorder2:T2
+E6 Positive_regulation:T12 Theme:E2 disorder:T1 disorder2:T2
+E7 Positive_regulation:T13 Theme:E3 disorder:T1 disorder2:T2
+E8 Negative_regulation:T14 Theme:E4 disorder:T1 disorder2:T2
 R1 Subject_Disorder Arg1:T15 Arg2:T1
 R2 Subject_Disorder Arg1:T16 Arg2:T2
 ~~~
 
 Arguments:
 
-*Theme* (optional; zero or more) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is negatively regulated. For physical entity, *Theme*, whose function or quality is affected negatively.
+The *Theme* (optional; zero or more) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are negatively regulated. Function or quality of *Theme* can be affected negatively.
 
-*Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
+The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are the stated cause of the regulation.
 
-*atLoc* (optional; zero or one) indicates the location where `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *atLoc* (optional) indicates the location where `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-*Disorder* (optional) indicates the disorder for which `Positive regulation` event occurs: [Disorder]().
+The *disorder* (optional) indicates the [Disorder]() for which `Positive regulation` event occurs.
 
-*Intermediary* (?)
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
