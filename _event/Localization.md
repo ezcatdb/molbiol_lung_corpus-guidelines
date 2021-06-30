@@ -23,7 +23,7 @@ T2 Negative_regulation 16 23 damaged
 T3 Cell_component 24 36 mitochondria
 T4 Cell 40 61 lung epithelial cells
 T5 Anatomical_entity 40 44 lung
-E1 Localization:T1 Theme:T3 AtLoc:T4
+E1 Localization:T1 Theme:T3 atLoc:T4
 E2 Negative_regulation:T2 Theme:T3
 R1 part_of Arg1:T3 Arg2:T4
 R2 part_of Arg1:T4 Arg2:T5
@@ -33,7 +33,7 @@ BIRC5 is localized to the cytoplasm.
 T1 GGPs 0 5 BIRC5
 T2 Localization 10 19 localized
 T3 Cell_component 27 36 cytoplasm
-E1 Localization:T2 Theme:T1 AtLoc:T3
+E1 Localization:T2 Theme:T1 atLoc:T3
 ~~~
 
 The following words/phrases can be triggers of movement event:
@@ -67,7 +67,7 @@ T3 Artificial_process 17 26 diagnosed
 T4 Disorder 27 43 liver metastases
 T5 Subject 51 63 two patients
 T6 Localization 33 43 metastases
-E1 Artificial_process:T3 Theme:T4 cue:T2
+E1 Artificial_process:T3 Theme:T4 Cue:T2
 E2 Localization:T6 atLoc:T1
 R1 Subject_Disorder Arg1:T5 Arg2:T4
 R2 part_of Arg1:T1 Arg2:T5
@@ -77,7 +77,7 @@ lung alveolar epithelial cell migration
 T1 Anatomical_entity 0 4 lung
 T2 Cell 5 29 alveolar epithelial cell
 T3 Localization 30 39 migration
-E1 Localization:T3 Theme:T2 AtLoc:T1
+E1 Localization:T3 Theme:T2 atLoc:T1
 R1 part_of Arg1:T2 Arg2:T1
 ~~~
 ~~~ ann
@@ -116,16 +116,20 @@ E1 Localization:T2 Theme:T1
 - 
 Arguments:
 
+The *atLoc* argument indicates the location at which this event occurs. 
+The *fromLoc* indicates the location from which this event starts, whereas the *toLoc* indicates the location to which this event proceeds.
 The *atLoc*, *fromLoc* and *toLoc* for this event must be
 - [Subject]()
 - [Anatomical_entity]()
 - [Cell]()
-- [Cell_component]() and
-- [Entity Property]()
+- [Cell_component]()
 
-The other argument, *Theme*, for this event can be any entities or events.
+The other argument, *Theme*, for this event can be any entities, which are targets of this event.
 
-The *disorder* argument must be only [Disorder]().
+The *disorder* argument must be [Disorder]().
+
+The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
+
 
 <!--
 The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
