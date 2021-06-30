@@ -113,7 +113,7 @@ The *Product* is entities/events, which is produced by this event.
 
 The *disorder* argument is [Disorder]().
 
-The *Cue* argument is cues, such as [Negation_cue](), [Speculation_cue]() or [Method_cue]().
+The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 
 <!--details-->
