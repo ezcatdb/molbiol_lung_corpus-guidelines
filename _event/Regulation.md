@@ -32,7 +32,7 @@ T3 Regulation 21 27 affect
 T4 Biological_process 32 43 development
 T5 Disorder 47 50 IPF
 E1 Biological_process:T1
-E2 Regulation:T3 Cause:E1 Theme:E3 cue:T2
+E2 Regulation:T3 Cause:E1 Theme:E3 Cue:T2
 E3 Biological_process:T4 Theme:T5
 A1 Speculated E2
 ~~~
@@ -43,15 +43,15 @@ A1 Speculated E2
 
 Arguments:
 
-*Theme* (optional; zero or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is regulated. For physical entity, *Theme*, whose function or quality is affected.
+The *Theme* (optional; zero or one) indicates events, such as [Gene_expression](), or entities, such as [GGPs](), and [Organic_compound_other](), that are regulated. Function or quality of *Theme* can be affected.
 
-*Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
+The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are the stated cause of the regulation.
 
-*atLoc* (optional; zero or one) indicates the location where `Regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *atLoc* (optional) indicates the location where `Regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-*Disorder* (optional) indicates the disorder for which `Regulation` event occurs: [Disorder]().
+The *disorder* (optional) indicates the [Disorder]() for which `Regulation` event occurs.
 
-*Intermediary* (?)
+The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
