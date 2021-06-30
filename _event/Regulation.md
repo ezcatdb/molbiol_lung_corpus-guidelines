@@ -51,7 +51,7 @@ The *atLoc* (optional) indicates the location where `Regulation` event occurs: [
 
 The *disorder* (optional) indicates the [Disorder]() for which `Regulation` event occurs.
 
-The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
