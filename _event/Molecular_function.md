@@ -2,7 +2,7 @@
 layout: entry
 title: "Molecular_function"
 category: "Molecular function"
-shortdef: "Processes on molecular level"
+shortdef: "Processes/functions on molecular level"
 order: 70
 ---
 
