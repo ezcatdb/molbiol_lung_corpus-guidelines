@@ -133,13 +133,13 @@ R2 Subject_Disorder Arg1:T16 Arg2:T2
 
 Arguments:
 
-The *Theme* (optional; zero or more) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are negatively regulated. Function or quality of *Theme* can be affected negatively.
+The *Theme* (optional; zero or more) indicates events or entities, such as [GGPs]() and [Organic_compound_other](), that are negatively regulated. Function or quality of *Theme* can be affected negatively.
 
-The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are the stated cause of the regulation.
+The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs]() and [Organic_compound_other](), that are the stated cause of the `Negative regulation`.
 
-The *atLoc* (optional) indicates the location where `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *atLoc* (optional) indicates the location where the `Negative regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-The *disorder* (optional) indicates the [Disorder]() for which `Positive regulation` event occurs.
+The *disorder* (optional) indicates the [Disorder]() for which the `Negative regulation` event occurs.
 
 The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
@@ -150,6 +150,3 @@ The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for
 --->
 
 <!--details-->
-
-
-
