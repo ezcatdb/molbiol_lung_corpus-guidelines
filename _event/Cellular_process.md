@@ -8,6 +8,8 @@ order: 50
 
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 
+Among the biological processes, those processes on the cellular levels are categorized into this event.
+
 The following words/phrases can be triggers of this event:
 
 - apoptosis (UMLS; C0162638)
@@ -54,16 +56,22 @@ E1 Cellular_process:T2 Theme:T1
 
 Arguments:
 
-The *atLoc*, *fromLoc* and *toLoc* for this event must be
-- [Cell]()
-- [Cell_component]()
-- [Entity Property]().
+The *Cause* for this event is entities/events, which cause this event, whereas the *Theme* for this event is entities/events, which are targets of this events. 
+Usually, the *Theme* for this event is [Cell]().
+
+The *Participant* is entities/events, which are involved in this event.
+
+The *Product* is entities/events, which is produced by this event.
+
+The *atLoc* argument (optional) indicates the location at which this event occurs. 
+The *fromLoc* (optional) indicates the location from which this event starts, whereas the *toLoc* (optional) indicates the location to which this event proceeds.
+
+The *disorder* (optional) indicates the [Disorder]() for which the `Cellular process` event occurs.
+
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
 --->
 
 <!--details-->
-
-
-
