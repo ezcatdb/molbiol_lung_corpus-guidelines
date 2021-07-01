@@ -172,10 +172,10 @@ E1 Gene_expression:T7 Theme:T3
 E2 Gene_expression:T8 Theme:T4
 E3 Gene_expression:T9 Theme:T5
 E4 Gene_expression:T10 Theme:T6
-E5 Positive_regulation:T11 Theme:E1 Disorder:T1 Disorder2:T2
-E6 Positive_regulation:T12 Theme:E2 Disorder:T1 Disorder2:T2
-E7 Positive_regulation:T13 Theme:E3 Disorder:T1 Disorder2:T2
-E8 Negative_regulation:T14 Theme:E4 Disorder:T1 Disorder2:T2
+E5 Positive_regulation:T11 Theme:E1 disorder:T1 disorder2:T2
+E6 Positive_regulation:T12 Theme:E2 disorder:T1 disorder2:T2
+E7 Positive_regulation:T13 Theme:E3 disorder:T1 disorder2:T2
+E8 Negative_regulation:T14 Theme:E4 disorder:T1 disorder2:T2
 R1 Subject_Disorder Arg1:T15 Arg2:T1
 R2 Subject_Disorder Arg1:T16 Arg2:T2
 ~~~
@@ -267,7 +267,7 @@ A4 Manner E12 low
 ~~~
 --->
 
-The phrases, *Higher/lower*, should not be annotated as Regulation events.
+The phrases, *higher/lower*, should not be annotated as Regulation events.
 
 ~~~ ann
 IPF sputum supernatants had increased concentrations of IGFBP-2, IL-8, TGF-β and KL-6 when compared to healthy subjects whereas COPD had higher IL-6 and TNF-α levels than IPF and HS.
@@ -320,6 +320,7 @@ T6 Subject 68 76 patients
 T7 Positive_regulation 44 52 elevated
 E1 Positive_regulation:T7 Theme:T3 atLoc:T4 disorder:T5 Cue:T1 Cue2:T2
 R1 Subject_Disorder Arg1:T6 Arg2:T5
+R2 part_of Arg1:T4 Arg2:T6
 A1 Speculated E1
 ~~~
 
@@ -366,13 +367,13 @@ T10 Positive_regulation 127 138 activation
 T11 GGPs 142 156 matrix protein
 T12 Localization 157 169 accumulation
 E1 Positive_regulation:T1 Theme:T2
-E2 Negative_regulation:T3 Theme:E3 AtLoc:T2
+E2 Negative_regulation:T3 Theme:E3 atLoc:T2
 E3 Localization:T4 Theme:T2
-E4 Gene_expression:T5 Theme:T6 AtLoc:T2
+E4 Gene_expression:T5 Theme:T6 atLoc:T2
 E5 Positive_regulation:T7 Theme:E7 Cause:T6
 E6 Positive_regulation:T8 Theme:E8 Cause:T6
 E7 Positive_regulation:T10 Theme:T9
-E8 Localization:T12 Theme:T11 AtLoc:T2
+E8 Localization:T12 Theme:T11 atLoc:T2
 ~~~
 ~~~ ann
 IPF is mainly driven by activated alveolar epithelial cells that have a compromised migration capacity.
@@ -384,28 +385,29 @@ T5 Negative_regulation 72 83 compromised
 T6 Localization 84 93 migration
 E1 Positive_regulation:T2 Theme:T1 Cause:E2
 E2 Positive_regulation:T3 Theme:T4
-E3 Negative_regulation:T5 Theme:E4 AtLoc:T4
+E3 Negative_regulation:T5 Theme:E4 atLoc:T4
 E4 Localization:T6 Theme:T4
 ~~~
 
 Arguments:
 
-*Theme* (optional; zero or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is positively regulated. For physical entity, *Theme*, whose function or quality is affected positively.
+The *Theme* (optional; zero or more) indicates events or entities, such as [GGPs]() and [Organic_compound_other](), that are positively regulated. Function or quality of *Theme* can be affected positively.
 
-*Cause* (optional; zero or one) indicates event or entity ([GGPs](), [Organic_compound_other](), etc.) that is the stated cause of the regulation.
+The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs]() and [Organic_compound_other](), that are the stated cause of the `Positive regulation`.
 
-*atLoc* (optional; zero or one) indicates the location where `Positive regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *atLoc* (optional) indicates the location where the `Positive regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-*Disorder* (optional) indicates the disorder for which `Positive regulation` event occurs: [Disorder]().
+The *disorder* (optional) indicates the [Disorder]() for which the `Positive regulation` event occurs.
 
-*Intermediary* (?)
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
+
 
 <!---
+*Intermediary* (?)
+
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
 
 The other arguments, such as *Cause*, *Theme*, *Participant*, and *Product*, for this event can be any entities or events.
 --->
 
 <!--details-->
-
-
