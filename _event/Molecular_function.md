@@ -75,7 +75,7 @@ Usually, the *Theme* for this event is molecular entities.
 
 The *Participant* is molecular entities, which are involved in this event.
 
-The *Product* is molecular entities, which is produced by this event.
+The *Product* is molecular entities, which are produced by this event.
 
 The *atLoc* argument (optional) indicates the location at which this event occurs. 
 The *fromLoc* (optional) indicates the location from which this event starts, whereas the *toLoc* (optional) indicates the location to which this event proceeds.
