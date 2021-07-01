@@ -13,7 +13,7 @@ This event describes "Correlation" or "Co-occurence" (UMLS ID:C0332281).
 
 When several events/entities are correlated, this event will be selected. Or, when several events occur simultaneously, those events can be connected with this event.
 
-Relations, whose cause and effect are not clear, can be annotated with this event.
+If the cause and effect (or the causality) are not clear, the relation can be annotated with this `Correlation` event.
 
 <!---
 If it is not clear whether the trigger words are "positive" or "negative", this "Regulation" event will be selected.
@@ -45,7 +45,7 @@ T3 Correlation 24 34 associated
 T4 Biological_process 44 55 development
 T5 Disorder 59 62 IPF
 E1 Biological_process:T1
-E2 Correlation:T3 Theme:E1 Theme2:E3 cue:T2
+E2 Correlation:T3 Theme:E1 Theme2:E3 Cue:T2
 E3 Biological_process:T4 Theme:T5
 A1 Speculated E2
 ~~~
@@ -66,14 +66,14 @@ E4 Positive_regulation:T6 Theme:T7
 
 Arguments:
 
-*Theme* (two or more) indicates event (such as [Gene_expression]()) or entity ([GGPs](), [Organic_compound_other](), etc.) that is related. For physical entity, *Theme*, whose function or quality is related.
+*Theme* (two or more) indicates events, such as [Gene_expression](), or entities, such as [GGPs]() and [Organic_compound_other](), that are related. Function or quality of *Theme* are related.
 
+The *atLoc* (optional) indicates the location where the `Correlation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-*atLoc* (optional; zero or one) indicates the location where `Correlation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *disorder* (optional) indicates the [Disorder]() for which the `Correlation` event occurs.
 
-*Disorder* (optional) indicates the disorder for which `Correlation` event occurs: [Disorder]().
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
-*Intermediary* (?)
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
