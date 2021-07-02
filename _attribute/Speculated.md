@@ -5,7 +5,9 @@ shortdef: "Speculation attributes for events"
 order: 1
 ---
 
-Event triggers, which are connected with Speculation cues or Method cues, should be ticked off with “Speculated” attributes.
+The `Speculated` attribute is for event triggers for which the `Speculated` states may be suggested. 
+
+Event triggers, which are connected with  [Speculation cue]() or [Method cue](), should be ticked off with `Speculated` attributes.
 
 ~~~ ann
 Markers of fibrogenesis, including collagen and CTGF were evaluated by measuring mRNA level using RT-PCR.
@@ -18,9 +20,9 @@ T6 Speculation_cue 71 80 measuring
 T7 Gene_expression 81 91 mRNA level
 T8 Gene_expression 81 91 mRNA level
 T9 Method_cue 98 104 RT-PCR
-E1 Biological_process:T2 Participant:E2 Participant2:E3 cue:T5
-E2 Gene_expression:T7 Theme:T3 cue:T6 cue2:T9
-E3 Gene_expression:T8 Theme:T4 cue:T6 cue2:T9
+E1 Biological_process:T2 Participant:E2 Participant2:E3 Cue:T5
+E2 Gene_expression:T7 Theme:T3 Cue:T6 Cue2:T9
+E3 Gene_expression:T8 Theme:T4 Cue:T6 Cue2:T9
 R1 member_of Arg1:T3 Arg2:T1
 R2 member_of Arg1:T4 Arg2:T1
 A1 Speculated E1
@@ -36,7 +38,7 @@ T4 Positive_regulation 52 58 led to
 T5 Biological_process 59 69 metastasis
 T6 Disorder 59 69 metastasis
 E1 Artificial_process:T2 
-E2 Positive_regulation:T4 Cause:E1 Theme:E3 cue:T3 cue2:T1 
+E2 Positive_regulation:T4 Cause:E1 Theme:E3 Cue:T3 Cue2:T1 
 E3 Biological_process:T5
 A1 Speculated E2
 ~~~
