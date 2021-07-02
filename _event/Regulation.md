@@ -45,11 +45,11 @@ Arguments:
 
 The *Theme* (optional; zero or one) indicates events, such as [Gene_expression](), or entities, such as [GGPs](), and [Organic_compound_other](), that are regulated. Function or quality of *Theme* can be affected.
 
-The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are the stated cause of the regulation.
+The *Cause* (optional; zero or one) indicates events or entities, such as [GGPs](), [Organic_compound_other](), that are the stated cause of the `Regulation`.
 
-The *atLoc* (optional) indicates the location where `Regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+The *atLoc* (optional) indicates the location where the `Regulation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
 
-The *disorder* (optional) indicates the [Disorder]() for which `Regulation` event occurs.
+The *disorder* (optional) indicates the [Disorder]() for which the `Regulation` event occurs.
 
 The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
