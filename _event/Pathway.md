@@ -3,7 +3,7 @@ layout: entry
 title: "Pathway"
 category: "Molecular function"
 shortdef: "Molecular pathway networks (metabolism, signaling)"
-order: 72
+order: 71
 ---
 
 <!---
