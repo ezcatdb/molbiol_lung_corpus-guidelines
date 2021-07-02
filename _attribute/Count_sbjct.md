@@ -5,7 +5,7 @@ shortdef: "Attribute for Subject with N count"
 order: 10
 ---
 
-The attribute, 'Count_sbjct', is for [Subject]() that is expressed "N= ***".
+The `Count_sbjct` attribute is for the [Subject]() entity that is expressed "N= ***".
 
 ~~~ ann
 Patients with IPF (n=25) and lung cancer (n=15)
