@@ -5,7 +5,7 @@ shortdef: "relationships between two disorders"
 order: 111
 ---
 
-When two different 'Disorders' ([Disorder]()) occur, these 'Disorders' may be connected with this relation.
+When two different `Disorders` ([Disorder]()) occur simultaneously, these `Disorders` can be connected with this relation.
 
 ~~~ ann
 IPF-associated pulmonary hypertension
