@@ -84,7 +84,7 @@ Arguments:
 The *Theme* for this event must be mostly molecular entities whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance](). 
 However, the other entities, such as [Cell](), [Cell_component]() and [Anatomical_entity](), which are composed of molecules to be converted, can also be *Theme* for this event.
 
-The *Cause* (optional) for this event is usually enzyme proteins ([GGPs]()), which cause the `Conversion` event.
+The *Cause* (optional) for this event is usually enzyme proteins ([GGPs]()) or molecular events, which cause the `Conversion` event.
 
 The *Product* (optional) indicates the molecule(s) that could be produced by the `Conversion` event: [GGPs]() or [Organic_compound_other](). 
 
