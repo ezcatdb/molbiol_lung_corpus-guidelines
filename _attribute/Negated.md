@@ -7,7 +7,7 @@ order: 0
 
 The `Negated` attribute is for event triggers that are negated.
 
-In the following case, the event trigger, which is connected with the [Negation cue](), is negated, and indicated with a cross in the following sample sentence:
+In the following case, the event trigger, which is connected with the [Negation cue](), is negated, and indicated with a cross:
 ~~~ ann
 The patient did not undergo lung resect.
 T1 Subject 4 11 patient
