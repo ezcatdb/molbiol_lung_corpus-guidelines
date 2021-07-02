@@ -113,9 +113,15 @@ E8 Positive_regulation:T12 Theme:E4
 
 Arguments:
 
-*Theme* for this event must be genes/gene products: [GGPs]().
+The *Theme* for this event must be genes/gene products: [GGPs]().
 
-*atLoc* indicates the section where the this event occurs : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+No *Cause* is annotated for this event.
+
+The *atLoc* (optional) indicates the location where the `Gene expression` event occurs : [Anatomical_entity](), [Cell](), and [Cell_component]().
+
+The *disorder* (optional) indicates the [Disorder]() for which the `Gene expression` event occurs.
+
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
