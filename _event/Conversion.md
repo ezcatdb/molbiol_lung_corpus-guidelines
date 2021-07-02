@@ -81,12 +81,18 @@ E1 Conversion:T2 Theme:T1 Cause:T3
 
 Arguments:
 
-*Theme* for this event must be mostly molecular entities whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance](). 
-However, other entities such as [Cell](), [Cell_component]() and [Anatomical_entity](), which are composed of molecules to be converted, can also be *Theme* for this event.
+The *Theme* for this event must be mostly molecular entities whose covalent bonds are converted: [GGPs](), [Organic_compound_other]() or possibly [Pharmacological_substance](). 
+However, the other entities, such as [Cell](), [Cell_component]() and [Anatomical_entity](), which are composed of molecules to be converted, can also be *Theme* for this event.
 
-*Product* (optional; zero or more) indicates the molecule(s) that could be produced by the 'Conversion' event: [GGPs]() or [Organic_compound_other](). 
+The *Cause* (optional) for this event is usually molecular entities, which cause this event.
 
-*atLoc* indicates the section where the target molecules, to which the 'Conversion' occurs, are located : [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
+The *Product* (optional) indicates the molecule(s) that could be produced by the 'Conversion' event: [GGPs]() or [Organic_compound_other](). 
+
+The *atLoc* (optional) indicates the location where the target molecules, to which the 'Conversion' occurs, exist: [Anatomical_entity](), [Cell](), and [Cell_component]().
+
+The *disorder* (optional) indicates the [Disorder]() for which the event occurs.
+
+The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
