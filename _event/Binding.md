@@ -78,8 +78,14 @@ E1 Binding:T3 Theme:T1 Theme2:T2
 
 Arguments:
 
-*Theme* (optional; multiple) indicates molecular entities ([GGPs](), [Organic_compound_other](), [Pharmacological_substance](), [Inorganic_compound](), etc.)
+The *Theme* (optional; multiple) indicates molecular entities such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance](), and [Inorganic_compound]().
 
-*atLoc* (optional; zero or one) indicates the location where `Binding` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+No *Cause* is annotated for this event.
+
+The *atLoc* (optional; zero or one) indicates the location where `Binding` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+
+The *disorder* (optional) indicates the [Disorder]() for which the `Binding` event occurs.
+
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!--details-->
