@@ -10,7 +10,7 @@ order: 72
 This event is based on the <a href="http://www.nactem.ac.uk/meta-knowledge/">GENIA-Meta-knowledge corpus</a> at <a href="http://www.nactem.ac.uk/">NaCTeM</a>.
 --->
 
-This event describes Molecular pathway networks, such as metabolism and signaling pathways.
+This event describes molecular pathway networks, such as metabolism and signaling pathways.
 
 The following words/phrases can be triggers of this event:
 
@@ -64,9 +64,13 @@ E1 Pathway:T5 Participant:T1 Participant2:T2 Participant3:T3 Participant4:T4
 
 Arguments:
 
-*Participant* (optional; zero or more) for this event must be [GGPs](), [Organic_compound_other]() or [Pharmacological_substance](), which are molecular entities involved in the `Pathway`.
+The *Participant* (optional; zero or more) for this event must be molecular entities involved in the `Pathway`, such as [GGPs](), [Organic_compound_other]() or [Pharmacological_substance]().
 
-*atLoc* (optional; zero or one) indicates the location, such as [Cell_component](), [Cell]() or  [Anatomical_entity](), where `Pathway` event occurs.
+The *atLoc* (optional; zero or one) indicates the location, such as [Cell_component](), [Cell]() or  [Anatomical_entity](), where the `Pathway` event occurs.
+
+The *disorder* (optional) indicates the [Disorder]() for which the `Pathway` event occurs.
+
+The *Cue* argument is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
 
 <!---
 The *atLoc*, *fromLoc* and *toLoc* for this event must be [Subject](), [Anatomical_entity](), [Cell](), [Cell_component]() and [Entity Property]().
