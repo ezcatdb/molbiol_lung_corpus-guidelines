@@ -31,8 +31,15 @@ The following words/phrases can be triggers of this event:
 
 Arguments:
 
-*Theme* (optional; multiple) indicates molecular entities ([GGPs](), [Organic_compound_other](), [Pharmacological_substance](), [Inorganic_compound](), etc.)
+The *Theme* (optional; multiple) indicates molecular entities, such as [GGPs](), [Organic_compound_other](), [Pharmacological_substance](), and [Inorganic_compound]().
 
-*atLoc* (optional; zero or one) indicates the location where `Dissociation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+No *Cause* is annotated for this event.
+
+The *atLoc* (optional) indicates the location where the `Dissociation` event occurs: [Cell_component](), [Cell]() or [Anatomical_entity]().
+
+The *disorder* (optional) indicates the [Disorder]() for which the `Dissociation` event occurs.
+
+The *Cue* argument (optional) is cues, such as [Negation cue](), [Speculation cue]() or [Method cue]().
+
 
 <!--details-->
