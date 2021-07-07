@@ -1,9 +1,9 @@
 ---
 layout: minimal
-title: Annotation guidelines for pathogenic mechanism corpus for lung disease, IPF
+title: Annotation guidelines for pathogenetic mechanism corpus for lung disease, IPF
 ---
 
-<h1 style="font-size:32px">Entities</h1>
+<h1 style="font-size:32px">Entities and cues</h1>
 
 Entities and cues will be described below.
 
