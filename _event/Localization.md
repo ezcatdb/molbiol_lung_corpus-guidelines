@@ -113,7 +113,8 @@ T1 Cell 0 13 myofibroblast
 T2 Localization 19 29 focus core
 E1 Localization:T2 Theme:T1
 ~~~
-- 
+
+
 Arguments:
 
 The *atLoc* argument indicates the location at which this event occurs. 
