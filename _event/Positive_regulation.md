@@ -267,6 +267,46 @@ A4 Manner E12 low
 ~~~
 --->
 
+~~~ ann
+IL-8 promotes IPF mesenchymal progenitor cell self-renewal and proliferation.
+T1 GGPs 0 4 IL-8
+T2 Positive_regulation 5 13 promotes
+T3 Positive_regulation 5 13 promotes
+T4 Disorder 14 17 IPF
+T5 Cell 18 55 mesenchymal progenitor cell
+T6 Cellular_process 56 68 self-renewal
+T7 Cellular_process 69 82 proliferation
+E1 Positive_regulation:T2 Theme:E3 Cause:T1 disorder:T4
+E2 Positive_regulation:T3 Theme:E4 Cause:T1 disorder:T4
+E3 Cellular_process:T6 Theme:T5
+E4 Cellular_process:T7 Theme:T5
+~~~
+~~~ ann
+IPF sputum had increased concentration of IL-8.
+T1 Disorder 0 3 IPF
+T2 Anatomical_entity 4 10 sputum
+T3 Positive_regulation 15 24 increased
+T4 Gene_expression 25 38 concentration
+T5 GGPs 42 46 IL-8
+E1 Positive_regulation:T3 Theme:E2 atLoc:T2 disorder:T1
+E2 Gene_expression:T4 Theme:T5
+~~~
+~~~ ann
+Lung fibroblasts of seven IPF patients were stimulated by PDGF, or TGF-β1.
+T1 Anatomical_entity 0 4 Lung
+T2 Cell 5 16 fibroblasts
+T3 Subject 20 25;30 38 seven patients
+T4 Disoder 26 29 IPF
+T5 Positive_regulation 44 54 stimulated
+T6 Positive_regulation 44 54 stimulated
+T7 GGPs 58 62 PDGF
+T8 GGPs 67 73 TGF-β1
+E1 Positive_regulation:T5 Theme:T2 Cause:T7 disorder:T4 atLoc:T1
+E2 Positive_regulation:T6 Theme:T2 Cause:T8 disorder:T4 atLoc:T1
+R1 Subject_Disorder Arg1:T3 Arg2:T4
+R2 part_of Arg1:T2 Arg2:T1
+~~~
+
 The phrases, *higher/lower*, should not be annotated as Regulation events.
 
 ~~~ ann
