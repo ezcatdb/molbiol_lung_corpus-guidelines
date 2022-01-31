@@ -110,6 +110,17 @@ E7 Positive_regulation:T11 Theme:E3
 E8 Positive_regulation:T12 Theme:E4
 ~~~
 -->
+~~~ ann
+COPD had higher IL-6 and TNF-α levels than IPF.
+T1 Disorder 0 4 COPD
+T2 GGPs 16 20 IL-6
+T3 GGPs 25 30 TNF-α
+T4 Gene_expression 31 37 levels
+T5 Gene_expression 31 37 levels
+T6 Disorder 43 46 IPF
+E1 Gene_expression:T4 Theme:T2 disorder:T1
+E2 Gene_expression:T5 Theme:T3 disorder:T1
+~~~
 
 Arguments:
 
