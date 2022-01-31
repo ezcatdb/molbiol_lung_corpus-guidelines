@@ -273,9 +273,9 @@ T1 GGPs 0 4 IL-8
 T2 Positive_regulation 5 13 promotes
 T3 Positive_regulation 5 13 promotes
 T4 Disorder 14 17 IPF
-T5 Cell 18 55 mesenchymal progenitor cell
-T6 Cellular_process 56 68 self-renewal
-T7 Cellular_process 69 82 proliferation
+T5 Cell 18 45 mesenchymal progenitor cell
+T6 Cellular_process 46 58 self-renewal
+T7 Cellular_process 63 76 proliferation
 E1 Positive_regulation:T2 Theme:E3 Cause:T1 disorder:T4
 E2 Positive_regulation:T3 Theme:E4 Cause:T1 disorder:T4
 E3 Cellular_process:T6 Theme:T5
@@ -296,7 +296,7 @@ Lung fibroblasts of seven IPF patients were stimulated by PDGF, or TGF-β1.
 T1 Anatomical_entity 0 4 Lung
 T2 Cell 5 16 fibroblasts
 T3 Subject 20 25;30 38 seven patients
-T4 Disoder 26 29 IPF
+T4 Disorder 26 29 IPF
 T5 Positive_regulation 44 54 stimulated
 T6 Positive_regulation 44 54 stimulated
 T7 GGPs 58 62 PDGF
