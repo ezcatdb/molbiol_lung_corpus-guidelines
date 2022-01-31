@@ -428,6 +428,22 @@ E2 Positive_regulation:T3 Theme:T4
 E3 Negative_regulation:T5 Theme:E4 atLoc:T4
 E4 Localization:T6 Theme:T4
 ~~~
+~~~ ann
+In the murine model of schistosomiasis, IL-13 has emerged as a central mediator of chronic infection-induced liver pathology.
+T1 Subject 7 19 murine model
+T2 Disorder 23 38 schistosomiasis
+T3 GGPs 40 45 IL-13
+T4 Positive_regulation 71 79 mediator
+T5 Disorder 83 100 chronic infection
+T6 Positive_regulation 101 108 induced
+T7 Anatomical_entity 109 114 liver
+T8 Biological_process 115 124 pathology
+E1 Positive_regulation:T4 Theme:E3 Cause:T3 disorder:T2
+E2 Positive_regulation:T6 Theme:E3 Cause:T5
+E3 Biological_process:T8 Theme:T7
+R1 Subject_Disorder Arg1:T1 Arg2:T2
+~~~
+
 
 Arguments:
 
