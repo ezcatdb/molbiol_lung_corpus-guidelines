@@ -130,6 +130,21 @@ E8 Negative_regulation:T14 Theme:E4 disorder:T1 disorder2:T2
 R1 Subject_Disorder Arg1:T15 Arg2:T1
 R2 Subject_Disorder Arg1:T16 Arg2:T2
 ~~~
+~~~ ann
+Rapamycin pretreatment decreased the proportions of alveolar epithelial cells undergoing EMT in bleomycin-induced pulmonary fibrosis.
+T1 Pharmacological_substance 0 9 Rapamycin
+T2 Artificial_process 10 22 pretreatment
+T3 Negative_regulation 23 32 decreased
+T4 Cell 52 77 alveolar epithelial cells
+T5 Cellular_process 89 92 EMT
+T6 Pharmacological_substance 96 105 bleomycin
+T7 Positive_regulation 106 113 induced
+T8 Disorder 114 132 pulmonary fibrosis
+E1 Artificial_process:T2 instrument:T1
+E2 Negative_regulation:T3 Theme:E3 Cause:E1 disorder:T8
+E3 Cellular_process:T5 Theme:T4
+E4 Positive_regulation:T7 Theme:T8 Cause:T6
+~~~
 
 Arguments:
 
